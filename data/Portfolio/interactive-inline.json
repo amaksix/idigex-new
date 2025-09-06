@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/1.jpg",
+    "link": "/project1",
+    "number": "01",
+    "category": "Digital Design",
+    "title": "Retouch Photo"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/2.jpg",
+    "link": "/project2",
+    "number": "02",
+    "category": "Branding",
+    "title": "Earthmade Aroma"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/3.jpg",
+    "link": "/project3",
+    "number": "03",
+    "category": "Branding",
+    "title": "Bank Rebranding"
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/4.jpg",
+    "link": "/project4",
+    "number": "04",
+    "category": "Product Design",
+    "title": "The joy of music"
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/5.jpg",
+    "link": "/project1",
+    "number": "05",
+    "category": "Product Design",
+    "title": "Blue Adobe MAX"
+  },
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "link": "/project2",
+    "number": "06",
+    "category": "Product Design",
+    "title": "Carved Wood"
+  },
+  {
+    "id": 7,
+    "image": "/assets/imgs/works/full/8.jpg",
+    "link": "/project3",
+    "number": "07",
+    "category": "Product Design",
+    "title": "Blom Air Purifier"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "background": "/assets/imgs/works/full/1.jpg",
+    "link": "/project1",
+    "text": {
+      "subtitle": "Digital Design",
+      "title": "Retouch Photo"
+    }
+  },
+  {
+    "id": 2,
+    "background": "/assets/imgs/works/full/2.jpg",
+    "link": "/project2",
+    "text": {
+      "subtitle": "Branding",
+      "title": "Earthmade Aroma"
+    }
+  },
+  {
+    "id": 3,
+    "background": "/assets/imgs/works/full/3.jpg",
+    "link": "/project3",
+    "text": {
+      "subtitle": "Branding",
+      "title": "Bank Rebranding"
+    }
+  },
+  {
+    "id": 4,
+    "background": "/assets/imgs/works/full/4.jpg",
+    "link": "/project4",
+    "text": {
+      "subtitle": "Product Design",
+      "title": "The joy of music"
+    }
+  },
+  {
+    "id": 5,
+    "background": "/assets/imgs/works/full/5.jpg",
+    "link": "/project1",
+    "text": {
+      "subtitle": "Digital Art",
+      "title": "Blue Adobe MAX"
+    }
+  }
+]

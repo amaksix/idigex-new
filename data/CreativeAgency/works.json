@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/13.jpg",
+    "title": "Space Needle",
+    "category": "Branding",
+    "link": "/project1",
+    "valign": true,
+    "col": 4
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "title": "Carved Wood",
+    "category": "Branding",
+    "link": "/project2",
+    "offset": true,
+    "col": 6
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/2.jpg",
+    "title": "Earthmade Aroma",
+    "category": "Branding",
+    "link": "/project3",
+    "offset": true,
+    "col": 8
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/3.jpg",
+    "title": "Bank Rebranding",
+    "category": "Branding",
+    "link": "/project4",
+    "col": 6
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/10.jpg",
+    "title": "Day Starter",
+    "category": "Branding",
+    "link": "/project1",
+    "offset": true,
+    "col": 4
+  }
+]

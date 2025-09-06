@@ -1,0 +1,47 @@
+
+/* Team
+-----------------------------------------------------------------*/
+
+.team{
+
+    .row.no-pad{
+
+        > div{
+            padding: 0;
+        }
+    }
+
+    .item{
+        position: relative;
+
+        .img{
+            position: relative;
+    
+            img{
+                filter: grayscale(1);
+            }
+        }
+
+        .info{
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+        }
+    }
+
+    .item-join{
+        height: 100%;
+        border: 1px solid rgba(255,255,255,.2);
+        border-top: 0;
+        border-left: 0;
+        padding: 20px 60px;
+
+        .arrow{
+
+            svg{
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}

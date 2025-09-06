@@ -1,0 +1,95 @@
+
+
+/* Services
+-----------------------------------------------------------------*/
+
+.serv-tags{
+
+    .items{
+        
+        a{
+            padding: 14px 30px;
+            border: 1px solid rgba(255,255,255,.2);
+            border-radius: 30px;
+            font-size: 22px;
+            margin: 10px 5px;
+        }
+    }
+}
+
+.services-box{
+
+    .item{
+        border-left: 1px solid rgba(255,255,255,.05);
+        border-top: 1px solid rgba(255,255,255,.05);
+        padding: 60px 40px;
+
+        p{
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        &:last-of-type{
+            border-right: 1px solid rgba(255,255,255,.05);
+        }
+
+        .link-more{
+            overflow: hidden;
+
+            &:hover{
+
+                .text{
+                    margin-left: 0;
+                }
+            }
+
+            .text{
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-left: -92px;
+                transition: all .4s;
+            }
+
+            .arrow{
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                background: rgba(255,255,255,.05);
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.feat{
+
+    .items{
+        padding: 30px 40px;
+        border-right: 1px solid rgba(255,255,255,.05);
+
+        &:last-of-type{
+            border: 0;
+        }
+    }
+
+    .item{
+        position: relative;
+
+        .numb{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        h6{
+            margin: 40px 0 10px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+    }
+}

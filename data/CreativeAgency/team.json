@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "role": "Web Designer",
+    "name": "Leonardo DiCaprio",
+    "image": "/assets/imgs/team/t2.jpg"
+  },
+  {
+    "id": 2,
+    "role": "Web Developer",
+    "name": "Brendan Fraser",
+    "image": "/assets/imgs/team/t3.jpg"
+  },
+  {
+    "id": 3,
+    "role": "Quality Control",
+    "name": "Robert De Niro",
+    "image": "/assets/imgs/team/t4.jpg"
+  }
+]

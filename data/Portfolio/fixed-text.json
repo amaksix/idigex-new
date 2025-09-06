@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/2.jpg",
+    "link": "/project1",
+    "tag": "Branding",
+    "title": "Earthmade Aroma",
+    "col": 5
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/8.jpg",
+    "link": "/project2",
+    "tag": "Branding",
+    "title": "Blom Air Purifier",
+    "col": 7
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/3.jpg",
+    "link": "/project3",
+    "tag": "Branding",
+    "title": "Bank Rebranding",
+    "col": 12
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/13.jpg",
+    "link": "/project4",
+    "tag": "Branding",
+    "title": "Concept Audi",
+    "col": 7
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/11.jpg",
+    "link": "/project1",
+    "tag": "Branding",
+    "title": "Avocado Cutter",
+    "col": 5
+  },
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "link": "/project3",
+    "tag": "Branding",
+    "title": "Wood Carved",
+    "col": 12
+  }
+]

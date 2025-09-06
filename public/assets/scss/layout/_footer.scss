@@ -1,0 +1,50 @@
+
+
+/* Footer
+-----------------------------------------------------------------*/
+
+footer{
+    position: relative;
+
+
+    .eml{
+
+        .sub-title{
+            margin-bottom: 15px;
+        }
+    }
+
+    .column{
+
+        li{
+            display: inline-block;
+            margin-right: 30px;
+
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .bord{
+
+        .links{
+
+            li{
+                display: inline-block;
+                margin-right: 30px;
+    
+                &:last-of-type{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .logo{
+
+        img{
+            max-width: 100px;
+        }
+    }
+}

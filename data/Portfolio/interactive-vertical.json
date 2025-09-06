@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/1.jpg",
+    "link": "/project1",
+    "text": "Digital Retouch"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/2.jpg",
+    "link": "/project2",
+    "text": "Earthmade Aroma"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/3.jpg",
+    "link": "/project3",
+    "text": "Bank Rebranding"
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/10.jpg",
+    "link": "/project4",
+    "text": "Day Starter"
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/5.jpg",
+    "link": "/project1",
+    "text": "Blue Adobe MAX"
+  },
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "link": "/project2",
+    "text": "Carved Wood"
+  },
+  {
+    "id": 7,
+    "image": "/assets/imgs/works/full/7.jpg",
+    "link": "/project3",
+    "text": "Viclone"
+  },
+  {
+    "id": 8,
+    "image": "/assets/imgs/works/full/8.jpg",
+    "link": "/project4",
+    "text": "Blom Air Purifier"
+  },
+  {
+    "id": 9,
+    "image": "/assets/imgs/works/full/11.jpg",
+    "link": "/project1",
+    "text": "Avocado Cutter"
+  }
+]

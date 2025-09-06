@@ -1,0 +1,78 @@
+
+/* About
+-----------------------------------------------------------------*/
+
+.about{
+
+    .vid-intro{
+
+        .video-container{
+            height: 450px;
+
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+      
+    .text-reval .text {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .text-indent{
+        text-indent: 20%;
+    }
+}
+
+.exp{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+
+    h2{
+        font-size: 100px;
+    }
+}
+
+.text-reval{
+
+    .text {
+        background: linear-gradient(
+          to right,
+          #fff 50%,
+          #7d7d7d 50%
+        );
+        background-size: 200% 100%;
+        background-position-x: 100%;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        transition: background-position-x .8s !important;
+      }
+}
+
+.vid-sec{
+    margin-top: 180px;
+
+    .vid-intro{
+        margin-top: -180px;
+
+        .video-container{
+            height: 550px;
+            min-height: 80vh;
+
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+

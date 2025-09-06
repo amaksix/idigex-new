@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/1.jpg",
+    "link": "/project1",
+    "title": "Retouch Photo",
+    "category": "Digital Design"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/2.jpg",
+    "link": "/project2",
+    "title": "Earthmade Aroma",
+    "category": "Digital Design"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/3.jpg",
+    "link": "/project3",
+    "title": "Bank Rebranding",
+    "category": "Digital Design"
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/4.jpg",
+    "link": "/project4",
+    "title": "The joy of music",
+    "category": "Digital Design"
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/5.jpg",
+    "link": "/project1",
+    "title": "Blue Adobe MAX",
+    "category": "Digital Design"
+  },
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "link": "/project2",
+    "title": "Carved Wood",
+    "category": "Digital Design"
+  },
+  {
+    "id": 7,
+    "image": "/assets/imgs/works/full/7.jpg",
+    "link": "/project3",
+    "title": "Viclone",
+    "category": "Digital Design"
+  },
+  {
+    "id": 8,
+    "image": "/assets/imgs/works/full/8.jpg",
+    "link": "/project4",
+    "title": "Blom Air Purifier",
+    "category": "Digital Design"
+  },
+  {
+    "id": 9,
+    "image": "/assets/imgs/works/full/11.jpg",
+    "link": "/project1",
+    "title": "Avocado Cutter",
+    "category": "Digital Design"
+  }
+]

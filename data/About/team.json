@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Martin Scorsese",
+    "role": "Co-Founder",
+    "image": "/assets/imgs/team/t1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Leonardo DiCaprio",
+    "role": "Web Designer",
+    "image": "/assets/imgs/team/t2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Brendan Fraser",
+    "role": "Web Developer",
+    "image": "/assets/imgs/team/t3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Robert De Niro",
+    "role": "Quality Control",
+    "image": "/assets/imgs/team/t4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Jesse Plemons",
+    "role": "Quality Control",
+    "image": "/assets/imgs/team/t3.jpg"
+  },
+  {
+    "id": 6,
+    "title": "John Lithgow",
+    "role": "Support Team",
+    "image": "/assets/imgs/team/t6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Jason Isbell",
+    "role": "Support Team",
+    "image": "/assets/imgs/team/t7.jpg"
+  }
+]

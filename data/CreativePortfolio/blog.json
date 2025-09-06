@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/imgs/blog/b5.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "category": "Inspiration",
+    "title": "Definitive Guide to Make a Daily More Productive Working Flow.",
+    "link": "/blog-details"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/blog/b6.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "category": "Inspiration",
+    "title": "Utilizing mobile technology in the field.",
+    "link": "/blog-details"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Landing pages, online stores, corporate websites",
+    "category": "Websites",
+    "image": "/assets/imgs/blog/b7.jpg",
+    "subtitle":"/01",
+    "link": "/blog-details"
+  },
+  {
+    "id": 2,
+    "title": "Utilizing mobile technology in the field.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b2.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  },
+  {
+    "id": 3,
+    "title": "Ways of Lying to Yourself About Your New Relationship.",
+    "category": "Inspiration",
+    "date": "7 August",
+    "link": "/blog-details"
+  },
+  {
+    "id": 4,
+    "title": "The Start-Up Ultimate Guide to Make Your WordPress Journal.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b5.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  },
+  {
+    "id": 5,
+    "title": "The Small Change That Creates Massive Results In Your Life.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b4.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  },
+  {
+    "id": 6,
+    "title": "When You Are Down And Out How Do You Get Up And Go Forward.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b6.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  },
+  {
+    "id": 7,
+    "title": "Facts about Business that you never knew.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b1.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  },
+  {
+    "id": 8,
+    "title": "20 Up-and-comers to watch in the Design Industry.",
+    "category": "Inspiration",
+    "date": "7 August",
+    "link": "/blog-details"
+  },
+  {
+    "id": 9,
+    "title": "How to master Marketing in 6 simple Steps.",
+    "category": "Inspiration",
+    "image": "/assets/imgs/blog/b3.jpg",
+    "date": {
+      "day": "07",
+      "month": "August"
+    },
+    "link": "/blog-details"
+  }
+]

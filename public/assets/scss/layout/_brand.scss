@@ -1,0 +1,68 @@
+
+/* Brands
+-----------------------------------------------------------------*/
+
+.clients-carso{
+    padding: 60px 0;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+
+    .img{
+        margin: auto;
+        opacity: .8;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+.brands{
+
+    .brand-items{
+        text-align: center;
+
+        .img{
+            width: 120px;
+            margin: 50px auto;
+            opacity: .7;
+
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.clients-marq{
+    position: relative;
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -30px;
+        right: -30px;
+        pointer-events: none;
+        background: linear-gradient(to left, $main_bg, transparent 300px, transparent calc(100% - 300px), $main_bg);
+        z-index: 3;
+    }
+
+    .item{
+        padding: 80px 60px !important;
+        margin: 0 30px;
+        border: 1px solid rgba(255,255,255,.1);
+        border-bottom: 0;
+    }
+}
+
+.sub-bg{
+
+    .clients-marq{
+    
+        &:before{
+            background: linear-gradient(to left, $sub_bg, transparent 300px, transparent calc(100% - 300px), $sub_bg);
+        }
+    }
+}
