@@ -144,13 +144,8 @@
         <div class="col-lg-4 valign">
           <div class="cont-info">
             <div class="item mb-50">
-              <h6 class="text-u fw-600 mb-20">Base</h6>
-              <p class="fw-400 fz-18">Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
-            </div>
-            <div class="item mb-50">
               <h6 class="text-u fw-600 mb-20">How to Connect</h6>
-              <p class="fw-400 fz-18">+2 456 34324 45</p>
-              <p class="fw-400 fz-18">hello@Bayone.com</p>
+              <p class="fw-400 fz-18">idigexlv@gmail.com</p>
             </div>
             <div class="bottom">
               <h6 class="text-u fw-600 mb-20">Follow Us</h6>
@@ -159,13 +154,10 @@
                   <a href="/#0" class="hover-this"><span class="hover-anim">Facebook</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Twitter</span></a>
+                  <a href="/#0" class="hover-this"><span class="hover-anim">Instagram</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">LinkedIn</span></a>
-                </li>
-                <li>
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Instagram</span></a>
+                  <a href="/#0" class="hover-this"><span class="hover-anim">Pinterest</span></a>
                 </li>
               </ul>
             </div>

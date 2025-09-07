@@ -5,7 +5,7 @@
     "tag": "Websites",
     "subtitle": "/01",
     "link": "/blog-details",
-    "img": "/assets/imgs/blog/b7.jpg",
+    "img": "/assets/imgs/services/Services_1.jpg",
     "readMoreLink": "/blog-details"
   },
   {
@@ -14,7 +14,7 @@
     "tag": "Branding",
     "subtitle": "/02",
     "link": "/blog-details",
-    "img": "/assets/imgs/blog/b2.jpg",
+    "img": "/assets/imgs/services/Services_2.jpg",
     "readMoreLink": "/blog-details"
   },
   {
@@ -23,7 +23,7 @@
     "tag": "Logos",
     "subtitle": "/03",
     "link": "/blog-details",
-    "img": "/assets/imgs/blog/b3.jpg",
+    "img": "/assets/imgs/services/Services_3.jpg",
     "readMoreLink": "/blog-details"
   },
     {
@@ -32,7 +32,7 @@
     "tag": "Advertising materials",
     "subtitle": "/04",
     "link": "/blog-details",
-    "img": "/assets/imgs/blog/b1.jpg",
+    "img": "/assets/imgs/services/Services_4.jpg",
     "readMoreLink": "/blog-details"
   }
 ]

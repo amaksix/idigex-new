@@ -9,7 +9,7 @@
                 we would love to hear from you.
               </h6>
               <h2 class="underline fz-60">
-                <a href="#0">hello@Bayone.com</a>
+                <a href="#0">idigexlv@gmail.com</a>
               </h2>
             </div>
           </div>
@@ -17,7 +17,7 @@
         <div class="row mt-80">
           <div class="col-lg-3">
             <div class="logo">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/Logo_IDigex.svg" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
@@ -28,24 +28,31 @@
                   <a href="#0" class="hover-anim">Facebook</a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">twitter</a>
+                  <a href="#0" class="hover-anim">Instagram</a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">LinkedIn</a>
-                </li>
-                <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Behance</a>
+                  <a href="#0" class="hover-anim">Pinterest</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="column">
-              <h6 class="sub-title mb-30">Our Office :</h6>
-              <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
-              <h5 class="mt-15 underline">
-                <a href="#0">+2 456 34324 45</a>
-              </h5>
+              <h6 class="sub-title mb-30">Navigation</h6>
+                <ul class="rest">
+                <li class="hover-this cursor-pointer">
+                  <a href="#0" class="hover-anim">About</a>
+                </li>
+                <li class="hover-this cursor-pointer ">
+                  <a href="#0" class="hover-anim">Services</a>
+                </li>
+                <li class="hover-this cursor-pointer ">
+                  <a href="#0" class="hover-anim">Projects</a>
+                </li>
+                <li class="hover-this cursor-pointer ">
+                  <a href="#0" class="hover-anim">Contacts</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -56,32 +63,12 @@
             <div class="links">
               <ul class="rest">
                 <li>
-                  <a href="/about" class="animsition-link">FAQ</a>
+                  <a href="/about" class="animsition-link">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="/about" class="animsition-link">Careers</a>
-                </li>
-                <li>
-                  <a href="/contact" class="animsition-link">Contact Us</a>
+                  <a href="/contact" class="animsition-link">Cookies Settings</a>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="copyright d-flex">
-              <div class="ml-auto">
-                <p class="fz-13">
-                  © 2024 Bayone is Proudly Powered by
-                  <span class="underline">
-                    <a
-                      href="https://themeforest.net/user/UiCamp"
-                      target="_blank"
-                    >
-                      UiCamp
-                    </a>
-                  </span>
-                </p>
-              </div>
             </div>
           </div>
         </div>

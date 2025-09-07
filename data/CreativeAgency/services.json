@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "icon": "/assets/imgs/serv-icons/0.png",
+    "icon": "/assets/imgs/services/Services 1-min.jpeg",
     "title": "Websites",
     "description": "We build websites that will showcase your brand and services.",
     "link": "/about"
   },
     {
     "id": 2,
-    "icon": "/assets/imgs/serv-icons/0.png",
+    "icon": "/assets/imgs/services/Services 2-min.jpeg",
     "title": "UI/UX",
     "description": "We create banners for any tasks and platforms - adaptively and with an emphasis on results.",
     "link": "/about"
   },
   {
     "id": 3,
-    "icon": "/assets/imgs/serv-icons/1.png",
+    "icon": "/assets/imgs/services/Services 3-min.jpeg",
     "title": "Branding",
     "description": "We collect all the elements of your brand into a clear and convenient guide.",
     "link": "/about"
   },
   {
     "id": 4,
-    "icon": "/assets/imgs/serv-icons/2.png",
+    "icon": "/assets/imgs/services/Services 4-min.jpeg",
     "title": "Logo",
     "description": "We design a logo that reflects your brand and is easy to remember.",
     "link": "/about"

@@ -1,27 +1,43 @@
 <template>
   <CommonLoader />
   <div id="smooth-wrapper">
+    <CommonNavbar />
+    <CommonMenu />
     <div id="smooth-content">
-      <PreviewNavigation />
-      <main>
-        <PreviewHeader />
-        <PreviewPortfolio />
+      <main class="main-bg">
+        <div class="main-box main-bg ontop">
+          <CreativeAgencyHeader />
+          <CreativeAgencyAbout />
+          <CreativeAgencyServices />
+          <CreativeAgencyWorks />
+          <CreativeAgencyBrief />
+          <CreativeAgencyFAQ />
+        </div>
+        <CreativeAgencyContact />
       </main>
-      <PreviewFooter />
+      <CommonFooter1 />
     </div>
   </div>
 </template>
 
 <script setup>
-//= Page Metadata
-definePageMeta({
-  layout: "preview",
-});
 //= Page Head
 useHead({
-  titleTemplate: `%s - Preview`,
-  script: [
-    { src: "/assets/js/smoother-script.js", defer: true }
+  titleTemplate: `%s - Creative Agency`,
+  bodyAttrs: {
+    class: 'main-bg'
+  },
+    link: [
+    {
+      rel: "stylesheet",
+      href: '/assets/css/base.css'
+    }
+  ],
+    script: [
+    { src: "/assets/js/TweenMax.min.js" },
+    { src: "/assets/js/charming.min.js" },
   ]
 });
+
 </script>
+

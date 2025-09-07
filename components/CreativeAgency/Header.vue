@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="img mt-50">
-      <img src="/assets/imgs/b2.jpg" alt="" />
+      <img src="/assets/imgs/Main banner-min.jpg" alt="" />
     </div>
   </header>
 </template>

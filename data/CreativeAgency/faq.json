@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "How much does a website or branding cost?",
+    "content": "The cost is calculated individually and depends on the project's objectives."
+  },
+  {
+    "id": 2,
+    "title": "How long does development take?",
+    "content": "On average, 2 to 6 weeks, depending on complexity."
+  },
+  {
+    "id": 3,
+    "title": "How many revisions are included?",
+    "content": "We provide up to 2-3 rounds of revisions at each stage."
+  },
+  {
+    "id": 4,
+    "title": "Can I order just a logo or a website without branding?",
+    "content": "Yes, we work on both comprehensive and individual tasks."
+  },
+    {
+    "id": 5,
+    "title": " Do you provide support after the project is completed?",
+    "content": "Yes, we can help with updates and maintenance."
+  }
+]

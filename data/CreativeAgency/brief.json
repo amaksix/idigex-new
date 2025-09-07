@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "numb": "01",
+    "title": "Brief",
+    "icon": "/assets/imgs/serv-icons/S1.png",
+    "content": "We define the project's tasks and goals"
+  },
+  {
+    "id": 2,
+    "numb": "02",
+    "title": "Concept",
+    "icon": "/assets/imgs/serv-icons/S2.png",
+    "content": "We propose a direction and visual solution"
+  },
+  {
+    "id": 3,
+    "numb": "03",
+    "title": "Web Development",
+    "icon": "/assets/imgs/serv-icons/S3.png",
+    "content": "We create the design and implement the project"
+  },
+  {
+    "id": 4,
+    "numb": "04",
+    "title": "Deployment",
+    "icon": "/assets/imgs/serv-icons/S4.png",
+    "content": "We deliver the finished product and provide support"
+  }
+]

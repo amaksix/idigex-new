@@ -1,7 +1,8 @@
 import { fileURLToPath } from 'node:url';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
+  modules: ['@nuxtjs/i18n'],
+  ssr:false,
   typescript: {
     shim: false
   },
