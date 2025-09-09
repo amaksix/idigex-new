@@ -20,7 +20,7 @@
   {
     "id": 3,
     "image": "/assets/imgs/works/full/Project_3.jpg",
-    "title": "Pena Labs",
+    "title": "Pena Lab",
     "category": "Branding",
     "link": "/project3",
     "offset": true,
@@ -37,7 +37,7 @@
   {
     "id": 5,
     "image": "/assets/imgs/works/full/Project_5.jpg",
-    "title": "Mullers",
+    "title": "Müller’s",
     "category": "Branding",
     "link": "/project1",
     "offset": true,

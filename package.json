@@ -10,11 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^18.17.1",
+    "@nuxtjs/i18n": "^10.0.6",
+    "@types/node": "^20.19.13",
     "nuxt": "^3.6.5"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^10.0.6",
+    "gsap": "^3.13.0",
     "swiper": "^8.4.6"
   }
 }

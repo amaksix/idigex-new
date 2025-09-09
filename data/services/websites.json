@@ -1,0 +1,63 @@
+{
+  "title": "Mājaslapas",
+  "subtitle": "Pakalpojumi",
+  "image": "/assets/imgs/Services_m_1.jpg",
+  "about": {
+    "sectionTitle": "No idejas līdz palaišanai",
+    "headline": [
+      "Mēs izstrādājam adaptīvās ",  
+      "mājaslapas."
+    ],
+    "paragraph": "Apvienojam modernu dizainu un ērtu funkcionalitāti. Strādājam gan ar individuāliem risinājumiem, gan ar populārām platformām — Shopify, WordPress, Webflow.",
+    "lists": [
+      [
+        "Tīmekļa vietņu veidi — mērķlapa, internetveikals, korporatīvā mājaslapa.",
+        "Mūsu pieeja — strukturēta, ērta, moderna.",
+        "Termiņi un cena — no 600 €, no 2 nedēļām."
+      ]
+    ]
+  },
+   "faq": [
+   {
+    "id": 1,
+    "title": "Cik maksā mājaslapa izstrāde?",
+    "content": "No 600 €, atkarībā no uzdevumiem un funkcionalitātes."
+  },
+  {
+    "id": 2,
+    "title": "Cik ilgs laiks nepieciešams izstrādei?",
+    "content": "No 2 līdz 6 nedēļām."
+  },
+  {
+    "id": 3,
+    "title": "Vai jūs sniedzat atbalstu?",
+    "content": "Jā, mēs nodrošinām bezmaksas tehnisko atbalstu 30 dienas."
+  }
+],
+  "works": [
+  {
+    "id": 1,
+    "img": "/assets/imgs/works/full/1.jpg",
+    "category": "Digital Design",
+    "title": "Retouch Photo",
+    "year": "2023",
+    "link": "/project1"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/works/full/2.jpg",
+    "category": "Branding",
+    "title": "Earthmade Aroma",
+    "year": "2023",
+    "link": "/project2"
+  },
+  {
+    "id": 3,
+    "img": "/assets/imgs/works/full/3.jpg",
+    "category": "Branding",
+    "title": "Bank Rebranding",
+    "year": "2023",
+    "link": "/project3"
+  }
+]
+}

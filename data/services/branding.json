@@ -1,0 +1,64 @@
+{
+  "title": "Brendings",
+  "subtitle": "Pakalpojumi",
+  "image": "/assets/imgs/Services_m_2.jpg",
+  "about": {
+    "sectionTitle": "Vienots uzņēmuma tēls",
+    "headline": [
+      "Mēs veidojam zīmola vizuālo sistēmu: ",
+      "krāsu paleti, fontus un firmas stilu, ",
+      "kas veido vienotu uzņēmuma tēlu."
+    ],
+    "paragraph": "To papildinām ar vizuālo stilu sociālajiem tīkliem un piemēriem, kā to izmantot — no vizītkartēm līdz iepakojumam. Šāda pieeja nodrošina komunikācijas vienotību un stiprina zīmola atpazīstamību.",
+    "lists": [
+      [
+        "Kas ir iekļauts — krāsu palete, fonts, sociālo tīklu vizuālais stils, guideline.",
+        "Kāpēc nepieciešams zīmols — atpazīstamība, uzticamība, konkurētspēja.",
+        "Termiņi un cena — no 400 €, no 2 nedēļām."
+      ]
+    ]
+  },
+   "faq": [
+   {
+    "id": 1,
+    "title": "Cik maksā zīmola veidošana?",
+    "content": " Cena sākas no 400 € un tiek veidota atkarībā no projekta apjoma un uzdevumiem."
+  },
+  {
+    "id": 2,
+    "title": "Cik ilgs ir process?",
+    "content": "No 2 līdz 4 nedēļām."
+  },
+  {
+    "id": 3,
+    "title": "Vai var pasūtīt tikai daļu?",
+    "content": "Jā, mēs strādājam arī ar atsevišķiem elementiem."
+  }
+],
+  "works": [
+  {
+    "id": 1,
+    "img": "/assets/imgs/works/full/1.jpg",
+    "category": "Digital Design",
+    "title": "Retouch Photo",
+    "year": "2023",
+    "link": "/project1"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/works/full/2.jpg",
+    "category": "Branding",
+    "title": "Earthmade Aroma",
+    "year": "2023",
+    "link": "/project2"
+  },
+  {
+    "id": 3,
+    "img": "/assets/imgs/works/full/3.jpg",
+    "category": "Branding",
+    "title": "Bank Rebranding",
+    "year": "2023",
+    "link": "/project3"
+  }
+]
+}

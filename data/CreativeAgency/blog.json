@@ -4,35 +4,35 @@
     "title": "Landing pages, online stores, corporate websites",
     "tag": "Websites",
     "subtitle": "/01",
-    "link": "/blog-details",
+    "link": "/services/websites",
     "img": "/assets/imgs/services/Services_1.jpg",
-    "readMoreLink": "/blog-details"
+    "readMoreLink":  "/services/websites"
   },
   {
     "id": 2,
     "title": "Color palette, fonts, corporate identity",
     "tag": "Branding",
     "subtitle": "/02",
-    "link": "/blog-details",
+    "link": "/services/branding",
     "img": "/assets/imgs/services/Services_2.jpg",
-    "readMoreLink": "/blog-details"
+    "readMoreLink":  "/services/branding"
   },
   {
     "id": 3,
     "title": "Development and adaptation",
     "tag": "Logos",
     "subtitle": "/03",
-    "link": "/blog-details",
+    "link": "/services/logo",
     "img": "/assets/imgs/services/Services_3.jpg",
-    "readMoreLink": "/blog-details"
+    "readMoreLink": "/services/logo"
   },
     {
     "id": 4,
     "title": "Banners, posters, presentations",
     "tag": "Advertising materials",
     "subtitle": "/04",
-    "link": "/blog-details",
+    "link": "/services/advertising_materials",
     "img": "/assets/imgs/services/Services_4.jpg",
-    "readMoreLink": "/blog-details"
+    "readMoreLink": "/services/advertising_materials"
   }
 ]

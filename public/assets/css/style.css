@@ -4754,7 +4754,7 @@ footer .logo img {
 }
 
 .about-header .img {
-  height: 65vh;
+  height: 95vh;
   min-height: 350px;
 }
 
@@ -5285,7 +5285,6 @@ footer .logo img {
 /* Portfolio
 -----------------------------------------------------------------*/
 .works.thecontainer {
-  width: 300vw;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5310,6 +5309,7 @@ footer .logo img {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .works .panel .item {
@@ -6568,6 +6568,7 @@ footer .logo img {
   }
   .works.thecontainer .panel {
     display: block;
+    margin-right: 0;
   }
   .works.thecontainer .panel .item {
     width: 100%;

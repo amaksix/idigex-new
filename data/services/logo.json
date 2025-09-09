@@ -1,0 +1,64 @@
+{
+  "title": "Logotipi",
+  "subtitle": "Pakalpojumi",
+  "image": "/assets/imgs/Services_m_3.jpg",
+  "about": {
+    "sectionTitle": "Vienkāršība un atpazīstamība",
+    "headline": [
+      "Mēs izstrādājam skaidrus un atmiņā",
+      "paliekošus logotipus, kas",
+      "atspoguļo uzņēmuma raksturu."
+    ],
+    "paragraph": "Mēs veidojam logotipus, pamatojoties uz konkurentu un tendenču analīzi, ņemot vērā jūsu mērķus un stilu. Katrs variants ir pielāgots dažādiem formātiem — no tīmekļa vietnes līdz iepakojumam un reklāmas materiāliem.",
+    "lists": [
+      [
+        "Ko mēs piedāvājam — 3 logotipa varianti, līdz 3 labojumu kārtām.",
+        "Kāpēc tas ir svarīgi — logotips ir zīmola pamats, uzticamība un atpazīstamība.",
+        "Termiņi un cena — no 250 €, no 1 nedēļas."
+      ]
+    ]
+  },
+   "faq": [
+   {
+    "id": 1,
+    "title": "Cik maksā logotips?",
+    "content": "No 250 € par 3 variantiem."
+  },
+  {
+    "id": 2,
+    "title": "Cik ilgi ilgst izstrāde?",
+    "content": "No 1 līdz 2 nedēļām."
+  },
+  {
+    "id": 3,
+    "title": "Vai var pārstrādāt veco logotipu?",
+    "content": "Jā, veicam pārstrādāšanu un pielāgošanu."
+  }
+],
+  "works": [
+  {
+    "id": 1,
+    "img": "/assets/imgs/works/full/1.jpg",
+    "category": "Digital Design",
+    "title": "Retouch Photo",
+    "year": "2023",
+    "link": "/project1"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/works/full/2.jpg",
+    "category": "Branding",
+    "title": "Earthmade Aroma",
+    "year": "2023",
+    "link": "/project2"
+  },
+  {
+    "id": 3,
+    "img": "/assets/imgs/works/full/3.jpg",
+    "category": "Branding",
+    "title": "Bank Rebranding",
+    "year": "2023",
+    "link": "/project3"
+  }
+]
+}
