@@ -5,14 +5,14 @@
   "about": {
     "sectionTitle": "Vienots komunikācijas stils",
     "headline": [
-      "Mēs veidojam banerus, plakātus, prezentācijas un iepakojumus, ",
+      "Mēs veidojam banerus, vizītkartes, prezentācijas un iepakojumus, ",
       " kas palīdz zīmolam komunicēt",
       "ar auditoriju vienā valodā."
     ],
     "paragraph": "Visi materiāli tiek izstrādāti vienotā stilā, lai saglabātu uzņēmuma tēla vienotību. Mūsu uzsvars ir skaidrība, izteiksmīgums un praktiskums katrā risinājumā.",
     "lists": [
       [
-        "Ko mēs darām — baneri, plakāti, prezentācijas, sociālie tīkli.",
+        "Ko mēs darām — baneri, vizītkartes, prezentācijas, sociālie tīkli.",
         "Priekšrocības — vienots vizuālais stils, darbs pie tēla.",
         "Termiņi un cena — tiek apspriesti individuāli, atkarībā no uzdevuma un formāta."
       ]
@@ -35,29 +35,29 @@
     "content": "Jā, strādājam ar abiem formātiem."
   }
 ],
-  "works": [
+ "works": [
   {
     "id": 1,
-    "img": "/assets/imgs/works/full/1.jpg",
-    "category": "Digital Design",
-    "title": "Retouch Photo",
-    "year": "2023",
-    "link": "/project1"
+    "img": "/assets/imgs/works/full/Project_1.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "VIABon",
+    "year": "2025",
+    "link": "/projects/ViaBon"
   },
   {
     "id": 2,
-    "img": "/assets/imgs/works/full/2.jpg",
-    "category": "Branding",
-    "title": "Earthmade Aroma",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_2.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "5W",
+    "year": "2025",
     "link": "/project2"
   },
   {
     "id": 3,
-    "img": "/assets/imgs/works/full/3.jpg",
-    "category": "Branding",
-    "title": "Bank Rebranding",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_4.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "Palami",
+    "year": "2024",
     "link": "/project3"
   }
 ]

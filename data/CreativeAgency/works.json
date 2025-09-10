@@ -3,8 +3,8 @@
     "id": 1,
     "image": "/assets/imgs/works/full/Project_1.jpg",
     "title": "VIABon",
-    "category": "Branding, Website",
-    "link": "/project1",
+    "category": "Brendings, Mājaslapa",
+    "link": "/projects/ViaBon",
     "valign": true,
     "col": 4
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "image": "/assets/imgs/works/full/Project_2.jpg",
     "title": "5W",
-    "category": "Branding, Website",
+    "category": "Brendings, Mājaslapa",
     "link": "/project2",
     "offset": true,
     "col": 6
@@ -21,7 +21,7 @@
     "id": 3,
     "image": "/assets/imgs/works/full/Project_3.jpg",
     "title": "Pena Lab",
-    "category": "Branding",
+    "category": "Brendings",
     "link": "/project3",
     "offset": true,
     "col": 8
@@ -30,7 +30,7 @@
     "id": 4,
     "image": "/assets/imgs/works/full/Project_4.jpg",
     "title": "Palami",
-    "category": "Branding, Website",
+    "category": "Brendings, Mājaslapa",
     "link": "/project4",
     "col": 6
   },
@@ -38,7 +38,7 @@
     "id": 5,
     "image": "/assets/imgs/works/full/Project_5.jpg",
     "title": "Müller’s",
-    "category": "Branding",
+    "category": "Brendings",
     "link": "/project1",
     "offset": true,
     "col": 4

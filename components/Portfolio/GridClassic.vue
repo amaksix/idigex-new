@@ -27,7 +27,7 @@ import { onMounted } from 'vue';
 //= Common Scripts
 import initIsotope from '@/common/initIsotope';
 //= Static Data
-import data from '@/data/Portfolio/grid-classic.json';
+import data from '@/data/Portfolio/portfolio.json';
 
 onMounted(() => {
   initIsotope();

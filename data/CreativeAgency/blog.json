@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Landing pages, online stores, corporate websites",
-    "tag": "Websites",
+    "title": "Galvenās lapas, internet veikali, korporatīvās mājaslapi",
+    "tag": "Tīmekļa vietnes",
     "subtitle": "/01",
     "link": "/services/websites",
     "img": "/assets/imgs/services/Services_1.jpg",
@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "title": "Color palette, fonts, corporate identity",
-    "tag": "Branding",
+    "title": "Krāsu palete, fonti, korporatīvā identitāte",
+    "tag": "Brendings",
     "subtitle": "/02",
     "link": "/services/branding",
     "img": "/assets/imgs/services/Services_2.jpg",
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "title": "Development and adaptation",
-    "tag": "Logos",
+    "title": "Izstrāde un pielāgošana",
+    "tag": "Logotipi",
     "subtitle": "/03",
     "link": "/services/logo",
     "img": "/assets/imgs/services/Services_3.jpg",
@@ -28,8 +28,8 @@
   },
     {
     "id": 4,
-    "title": "Banners, posters, presentations",
-    "tag": "Advertising materials",
+    "title": "Baneri, vizītkartes, prezentācijas",
+    "tag": "Reklāmas materiāli",
     "subtitle": "/04",
     "link": "/services/advertising_materials",
     "img": "/assets/imgs/services/Services_4.jpg",

@@ -118,7 +118,7 @@
                         </li>
                         <li>
                           <div class="o-hidden">
-                            <a href="/portfolio-grid-classic" class="sub-link animsition-link"
+                            <a href="/portfolio" class="sub-link animsition-link"
                               @click="closeMenu">Portfolio Classic</a>
                           </div>
                         </li>

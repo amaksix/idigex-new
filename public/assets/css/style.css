@@ -4555,6 +4555,7 @@ body.loaded {
 .accordion .accordion-info {
   display: none;
   margin-top: 15px;
+   white-space: pre-line; /* makes \n render as line breaks */
 }
 
 .accordion .accordion-info .spac {
@@ -5497,7 +5498,7 @@ footer .logo img {
 }
 
 .portfolio-classic .item .img {
-  height: 400px;
+  height: 500px;
 }
 
 .portfolio-classic .item .img img {

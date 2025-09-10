@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/works/full/Project_1.jpg",
+    "link": "/project1",
+    "category": "Brendings, Mājaslapa",
+    "title": "VIABon"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/works/full/Project_2.jpg",
+    "link": "/project2",
+    "category": "Brendings, Mājaslapa",
+    "title": "5W"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/works/full/Project_3.jpg",
+    "link": "/project3",
+    "category": "Brendings",
+    "title": "Pena Lab"
+  },
+  {
+    "id": 4,
+    "image": "/assets/imgs/works/full/Project_4.jpg",
+    "link": "/project4",
+    "category": "Brendings, Mājaslapa",
+    "title": "Palami"
+  },
+  {
+    "id": 5,
+    "image": "/assets/imgs/works/full/Project_5.jpg",
+    "link": "/project1",
+    "category": "Brendings",
+    "title": "Müller’s"
+  }
+]

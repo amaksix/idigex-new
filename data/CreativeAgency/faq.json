@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "title": "How much does a website or branding cost?",
+    "title": "Cik maksā mājaslapa vai brenda veidošana?",
     "content": "The cost is calculated individually and depends on the project's objectives."
   },
   {
     "id": 2,
-    "title": "How long does development take?",
-    "content": "On average, 2 to 6 weeks, depending on complexity."
+    "title": "Cik ilgs laiks nepieciešams izstrādei?",
+    "content": "Vidēji no 2 līdz 6 nedēļām, atkarībā no sarežģītības."
   },
   {
     "id": 3,
-    "title": "How many revisions are included?",
-    "content": "We provide up to 2-3 rounds of revisions at each stage."
+    "title": "Cik labojumu ir iekļauti?",
+    "content": "Katrā posmā mēs nodrošinām līdz 2–3 pārskatīšanas kārtām."
   },
   {
     "id": 4,
-    "title": "Can I order just a logo or a website without branding?",
-    "content": "Yes, we work on both comprehensive and individual tasks."
+    "title": "Vai varu pasūtīt tikai logotipu vai mājaslapu bez brendinga?",
+    "content": "Jā, mēs strādājam gan pie visaptverošiem, gan individuāliem uzdevumiem."
   },
     {
     "id": 5,
-    "title": " Do you provide support after the project is completed?",
-    "content": "Yes, we can help with updates and maintenance."
+    "title": " Vai jūs sniedzat atbalstu pēc projekta pabeigšanas?",
+    "content": "Jā, mēs varam palīdzēt ar atjauninājumiem un apkopi."
   }
 ]

@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="caption text-center">
-            <h1 class="f-xbold"><span class="f-ultra-light d-block">Creative</span> Digital Studio</h1>
+            <h1 class="f-xbold"><span class="f-ultra-light d-block">Radošā</span> Digitālā Studija</h1>
           </div>
         </div>
       </div>

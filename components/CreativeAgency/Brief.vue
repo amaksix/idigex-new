@@ -4,7 +4,7 @@
       <div class="sec-head pb-20 bord-thin-bottom mb-80">
         <div class="d-flex align-items-center">
           <div>
-            <h3 class="f-bold text-u">Process / How we work</h3>
+            <h3 class="f-bold text-u">Kā mēs strādājam</h3>
           </div>
         </div>
       </div>

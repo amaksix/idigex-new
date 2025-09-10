@@ -6,13 +6,13 @@
           <div class="col-lg-12">
             <div class="text-center">
               <div class="mb-30">
-                <span class="sub-title bord">Work With Us</span>
+                <span class="sub-title bord">Strādājiet Ar Mums</span>
               </div>
               <h2 class="fz-70 f-bold text-u">
-                We would love <span class="d-block f-ultra-light">to hear more about</span> your project
+               Mēs labprāt <span class="d-block f-ultra-light">uzzinātu vairāk </span>par jūsu projektu.
               </h2>
               <a href="/contact" class="butn-circle animsition-link colorbg mt-30">
-                <span>Get In Touch</span>
+                <span>Sazinieties</span>
               </a>
             </div>
           </div>

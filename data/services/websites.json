@@ -18,45 +18,60 @@
     ]
   },
    "faq": [
-   {
+  {
     "id": 1,
+    "title": "Kas ir iekļauts gatavas mājaslapā?",
+    "content": "Tīmekļa resursa izveide ietver šādus posmus:\n\n1. Lapas struktūras izstrāde un apstiprināšana;\n2. Lietotāja saskarnes dizains un izkārtojums;\n3. CMS vai citas programmatūras platformas instalēšana un konfigurēšana;\n4. Resursa aizpildīšana ar sniegtajiem materiāliem;\n5. Primārās SEO optimizācijas veikšana;\n6. Vietnes mitināšana izvēlētajā hostinga."
+  },
+   {
+    "id": 2,
     "title": "Cik maksā mājaslapa izstrāde?",
     "content": "No 600 €, atkarībā no uzdevumiem un funkcionalitātes."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Cik ilgs laiks nepieciešams izstrādei?",
-    "content": "No 2 līdz 6 nedēļām."
+    "content": "Vidēji no 2 līdz 6 nedēļām, atkarībā no sarežģītības."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Vai jūs sniedzat atbalstu?",
     "content": "Jā, mēs nodrošinām bezmaksas tehnisko atbalstu 30 dienas."
+  },
+    {
+    "id": 5,
+    "title": "Vai es pats varu rediģēt informāciju vietnē pēc tās publicēšanas?",
+    "content": "Jūs varēsiet pats rediģēt vietnes saturu, ja tā būs veidota uz gatavas CMS (satura pārvaldības sistēmas). Piemēram, izmantojot WordPress vai Shopify. Jūs varat aizstāt jebkuru teksta bloku un attēlu vietnē pat bez īpašām prasmēm."
+  },
+    {
+    "id": 6,
+    "title": "Kas ir hostings un kāpēc par to ir jāmaksā?",
+    "content": "Hostings ir vieta, kur atrodas jūsu tīmekļa resurss. Precīzāk, tas ir serveris ar jūsu vietnes failiem, kas vienmēr ir savienots ar internetu. Pateicoties tā nepārtrauktai darbībai, jūsu vietne ir pastāvīgi pieejama citiem lietotājiem. Sava servera uzturēšana ir dārga, tāpēc vairumā gadījumu serveri tiek nomāti no citiem uzņēmumiem."
   }
 ],
-  "works": [
+"works": [
   {
     "id": 1,
-    "img": "/assets/imgs/works/full/1.jpg",
-    "category": "Digital Design",
-    "title": "Retouch Photo",
-    "year": "2023",
-    "link": "/project1"
+    "img": "/assets/imgs/works/full/Project_1.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "VIABon",
+    "year": "2025",
+    "link": "/projects/ViaBon"
   },
   {
     "id": 2,
-    "img": "/assets/imgs/works/full/2.jpg",
-    "category": "Branding",
-    "title": "Earthmade Aroma",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_2.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "5W",
+    "year": "2025",
     "link": "/project2"
   },
   {
     "id": 3,
-    "img": "/assets/imgs/works/full/3.jpg",
-    "category": "Branding",
-    "title": "Bank Rebranding",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_4.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "Palami",
+    "year": "2024",
     "link": "/project3"
   }
 ]

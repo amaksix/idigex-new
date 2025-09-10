@@ -38,26 +38,26 @@
   "works": [
   {
     "id": 1,
-    "img": "/assets/imgs/works/full/1.jpg",
-    "category": "Digital Design",
-    "title": "Retouch Photo",
-    "year": "2023",
-    "link": "/project1"
+    "img": "/assets/imgs/works/full/Project_1.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "VIABon",
+    "year": "2025",
+    "link": "/projects/ViaBon"
   },
   {
     "id": 2,
-    "img": "/assets/imgs/works/full/2.jpg",
-    "category": "Branding",
-    "title": "Earthmade Aroma",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_2.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "5W",
+    "year": "2025",
     "link": "/project2"
   },
   {
     "id": 3,
-    "img": "/assets/imgs/works/full/3.jpg",
-    "category": "Branding",
-    "title": "Bank Rebranding",
-    "year": "2023",
+    "img": "/assets/imgs/works/full/Project_4.jpg",
+    "category": "Brendings, Mājaslapa",
+    "title": "Palami",
+    "year": "2024",
     "link": "/project3"
   }
 ]

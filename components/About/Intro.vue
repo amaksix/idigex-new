@@ -4,19 +4,22 @@
       <div class="row">
         <div class="col-lg-10">
           <div class="text">
-            <span class="sub-title mb-15 opacity-8">- Who We Are?</span>
+            <span class="sub-title mb-15 opacity-8">- Dizains un tehnoloģijas</span>
             <div class="text-reval">
               <h2 class="fz-50 text-u mb-30">
-                <span class="text">We are a creative studio with focus</span>
-                <span class="text">on set design, illustration and</span>
-                <span class="text"> motion design.</span>
+                <span class="text">IDigex apvieno dizainu un  </span>
+                <span class="text">tehnoloģijas.</span>
               </h2>
             </div>
             <p>
-              We create brand identities, digital experiences, and print materials that communicate clearly,
-              achieve marketing goals, and look fantastic. Urban design draws together the many strands of
-              place-making, environmental stewardship.
+              Mēs veidojam tīmekļa vietnes, zīmolu veidošanu,logotipus un reklāmas materiālus,
+              kas palīdz uzņēmumiem izcelties un runāt vienā valodā ar savu auditoriju.
+              Savā darbā mēs koncentrējamies uz skaidrību un funkcionalitāti, izvairoties no liekā. Katrs projekts tiek izstrādāts,
+               ņemot vērā biznesa mērķus un tā tirgus specifiku.
+               Mūsu mērķis ir radīt risinājumus, kas ne tikai izskatās moderni, bet arī sniedz rezultātus.
             </p>
+            <br/>
+            <p>Mūsu tīmekļa projektu unikālās iezīmes:</p>
           </div>
         </div>
       </div>
@@ -25,47 +28,21 @@
           <div class="row mt-80">
             <div class="col-md-4 sm-mb30">
               <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> SEO-friendly</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> Adaptācija uz mobilajām ierīcēm</li>                 
               </ul>
             </div>
             <div class="col-md-4 sm-mb30">
               <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
-              </ul>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> Ērta un intuitīva navigācija</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> Pārdošanas rīki</li>
+               </ul>
             </div>
             <div class="col-md-4">
               <ul class="list rest">
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Branding Strategy</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Digital Experiences</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Social Media</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> Advertising</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> Neaizmirstams dizains</li>
+                <li class="fz-18 mb-15"><span class="mr-10">+</span> Operatīvais atbalsts</li>
               </ul>
-            </div>
-          </div>
-          <div class="row numbers mt-80">
-            <div class="col-lg-4">
-              <div class="item md-mb50">
-                <h3 class="stroke f-bold num pb-30 mb-30 bord-thin-bottom">48</h3>
-                <h6 class="fz-16">Projects Completed</h6>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="item md-mb50">
-                <h3 class="stroke f-bold num pb-30 mb-30 bord-thin-bottom">64k</h3>
-                <h6 class="fz-16">Clients Around the World</h6>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="item">
-                <h3 class="stroke f-bold num pb-30 mb-30 bord-thin-bottom">30</h3>
-                <h6 class="fz-16">Total Awards</h6>
-              </div>
             </div>
           </div>
         </div>

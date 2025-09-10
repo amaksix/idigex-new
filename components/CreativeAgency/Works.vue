@@ -8,12 +8,12 @@
               <div class="slide-har st1">
                 <div class="box non-strok">
                   <div v-for="(_, i) in new Array(5).fill()" :key="i" class="item">
-                    <h2>Selected Projects</h2>
+                    <h2>Mūsu Projekti</h2>
                   </div>
                 </div>
                 <div class="box non-strok">
                   <div v-for="(_, i) in new Array(5).fill()" :key="i" class="item">
-                    <h2>Selected Projects</h2>
+                    <h2>Mūsu Projekti</h2>
                   </div>
                 </div>
               </div>
@@ -46,7 +46,7 @@
     </div>
     <div class="mt-100">
       <div class="d-flex justify-content-center align-items-center">
-        <span class="sub-title ls1 bord">All Projects</span>
+        <span class="sub-title ls1 bord">Visi projekti</span>
         <nuxt-link to="/about" class="arrow ml-2">
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
