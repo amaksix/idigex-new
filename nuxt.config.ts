@@ -3,19 +3,9 @@ import { fileURLToPath } from 'node:url';
 export default defineNuxtConfig({
   
 
-ssr: true,
+ssr:true,
 
 
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/en',
-        '/lv',
-        '/ru'
-      ]
-    }
-  },
 
   typescript: {
     shim: false
@@ -42,11 +32,11 @@ ssr: true,
         },
         {
           name: 'keywords',
-          content: 'Vue Nuxtjs Template Bayone Multi-Purpose themeforest'
+          content: 'Idigex'
         },
         {
           name: 'description',
-          content: 'Bayone - Multi-Purpose Vue Nuxtjs Template'
+          content: 'Idigex'
         },
         {
           name: 'author',
