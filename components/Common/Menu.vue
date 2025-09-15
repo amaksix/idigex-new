@@ -79,13 +79,13 @@
               <h6 class="text-u fw-600 mb-20">Sociālie tīkli</h6>
               <ul class="rest social-text d-flex fz-13">
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Facebook</span></a>
+                  <a href="https://www.facebook.com/profile.php?id=61578923682378" target="_blank" rel="noopener noreferrer" class="hover-this"><span class="hover-anim">Facebook</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Instagram</span></a>
+                  <a href="https://www.instagram.com/idigexlv/" target="_blank" rel="noopener noreferrer"  class="hover-this"><span class="hover-anim">Instagram</span></a>
                 </li>
                 <li class="mr-20">
-                  <a href="/#0" class="hover-this"><span class="hover-anim">Pinterest</span></a>
+                  <a href=" https://pin.it/3JJQ5bqAX" target="_blank" rel="noopener noreferrer" class="hover-this"><span class="hover-anim">Pinterest</span></a>
                 </li>
               </ul>
             </div>

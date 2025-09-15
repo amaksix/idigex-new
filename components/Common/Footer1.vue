@@ -140,9 +140,10 @@ document.querySelector('.topnav .menu-icon').classList.toggle('open');
 
   if (document.querySelector('.topnav .menu-icon ').classList.contains('open')) {
     document.querySelector('.haprivacy').style.top = '0';
+    document.querySelector('.haprivacy').style.opacity = '1';
   }else {
     document.querySelector('.hamenu').style.top = '-100%';
-    document.querySelector('.haprivacy').style.top = '-100%';
+    document.querySelector('.haprivacy').style.top = '-150%';
   }
 };
 const cookie = ref(false);
