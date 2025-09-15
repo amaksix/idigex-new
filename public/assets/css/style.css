@@ -66,7 +66,64 @@ body.crev-portfolio:after {
   pointer-events: none;
   z-index: 9999;
 }
+.cookie-banner{
+  position: fixed;
+  top: 70%;
+  left:70%;
+  z-index: 99999;
+  transform: translate(-10%, -10%);
+  background-color: #f9f9f9;
+  padding: 3vw;
+}
+.cookie-banner p{
+  color: #141414;
+}
+.pop-up-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  background-color: #f9f9f9;
+  padding: 6vw;
+}
+.pop-up-message h6 {
+  color:#141414;
+}
+.cookie-button{
+  padding: 12px 20px;
+  border: 1.2px solid rgba(20, 20, 20, 0.5);
+  border-radius: 5px;
+  width: 201px;
+}
+    
+.close-icon-container{
+  position: absolute;
+  top:15%;
+  left: 90%;
+}
+ .close-icon i {
+  display: block;
+  width: 18px;
+  height: 3px;
+  background: #141414;
+  margin: 5px 0;
+      position: absolute;
+    top: calc(50% - 2px);
+    left: 0;
+    margin: 0;
+}
+ .close-icon i:first-of-type {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
+ .close-icon i:last-of-type {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
 @-webkit-keyframes grain {
   0%,
   to {
@@ -6352,6 +6409,38 @@ footer .logo img {
 
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
+  .pop-up-message {
+
+  padding-top: 15vw;
+   padding-bottom: 15vw;
+   width: 70%;
+}
+.cookie-banner{
+  position: fixed;
+  top: 55%;
+  left:15%;
+  z-index: 99999;
+  transform: translate(-10%, -10%);
+  background-color: #f9f9f9;
+  padding: 7vw;
+}
+
+.close-icon-container{
+  position: absolute;
+  top:10%;
+  left: 85%;
+}
+ .close-icon i {
+  display: block;
+  width: 18px;
+  height: 3px;
+  background: #141414;
+  margin: 5px 0;
+      position: absolute;
+    top: calc(50% - 2px);
+    left: 0;
+    margin: 0;
+}
   .md-mb10 {
     margin-bottom: 10px;
   }

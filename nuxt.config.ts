@@ -70,6 +70,7 @@ ssr: true,
         { src: '/assets/js/gsap.min.js' },
         { src: '/assets/js/ScrollTrigger.min.js' },
         { src: '/assets/js/ScrollSmoother.min.js' },
+        {src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'},
         // { src: '/assets/js/smoother-script.js', defer: true },
         { src: '/assets/js/scripts.js', defer: true },
       ]

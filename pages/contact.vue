@@ -19,9 +19,6 @@ useHead({
   titleTemplate: `%s - Contact`,
   bodyAttrs: {
     class: 'main-bg'
-  },
-  script: [
-    { src: "/assets/js/smoother-script.js", defer: true }
-  ]
+  }
 });
 </script>
