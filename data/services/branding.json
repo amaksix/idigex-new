@@ -35,7 +35,7 @@
     "content": "Jā, mēs strādājam arī ar atsevišķiem elementiem."
   }
 ],
-  "works": [
+"works": [
   {
     "id": 1,
     "img": "/assets/imgs/works/full/Project_1.jpg",
@@ -50,7 +50,7 @@
     "category": "Brendings, Mājaslapa",
     "title": "5W",
     "year": "2025",
-    "link": "/project2"
+    "link": "/projects/5W"
   },
   {
     "id": 3,
@@ -58,7 +58,7 @@
     "category": "Brendings, Mājaslapa",
     "title": "Palami",
     "year": "2024",
-    "link": "/project3"
+    "link": "/projects/Palami"
   }
 ]
 }

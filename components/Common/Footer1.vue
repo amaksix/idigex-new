@@ -31,7 +31,7 @@
                   <a href="https://www.instagram.com/idigexlv/" target="_blank" rel="noopener noreferrer" ><span class="hover-anim">Instagram</span></a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0"><span class="hover-anim">Pinterest</span></a>
+                  <a href=" https://pin.it/3JJQ5bqAX" target="_blank" rel="noopener noreferrer"><span class="hover-anim">Pinterest</span></a>
                 </li>
               </ul>
             </div>
@@ -82,7 +82,7 @@
                   <i></i>
                 </span>
               </div>
-        <p class="fw-400 fz-18">Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.</p>
+        <p class="fw-400 fz-14">Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.</p>
     <div class="col-lg-8 d-flex align-items-center justify-end" style="color:#141414;">
             <a @click="acceptCookie" class="cursor-pointer" >
               <div class="more mt-15 animsition-link cookie-button">

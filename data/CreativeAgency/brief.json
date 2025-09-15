@@ -9,21 +9,21 @@
   {
     "id": 2,
     "numb": "02",
-    "title": "Concept",
+    "title": "Koncepcija",
     "icon": "/assets/imgs/serv-icons/S2.png",
     "content": "Mēs piedāvājam virzienu un vizuālo risinājumu"
   },
   {
     "id": 3,
     "numb": "03",
-    "title": "Web Development",
+    "title": "Web izstrāde",
     "icon": "/assets/imgs/serv-icons/S3.png",
     "content": "Mēs izstrādājam dizainu un īstenojam projektu"
   },
   {
     "id": 4,
     "numb": "04",
-    "title": "Deployment",
+    "title": "Uzstādīšana",
     "icon": "/assets/imgs/serv-icons/S4.png",
     "content": "Mēs piegādājam gatavo produktu un sniedzam atbalstu"
   }

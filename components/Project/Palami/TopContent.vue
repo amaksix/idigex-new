@@ -12,7 +12,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
               <span class="opacity-8 mb-5">Client :</span>
-              <h6>Palami</h6>
+              <h6 ><a style="text-decoration: underline;text-underline-offset: 8px;" href=" https://palami.com/" target="_blank" rel="noopener noreferrer">Palami</a></h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">

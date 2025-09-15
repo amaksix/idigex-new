@@ -49,7 +49,7 @@ const toggleMenu = () => {
   if (haprivacy.classList.contains('open')) {
     document.querySelector('.topnav .menu-icon').classList.toggle('open');
     document.querySelector('.haprivacy').classList.toggle('open');
-    document.querySelector('.haprivacy').style.top = '-100%';
+    document.querySelector('.haprivacy').style.top = '-150%';
     return;
   }
 document.querySelector('.hamenu').classList.toggle('open');
@@ -59,7 +59,7 @@ document.querySelector('.hamenu').classList.toggle('open');
   if (document.querySelector('.topnav .menu-icon').classList.contains('open')) {
     document.querySelector('.hamenu').style.top = '0';
   } else {
-    document.querySelector('.hamenu').style.top = '-100%';
+    document.querySelector('.hamenu').style.top = '-150%';
     document.querySelector('.haprivacy').style.top = '-100%';
   }
 };

@@ -12,7 +12,7 @@
               </h2>
             </div>
             <p>
-              Mēs veidojam tīmekļa vietnes, zīmolu veidošanu,logotipus un reklāmas materiālus,
+              Mēs veidojam tīmekļa vietnes, zīmolu veidošanu, logotipus un reklāmas materiālus,
               kas palīdz uzņēmumiem izcelties un runāt vienā valodā ar savu auditoriju.
               Savā darbā mēs koncentrējamies uz skaidrību un funkcionalitāti, izvairoties no liekā. Katrs projekts tiek izstrādāts,
                ņemot vērā biznesa mērķus un tā tirgus specifiku.
