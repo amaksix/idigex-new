@@ -6,7 +6,7 @@
           <div class="col-lg-6">
             <div class="eml">
               <h6 class="sub-title opacity-8">
-                we would love to hear from you.
+                mēs ar prieku uzklausīsim jūs.
               </h6>
               <h2 class="underline fz-60">
                 <a href="#0">idigexlv@gmail.com</a>
@@ -15,42 +15,42 @@
           </div>
         </div>
         <div class="row mt-80">
-          <div class="col-lg-3">
+          <div class="col-lg-2">
             <div class="logo">
               <img src="/assets/imgs/Logo_IDigex.svg" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="column">
-              <h6 class="sub-title mb-30">Social Media</h6>
+              <h6 class="sub-title mb-30">Sociālie tīkli</h6>
               <ul class="rest">
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Facebook</a>
+                  <a href="https://www.facebook.com/profile.php?id=61578923682378" target="_blank" rel="noopener noreferrer"><span class="hover-anim">Facebook</span></a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Instagram</a>
+                  <a href="https://www.instagram.com/idigexlv/" target="_blank" rel="noopener noreferrer" ><span class="hover-anim">Instagram</span></a>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">Pinterest</a>
+                  <a href="#0"><span class="hover-anim">Pinterest</span></a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <div class="column">
-              <h6 class="sub-title mb-30">Navigation</h6>
+              <h6 class="sub-title mb-30">Navigācija</h6>
                 <ul class="rest">
                 <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">About</a>
+                  <a href="/" ><span class="hover-anim">Sākums</span></a>
                 </li>
                 <li class="hover-this cursor-pointer ">
-                  <a href="#0" class="hover-anim">Services</a>
+                  <a href="/about"><span class="hover-anim">Par mums</span></a>
                 </li>
                 <li class="hover-this cursor-pointer ">
-                  <a href="#0" class="hover-anim">Projects</a>
+                  <a href="/portfolio" ><span class="hover-anim">Projekti</span></a>
                 </li>
                 <li class="hover-this cursor-pointer ">
-                  <a href="#0" class="hover-anim">Contacts</a>
+                  <a href="/contact" ><span class="hover-anim">Kontakti</span></a>
                 </li>
               </ul>
             </div>
@@ -63,10 +63,10 @@
             <div class="links">
               <ul class="rest">
                 <li>
-                  <a href="/about" class="animsition-link">Privacy Policy</a>
+                  <div @click="togglePrivacyPolicy" class="menu-icon cursor-pointer">Privātuma politika</div>
                 </li>
                 <li>
-                  <a href="/contact" class="animsition-link">Cookies Settings</a>
+                  <div @click="togglePrivacyPolicy" class="menu-icon cursor-pointer">Sīkfailu iestatījumi</div>
                 </li>
               </ul>
             </div>
@@ -108,4 +108,20 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener("resize", handleResize);
 });
+const togglePrivacyPolicy = () => {
+  const navDark = document.querySelector('.topnav');
+const parent = document.querySelector('.haprivacy');
+
+
+document.querySelector('.haprivacy').classList.toggle('open');
+document.querySelector('.topnav .menu-icon').classList.toggle('open');
+  navDark.classList.toggle('navlit');
+
+  if (document.querySelector('.topnav .menu-icon ').classList.contains('open')) {
+    document.querySelector('.haprivacy').style.top = '0';
+  }else {
+    document.querySelector('.hamenu').style.top = '-100%';
+    document.querySelector('.haprivacy').style.top = '-100%';
+  }
+};
 </script>

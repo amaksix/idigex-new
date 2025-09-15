@@ -10,12 +10,13 @@
           <ProjectPenaLabTopContent />
           <ProjectPenaLabImageColumn />
           <ProjectPenaLabBottomContent />
-          <ProjectPenaLabBottomImage />
+          <ProjectPenaLabWorks />
           <ProjectPenaLabContent2 />
         </div>
         <ProjectPenaLabNextProject />
       </main>
       <CommonFooter1 />
+      <CommonPrivacyPolicy />
     </div>
   </div>
 </template>
@@ -26,9 +27,6 @@ useHead({
   titleTemplate: `%s - Project PenaLab`,
   bodyAttrs: {
     class: 'main-bg'
-  },
-  script: [
-    { src: "/assets/js/smoother-script.js", defer: true }
-  ]
+  }
 });
 </script>

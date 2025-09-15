@@ -41,6 +41,7 @@
 <script setup>
 import { onMounted } from 'vue';
 //= Scritps
+import charming from '/assets/js/charming.min.js';
 import HoverImgFx3 from '@/common/hoverEffect3';
 //= Static Data
 import data from '@/data/CreativeAgency/blog.json';

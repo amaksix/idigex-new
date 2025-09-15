@@ -8,7 +8,7 @@
               <h6 class="sub-title fz-18">Nākamais projekts</h6>
               <div class="inline">
                 <div class="d-flex align-items-center">
-                  <a href="/project4" class="animsition-link fz-70 fw-700 stroke">Palami</a>
+                  <a href="/projects/Palami" class="animsition-link fz-70 fw-700 stroke">Palami</a>
                   <span class="ml-15">
                     <img src="/assets/imgs/svg-assets/arrow-right-top.svg" alt="" class="icon-img-70" />
                   </span>

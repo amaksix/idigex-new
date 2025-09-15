@@ -3464,7 +3464,7 @@ body.loaded {
   background: #f9f9f9;
 }
 
-.hamenu {
+.hamenu,.haprivacy {
   position: fixed;
   left: 0;
   top: -100%;
@@ -3478,8 +3478,12 @@ body.loaded {
   -o-transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
   transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
 }
+.haprivacy {
+  overflow: auto;
+}
 
-.hamenu.open .menu-links .main-menu > li .link {
+.hamenu.open .menu-links .main-menu > li .link,
+.haprivacy.open .menu-links .main-menu > li .link {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -3488,7 +3492,9 @@ body.loaded {
   transition-delay: 1s;
 }
 
-.hamenu.open .cont-info:after {
+.hamenu.open .cont-info:after,
+.haprivacy.open .cont-info:after
+ {
   height: 200vh;
   -webkit-transition-delay: 1s;
   -o-transition-delay: 1s;
@@ -3496,7 +3502,10 @@ body.loaded {
 }
 
 .hamenu.open .cont-info .bottom,
-.hamenu.open .cont-info .item {
+.hamenu.open .cont-info .item,
+.haprivacy.open .cont-info .bottom,
+.haprivacy.open .cont-info .item
+ {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -3506,28 +3515,34 @@ body.loaded {
   transition-delay: 1s;
 }
 
-.hamenu.open .menu-text:after {
+.hamenu.open .menu-text:after,
+.haprivacy.open .menu-text:after
+ {
   height: 200vh;
   -webkit-transition-delay: 1s;
   -o-transition-delay: 1s;
   transition-delay: 1s;
 }
 
-.hamenu .menu-links {
+.hamenu .menu-links,
+.haprivacy .menu-links {
   color: #f9f9f9;
   padding-right: 30px;
 }
 
-.hamenu .menu-links .o-hidden {
+.hamenu .menu-links .o-hidden,
+.haprivacy .menu-links .o-hidden {
   display: inline-block;
 }
 
-.hamenu .menu-links .main-menu {
+.hamenu .menu-links .main-menu,
+.haprivacy .menu-links .main-menu {
   position: relative;
   z-index: 2;
 }
 
-.hamenu .menu-links .main-menu.gosub > li {
+.hamenu .menu-links .main-menu.gosub > li,
+.haprivacy .menu-links .main-menu.gosub > li {
   opacity: 0;
   visibility: hidden;
   -webkit-transition-delay: .2s !important;
@@ -3535,7 +3550,8 @@ body.loaded {
   transition-delay: .2s !important;
 }
 
-.hamenu .menu-links .main-menu.gosub > li .link {
+.hamenu .menu-links .main-menu.gosub > li .link,
+.haprivacy .menu-links .main-menu.gosub > li .link {
   -webkit-transform: translateY(45px) !important;
   -ms-transform: translateY(45px) !important;
   transform: translateY(45px) !important;
@@ -3546,13 +3562,15 @@ body.loaded {
   transition-delay: .2s !important;
 }
 
-.hamenu .menu-links .main-menu.gosub .sub-menu.sub-open {
+.hamenu .menu-links .main-menu.gosub .sub-menu.sub-open,
+.haprivacy .menu-links .main-menu.gosub .sub-menu.sub-open {
   z-index: 3 !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
 
-.hamenu .menu-links .main-menu > li {
+.hamenu .menu-links .main-menu > li,
+.haprivacy .menu-links .main-menu > li {
   font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3564,14 +3582,18 @@ body.loaded {
   -o-transition: all .5s;
   transition: all .5s;
 }
-
-.hamenu .menu-links .main-menu > li span.nm {
+.haprivacy .menu-links .main-menu > li{
+  text-transform: none;
+}
+.hamenu .menu-links .main-menu > li span.nm,
+.haprivacy .menu-links .main-menu > li span.nm {
   opacity: .8;
   font-size: 13px;
   margin-right: 10px;
 }
 
-.hamenu .menu-links .main-menu > li .link {
+.hamenu .menu-links .main-menu > li .link,
+.haprivacy .menu-links .main-menu > li .link {
   -webkit-transform: translateY(65px);
   -ms-transform: translateY(65px);
   transform: translateY(65px);
@@ -3581,7 +3603,8 @@ body.loaded {
   cursor: pointer;
 }
 
-.hamenu .menu-links .main-menu .sub-menu {
+.hamenu .menu-links .main-menu .sub-menu,
+.haprivacy .menu-links .main-menu .sub-menu {
   position: absolute;
   top: 50%;
   left: 0;
@@ -3596,11 +3619,13 @@ body.loaded {
   transition-delay: .2s;
 }
 
-.hamenu .menu-links .main-menu .sub-menu.sub-open {
+.hamenu .menu-links .main-menu .sub-menu.sub-open,
+.haprivacy .menu-links .main-menu .sub-menu.sub-open {
   z-index: 3;
 }
 
-.hamenu .menu-links .main-menu .sub-menu.sub-open li .sub-link {
+.hamenu .menu-links .main-menu .sub-menu.sub-open li .sub-link,
+.haprivacy .menu-links .main-menu .sub-menu.sub-open li .sub-link {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
@@ -3609,14 +3634,16 @@ body.loaded {
   transition-delay: 1s;
 }
 
-.hamenu .menu-links .main-menu .sub-menu li {
+.hamenu .menu-links .main-menu .sub-menu li,
+.haprivacy .menu-links .main-menu .sub-menu li {
   font-size: 28px;
   font-weight: 600;
   text-transform: capitalize;
   padding: 5px 15px;
 }
 
-.hamenu .menu-links .main-menu .sub-menu li .sub-link {
+.hamenu .menu-links .main-menu .sub-menu li .sub-link,
+.haprivacy .menu-links .main-menu .sub-menu li .sub-link {
   -webkit-transform: translateY(65px);
   -ms-transform: translateY(65px);
   transform: translateY(65px);
@@ -3627,11 +3654,13 @@ body.loaded {
   white-space: nowrap;
 }
 
-.hamenu .menu-links .main-menu .sub-menu li .sub-link:hover {
+.hamenu .menu-links .main-menu .sub-menu li .sub-link:hover,
+.haprivacy .menu-links .main-menu .sub-menu li .sub-link:hover {
   text-decoration: underline;
 }
 
-.hamenu .menu-links .main-menu .sub-menu li .sub-link.back {
+.hamenu .menu-links .main-menu .sub-menu li .sub-link.back,
+.haprivacy .menu-links .main-menu .sub-menu li .sub-link.back {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 500;
   font-size: 20px;
@@ -3639,16 +3668,19 @@ body.loaded {
   cursor: pointer;
 }
 
-.hamenu .menu-links .main-menu .sub-menu li .sub-link.back i {
+.hamenu .menu-links .main-menu .sub-menu li .sub-link.back i,
+.haprivacy .menu-links .main-menu .sub-menu li .sub-link.back i {
   margin-right: 5px;
 }
 
-.hamenu .cont-info {
+.hamenu .cont-info,
+.haprivacy .cont-info {
   position: relative;
   padding-left: 30px;
 }
 
-.hamenu .cont-info:after {
+.hamenu .cont-info:after,
+.haprivacy .cont-info:after {
   content: '';
   width: 1px;
   height: 0;
@@ -3661,7 +3693,8 @@ body.loaded {
   transition: all 1s ease;
 }
 
-.hamenu .cont-info .item {
+.hamenu .cont-info .item,
+.haprivacy .cont-info .item {
   margin-bottom: 50px;
   -webkit-transform: translateY(-30px);
   -ms-transform: translateY(-30px);
@@ -3672,7 +3705,8 @@ body.loaded {
   transition: all .7s;
 }
 
-.hamenu .cont-info .bottom {
+.hamenu .cont-info .bottom,
+.haprivacy .cont-info .bottom {
   -webkit-transform: translateY(30px);
   -ms-transform: translateY(30px);
   transform: translateY(30px);
@@ -3682,6 +3716,11 @@ body.loaded {
   transition: all .7s;
 }
 
+.privacy-container {
+  height: 100%;          /* or a fixed height, e.g., 400px */
+  overflow-y: auto;      /* vertical scroll when needed */
+  overflow-x: hidden;    /* hide horizontal scroll */
+}
 /* Titles
 -----------------------------------------------------------------*/
 .sec-head h2 {

@@ -25,7 +25,7 @@ ssr: true,
   },
   app: {
     head: {
-      title: "Bayone",
+      title: "IDigex",
       htmlAttrs: {
         lang: 'en'
       },

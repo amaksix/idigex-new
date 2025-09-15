@@ -16,6 +16,7 @@
         <Project5wNextProject />
       </main>
       <CommonFooter1 />
+        <CommonPrivacyPolicy />
     </div>
   </div>
 </template>
@@ -26,9 +27,6 @@ useHead({
   titleTemplate: `%s - Project 5w`,
   bodyAttrs: {
     class: 'main-bg'
-  },
-  script: [
-    { src: "/assets/js/smoother-script.js", defer: true }
-  ]
+  }
 });
 </script>

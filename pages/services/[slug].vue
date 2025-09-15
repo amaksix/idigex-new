@@ -22,6 +22,7 @@
       <ServiceContact/>
       </main>
       <CommonFooter1 />
+        <CommonPrivacyPolicy />
     </div>
   </div>
 </template>
@@ -64,7 +65,6 @@ useHead({
   script: [
     { src: "/assets/js/TweenMax.min.js" },
     { src: "/assets/js/charming.min.js" },
-    { src: "/assets/js/smoother-script.js", defer: true }
   ]
 })
 </script>

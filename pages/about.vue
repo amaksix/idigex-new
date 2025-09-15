@@ -9,6 +9,7 @@
         <AboutIntro />
       </main>
       <CommonFooter1 />
+        <CommonPrivacyPolicy />
     </div>
   </div>
 </template>
@@ -20,8 +21,6 @@ useHead({
   bodyAttrs: {
     class: 'main-bg'
   },
-  script: [
-    { src: "/assets/js/smoother-script.js", defer: true }
-  ]
+
 });
 </script>

@@ -5,11 +5,10 @@
     <CommonMenu />
     <div id="smooth-content">
       <main class="main-bg">
-        <ContactHeader />
-        <ContactInfo />
         <ContactForm />
       </main>
       <CommonFooter1 :subBg="true" />
+        <CommonPrivacyPolicy />
     </div>
   </div>
 </template>

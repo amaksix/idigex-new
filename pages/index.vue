@@ -1,3 +1,6 @@
+
+
+
 <template>
   <CommonLoader />
   <div id="smooth-wrapper">
@@ -16,14 +19,17 @@
         <CreativeAgencyContact />
       </main>
       <CommonFooter1 />
+      <CommonPrivacyPolicy />
     </div>
   </div>
 </template>
 
+
 <script setup>
 //= Page Head
+
 useHead({
-  titleTemplate: `%s - Creative Agency`,
+  titleTemplate: `%s`,
   bodyAttrs: {
     class: 'main-bg'
   },
@@ -34,10 +40,10 @@ useHead({
     }
   ],
     script: [
-    { src: "/assets/js/TweenMax.min.js" },
     { src: "/assets/js/charming.min.js" },
+    { src: "/assets/js/TweenMax.min.js" },
+ 
   ]
 });
 
 </script>
-

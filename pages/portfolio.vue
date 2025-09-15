@@ -7,6 +7,7 @@
     <PortfolioGridClassic />
   </main>
   <CommonFooter1 :subBg="true" />
+  <CommonPrivacyPolicy />
 </template>
 
 <script setup>

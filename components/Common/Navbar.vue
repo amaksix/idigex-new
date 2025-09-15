@@ -41,7 +41,18 @@ onUnmounted(() => {
 
 const toggleMenu = () => {
   const navDark = document.querySelector('.topnav');
-  document.querySelector('.hamenu').classList.toggle('open');
+// Toggle only within this parent
+ const haprivacy = document.querySelector('.haprivacy');
+
+
+  // prevent toggling hamenu if haprivacy is already open
+  if (haprivacy.classList.contains('open')) {
+    document.querySelector('.topnav .menu-icon').classList.toggle('open');
+    document.querySelector('.haprivacy').classList.toggle('open');
+    document.querySelector('.haprivacy').style.top = '-100%';
+    return;
+  }
+document.querySelector('.hamenu').classList.toggle('open');
   document.querySelector('.topnav .menu-icon').classList.toggle('open');
   navDark.classList.toggle('navlit');
 
@@ -49,6 +60,7 @@ const toggleMenu = () => {
     document.querySelector('.hamenu').style.top = '0';
   } else {
     document.querySelector('.hamenu').style.top = '-100%';
+    document.querySelector('.haprivacy').style.top = '-100%';
   }
 };
 </script>

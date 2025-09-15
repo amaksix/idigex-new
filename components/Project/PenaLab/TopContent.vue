@@ -24,7 +24,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="item">
               <span class="opacity-8 mb-5">Darbības sfēra:</span>
-              <h6>Fashion</h6>
+              <h6>Fashion & Art</h6>
             </div>
           </div>
         </div>
