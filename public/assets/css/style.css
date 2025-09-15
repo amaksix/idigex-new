@@ -3536,6 +3536,7 @@ body.loaded {
   transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
 }
 .haprivacy {
+  opacity: 0;
   overflow: auto;
 }
 
