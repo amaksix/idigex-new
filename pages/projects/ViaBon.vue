@@ -24,7 +24,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project ViaBon`,
+  titleTemplate: `Project ViaBon`,
   bodyAttrs: {
     class: 'main-bg'
   },

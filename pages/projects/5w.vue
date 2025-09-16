@@ -24,7 +24,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project 5w`,
+  titleTemplate: `Project 5w`,
   bodyAttrs: {
     class: 'main-bg'
   }

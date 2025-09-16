@@ -24,7 +24,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project Palami`,
+  titleTemplate: `Project Palami`,
   bodyAttrs: {
     class: 'main-bg'
   }

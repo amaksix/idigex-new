@@ -24,7 +24,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project PenaLab`,
+  titleTemplate: `Project PenaLab`,
   bodyAttrs: {
     class: 'main-bg'
   }

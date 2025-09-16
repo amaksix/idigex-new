@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow search engines to crawl everything else
+Allow: /
+
+# Link to sitemap
+Sitemap: https://www.idigex.lv/sitemap.xml

@@ -24,7 +24,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project FinanceLabs`,
+  titleTemplate: `Project FinanceLabs`,
   bodyAttrs: {
     class: 'main-bg'
   }

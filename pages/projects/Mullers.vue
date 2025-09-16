@@ -25,7 +25,7 @@
 <script setup>
 //= Page Head
 useHead({
-  titleTemplate: `%s - Project Mullers`,
+  titleTemplate: `Project Mullers`,
   bodyAttrs: {
     class: 'main-bg'
   }

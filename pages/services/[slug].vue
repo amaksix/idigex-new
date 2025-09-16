@@ -57,7 +57,43 @@ if (!service) {
 // Page Head
 // ==========================
 useHead({
-  titleTemplate: `%s - ${service.title}`,
+    title: `${service.headtitle}`,
+  meta: [
+    {
+      name: 'description',
+      content: `${service.description}`
+    },
+    // Open Graph Tags
+    {
+      property: 'og:title',
+      content: `${service.headtitle}`
+    },
+    {
+      property: 'og:description',
+      content: `${service.description}`
+    },
+    {
+      property: 'og:image',
+      content: 'https://www.idigex.com/public/assets/imgs/Logo_IDigex.svg' // Use an absolute URL
+    },
+    {
+      property: 'og:url',
+      content: 'https://www.idigex.com/'
+    },
+    // Twitter Card Tags
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    },
+    {
+      name: 'twitter:title',
+      content:`${service.headtitle}`
+    },
+    {
+      name: 'twitter:description',
+      content: `${service.description}`
+    }
+  ],
   bodyAttrs: { class: 'main-bg' },
   link: [
     { rel: 'stylesheet', href: '/assets/css/base.css' }

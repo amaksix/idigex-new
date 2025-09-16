@@ -15,34 +15,6 @@ ssr:true,
   },
   app: {
     head: {
-      title: "IDigex",
-      htmlAttrs: {
-        lang: 'en'
-      },
-      "meta": [
-        {
-          "name": "viewport",
-          "content": "width=device-width, initial-scale=1"
-        },
-        {
-          "charset": "utf-8"
-        },
-        {
-          "http-equiv": 'X-UA-Compatible', content: "IE=edge"
-        },
-        {
-          name: 'keywords',
-          content: 'Idigex'
-        },
-        {
-          name: 'description',
-          content: 'Idigex'
-        },
-        {
-          name: 'author',
-          content: 'UiCamp'
-        }
-      ],
       "link": [
         { rel: 'shortcut icon', href: '/assets/imgs/favicon.ico' },
         // Google Fonts
