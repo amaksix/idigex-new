@@ -1,80 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://www.idigex.lv/</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.idigex.lv/about</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   <url>
-      <loc>https://www.idigex.lv/portfolio</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
     <url>
-      <loc>https://www.idigex.lv/projects/5w</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
+        <loc>https://www.idigex.lv/</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-   </url>
+    </url>
     <url>
-      <loc>https://www.idigex.lv/projects/FinanceLabs</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
+        <loc>https://www.idigex.lv/about</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-   </url>
+    </url>
     <url>
-      <loc>https://www.idigex.lv/projects/Mullers</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
-    <url>
-      <loc>https://www.idigex.lv/projects/Palami</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
-    <url>
-      <loc>https://www.idigex.lv/projects/PenaLab</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
-    <url>
-      <loc>https://www.idigex.lv/projects/ViaBon</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.idigex.lv/services/websites</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
+        <loc>https://www.idigex.lv/portfolio</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.idigex.lv/services/logo</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-   </url>
+    </url>
     <url>
-      <loc>https://www.idigex.lv/services/branding</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.idigex.lv/services/advertising_materials</loc>
-      <lastmod>2025-09-16</lastmod>
-      <changefreq>monthly</changefreq>
-<priority>0.8</priority>
-   </url>
+        <loc>https://www.idigex.lv/projects/5w</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/projects/FinanceLabs</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/projects/Mullers</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/projects/Palami</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/projects/PenaLab</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/projects/ViaBon</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/services/websites</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/services/logo</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/services/branding</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.idigex.lv/services/advertising_materials</loc>
+        <lastmod>2025-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
