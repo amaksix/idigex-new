@@ -1,0 +1,17 @@
+{
+  "menu":
+  {
+    "home": "Главная",
+    "about": "О нас",
+    "projects": "Проекты",
+    "services": "Услуги",
+    "contacts": "Контакты",
+    "back": "Назад",
+    "websites": "Веб-сайты",
+    "branding": "Брендинг",
+    "logos": "Логотипы",
+    "advertising_materials": "Рекламные материалы",
+    "contact_info": "Контактная информация",
+    "social_media": "Социальные сети"
+  }
+}

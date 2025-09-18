@@ -1,5 +1,17 @@
-
 {
-  "welcome": "Welcome",
-  "about": "About us"
+  "menu":
+  {
+      "home": "Home",
+      "about": "About Us",
+      "projects": "Projects",
+      "services": "Services",
+      "contacts": "Contacts",
+      "back": "Back",
+      "websites": "Websites",
+      "branding": "Branding",
+      "logos": "Logos",
+      "advertising_materials": "Advertising Materials",
+      "contact_info": "Contact Information",
+      "social_media": "Social Media"
+  }
 }

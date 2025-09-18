@@ -1,0 +1,128 @@
+{
+  "menu":
+  {
+    "home": "Sākums",
+    "about": "Par Mums",
+    "projects": "Projekti",
+    "services": "Pakalpojumi",
+    "contacts": "Kontakti",
+    "back": "Atpakaļ",
+    "websites": "Mājaslapas",
+    "branding": "Brendings",
+    "logos": "Logotipi",
+    "advertising_materials": "Reklāmas materiāli",
+    "contact_info": "Kontaktinformācija",
+    "social_media": "Sociālie tīkli"
+  },
+  "about":
+  {
+    "title": "Par mums",
+    "sub_title":"Digitālā Studija",
+    "intro": {
+      "sub_title": "Dizains un tehnoloģijas",
+      "heading_part1": "IDigex apvieno dizainu un",
+      "heading_part2": "tehnoloģijas.",
+      "paragraph1": "Mēs veidojam tīmekļa vietnes, zīmolu veidošanu, logotipus un reklāmas materiālus, kas palīdz uzņēmumiem izcelties un runāt vienā valodā ar savu auditoriju. Savā darbā mēs koncentrējamies uz skaidrību un funkcionalitāti, izvairoties no liekā. Katrs projekts tiek izstrādāts, ņemot vērā biznesa mērķus un tā tirgus specifiku. Mūsu mērķis ir radīt risinājumus, kas ne tikai izskatās moderni, bet arī sniedz rezultātus.",
+      "paragraph2": "Mūsu tīmekļa projektu unikālās iezīmes:",
+      "feature1": "SEO-friendly",
+      "feature2": "Adaptācija uz mobilajām ierīcēm",
+      "feature3": "Ērta un intuitīva navigācija",
+      "feature4": "Pārdošanas rīki",
+      "feature5": "Neaizmirstams dizains",
+      "feature6": "Operatīvais atbalsts"
+    }
+  },
+  "home":
+  {
+    "header":
+    {
+      "header01": "Radošā",
+      "header02":"Digitālā Studija"
+    },
+   "about": {
+      "sub_title": "Kas Mēs Esam?",
+      "heading": "Mēs savienojam dizainu un tehnoloģijas, lai palīdzētu uzņēmumiem veidot skaidru identitāti un augt ar pārliecību.",
+      "paragraph": "IDigex mēs ticam, ka mūsdienīgam brendam jābūt gan stilīgam, gan funkcionālam. Mēs izstrādājam mājaslapas, radām brendu un logotipus, kas palīdz uzņēmumiem izcelties, runāt vienā valodā ar savu auditoriju."
+    },
+    "contact": {
+      "sub_title": "Strādājiet Ar Mums",
+      "heading_part1": "Mēs labprāt",
+      "heading_part2": "uzzinātu vairāk",
+      "heading_part3": "par jūsu projektu.",
+      "button": "Sazinieties"
+    },
+    "services": {
+      "section": {
+        "sub_title": "Biznesa risinājumi",
+        "title": "Mūsu",
+        "title_light": "Pakalpojumi",
+        "read_more": "Uzziniet vairāk"
+      },
+      "websites": {
+        "tag": "Tīmekļa vietnes",
+        "title": "Galvenās lapas, internet veikali, korporatīvās mājaslapi"
+      },
+      "branding": {
+        "tag": "Brendings",
+        "title": "Krāsu palete, fonti, korporatīvā identitāte"
+      },
+      "logos": {
+        "tag": "Logotipi",
+        "title": "Izstrāde un pielāgošana"
+      },
+      "advertising_materials": {
+        "tag": "Reklāmas materiāli",
+        "title": "Baneri, vizītkartes, prezentācijas"
+      }
+    },
+    "projects": {
+      "marquee_title": "Mūsu Projekti",
+      "all_projects": "Visi projekti",
+      "categories": {
+        "branding": "Brendings",
+        "website": "Mājaslapa",
+        "other": "Cits"
+      }
+    },
+     "brief": {
+      "title": "Kā mēs strādājam",
+      "items": [
+        { "numb": "01", "title": "Brief", "content": "Mēs definējam projekta uzdevumus un mērķus", "icon": "/assets/imgs/serv-icons/S1.png" },
+        { "numb": "02", "title": "Koncepcija", "content": "Mēs piedāvājam virzienu un vizuālo risinājumu", "icon": "/assets/imgs/serv-icons/S2.png" },
+        { "numb": "03", "title": "Web izstrāde", "content": "Mēs izstrādājam dizainu un īstenojam projektu", "icon": "/assets/imgs/serv-icons/S3.png" },
+        { "numb": "04", "title": "Uzstādīšana", "content": "Mēs piegādājam gatavo produktu un sniedzam atbalstu", "icon": "/assets/imgs/serv-icons/S4.png" }
+      ]
+    }
+    
+  },
+  "footer": {
+    "contact_text": "mēs ar prieku uzklausīsim jūs.",
+    "social_title": "Sociālie tīkli",
+    "nav_title": "Navigācija",
+    "privacy": "Privātuma politika",
+    "cookie_settings": "Sīkfailu iestatījumi",
+    "cookie_text": "Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.",
+    "cookie_accept": "PIEKRĪT SĪKDATNĒM"
+  },
+  "viabon":
+  {
+     "category": "Brendings, Mājaslapa",
+      "field": "Finanšu",
+      "task_title": "Uzdevums",
+      "task_description": "Izveidot vizuālo stilu un digitālo risinājumu, kas atspoguļo uzņēmuma uzticamību un prestižu. Klienta galvenā prasība ir uzsvērt zīmola reprezentativitāti un \"dārgo\" tēlu.",
+      "solution_title": "Risinājums",
+      "solution_description": "Mēs izstrādājām pilnīgu vizuālo stilu: logotipu, krāsu paleti un tipogrāfiju, kā arī izveidojām zīmola grāmatu ar identitātes lietošanas noteikumiem. Papildus tika izveidota adaptīva ājaslapa, kas pilnībā atbilst korporatīvajam stilam, ar ērtu struktūru un modernu dizainu.",
+      "result_title": "Rezultāts",
+      "result_description": "Uzņēmums ieguva vienotu vizuālo valodu, kas uzsver statusu un uzticību. Jaunais stils uzlabo uzticamības uztveri tirgū un rada augstākās klases apkalpošanas sajūtu klientu vidū."
+  },
+  "penalab": {
+    "category": "Brendings, Mājaslapa",
+    "field": "Fashion & Art",
+    "task_title": "Uzdevums",
+    "task_description": "Izveidot korporatīvo identitāti un digitālos materiālus radošajai studijai Pena Lab. Klients vēlējās apvienot minimālistisku \"trash\" estētiku ar efemeras mākslas un apzināta patēriņa koncepciju, saglabājot līdzsvaru starp drosmīgu tēlu un profesionālu prezentāciju.",
+    "solution_title": "Risinājums",
+    "solution_description": "Mēs izstrādājām logotipu un zīmola grāmatu ar krāsu paleti, tipogrāfiju, ikonām un grafiskajiem elementiem. Papildus tika izveidota korporatīvā identitāte: vizītkartes, reklāmas plakāti, iepakojums, sociālo mediju materiālu veidnes. Vizuālā identitāte tika papildināta ar video un animācijas elementiem. Zīmola tiešsaistes identitātei tika izveidota mājaslapa platformā Webflow, kas atspoguļo tā radošo koncepciju.",
+    "result_title": "Rezultāts",
+    "result_description": "Pena Lab saņēma pilnīgu vizuālo sistēmu un funkcionālus materiālus dažādiem komunikācijas kanāliem. Identitāte pauž zīmola estētiku un atbalsta tā filozofiju, veidojot atpazīstamu un stabilu tēlu."
+  }
+}
