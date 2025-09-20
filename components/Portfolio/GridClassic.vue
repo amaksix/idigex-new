@@ -28,8 +28,15 @@ import { onMounted } from 'vue';
 import initIsotope from '@/common/initIsotope';
 //= Static Data
 import data from '@/data/Portfolio/portfolio.json';
+import imagesLoaded from 'imagesloaded';
+onMounted(async () => {
+  await nextTick(); // wait for DOM to render
 
-onMounted(() => {
-  initIsotope();
+  const gallery = document.querySelector('.gallery');
+
+  // Wait for all images in the gallery to finish loading
+  imagesLoaded(gallery, () => {
+    initIsotope(); // initialize Isotope now
+  });
 });
 </script>
