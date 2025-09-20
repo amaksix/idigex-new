@@ -25,6 +25,7 @@ ssr:true,
         { rel: 'stylesheet', href: '/assets/css/style.css' },
       ],
       "script": [
+        { src: '/assets/js/charming.min.js'},
         { src: '/assets/js/bootstrap.bundle.min.js' },
         { src: '/assets/js/plugins.js' },
         { src: '/assets/js/isotope.pkgd.min.js' },
@@ -34,7 +35,7 @@ ssr:true,
         { src: '/assets/js/ScrollSmoother.min.js' },
         {src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'},
         // { src: '/assets/js/smoother-script.js', defer: true },
-        { src: '/assets/js/scripts.js', defer: true },
+        { src: '/assets/js/scripts.js', defer: true }
       ]
     }
   },
