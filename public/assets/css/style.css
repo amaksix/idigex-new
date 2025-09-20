@@ -74,6 +74,7 @@ body.crev-portfolio:after {
   transform: translate(-10%, -10%);
   background-color: #f9f9f9;
   padding: 3vw;
+  padding-top: 4vw;
 }
 .cookie-banner p{
   color: #141414;
@@ -99,8 +100,8 @@ body.crev-portfolio:after {
     
 .close-icon-container{
   position: absolute;
-  top:15%;
-  left: 90%;
+  top:10%;
+  left: 92%;
 }
  .close-icon i {
   display: block;
@@ -6415,6 +6416,7 @@ footer .logo img {
   padding-top: 15vw;
    padding-bottom: 15vw;
    width: 70%;
+   text-align: center;
 }
 .cookie-banner{
   position: fixed;
@@ -6424,6 +6426,7 @@ footer .logo img {
   transform: translate(-10%, -10%);
   background-color: #f9f9f9;
   padding: 9vw;
+  padding-top: 12vw;
 }
 
 .close-icon-container{
