@@ -51,7 +51,26 @@ body.crev-portfolio:after {
   z-index: 999;
   pointer-events: none;
 }
+.not-found {
+  width: 100%;
+  height: 100vh; /* make sure it fills the viewport height */
+  display: flex; 
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+}
 
+.not-found-content-container {
+  text-align: center;
+}
+.not-found-button{
+  padding: 12px 20px;
+  border: 1.2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 201px;
+}
+.not-found h1{
+  font-size: 200px;
+}
 .noise {
   -webkit-animation: grain 8s steps(10) infinite;
   animation: grain 8s steps(10) infinite;
@@ -6411,6 +6430,9 @@ footer .logo img {
 
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
+  .not-found h1{
+  font-size: 150px;
+}
   .pop-up-message {
 
   padding-top: 15vw;
