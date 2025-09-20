@@ -5,25 +5,25 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">{{ t('viabon.category_label', 'Kategorija :') }}</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.category_label', 'Kategorija :') }}</span>
               <h6>{{ t('viabon.category') }}</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">{{ t('viabon.client_label', 'Client :') }}</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.client_label', 'Client :') }}</span>
               <h6>VIABon</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">{{ t('viabon.year_label', 'Gads:') }}</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.year_label', 'Gads:') }}</span>
               <h6>2025</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item">
-              <span class="opacity-8 mb-5">{{ t('viabon.field_label', 'Darbības sfēra:') }}</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.field_label', 'Darbības sfēra:') }}</span>
               <h6>{{ t('viabon.field') }}</h6>
             </div>
           </div>

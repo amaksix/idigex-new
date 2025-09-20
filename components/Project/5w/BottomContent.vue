@@ -5,15 +5,24 @@
         <div class="col-lg-11">
           <div class="row">
             <div class="col-lg-5">
-              <h4 class="mb-50">02 . Risinājums</h4>
+              <h4 class="mb-50">02 . {{ t('5w.solution_title') }}</h4>
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <p class="fz-18">Mēs izstrādājām pilnīgu vizuālo stilu: logotipu, krāsu paleti un tipogrāfiju, kā arī izveidojām zīmola grāmatu ar identitātes lietošanas noteikumiem. Papildus tika izveidota adaptīva mājaslapa, kas pilnībā atbilst korporatīvajam stilam, ar ērtu struktūru un modernu dizainu.</p>
+                <p class="fz-18">{{ t('5w.solution_description') }}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
+<script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+</script>

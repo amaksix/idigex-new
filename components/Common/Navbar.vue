@@ -2,9 +2,9 @@
   <div id="navi" class="topnav blur" :class="{ 'bord-thin-bottom': borderBottom }">
     <div class="container">
       <div :class="`logo icon-img-${borderBottom ? '100' : '90'}`">
-        <nuxt-link to="/">
+        <NuxtLink :to="localePath('/')">
           <img src="/assets/imgs/Logo_IDigex.svg" alt="" />
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="menu-icon cursor-pointer" @click="toggleMenu">
         <span class="text"><span class="word">Menu</span></span>
@@ -18,6 +18,11 @@
 </template>
 
 <script setup>
+ import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
 import { onMounted, onUnmounted } from 'vue';
 
 const { borderBottom } = defineProps(['borderBottom']);

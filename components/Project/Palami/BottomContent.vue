@@ -5,20 +5,24 @@
         <div class="col-lg-11">
           <div class="row">
             <div class="col-lg-5">
-              <h4 class="mb-50">02 . Risinājums</h4>
+              <h4 class="mb-50">02 . {{ t('palami.solution_title') }}</h4>
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <p class="fz-18">
-                  1. Shopify vietnes pārveidošana ar pielāgotiem blokiem.<br/>
-                  2. Jauna logotipa izstrāde.<br/>
-                  3. Vizuālie materiāli: baneri un animācija.<br/>
-                  4. Pilonu un autobusu pieturu 3D modeļu izveide.<br/>
-                  5. Konfiguratora izstrāde pieturu konfigurācijas izvēlei.</p>
+                <p class="fz-18" v-html="t('palami.solution_description')"></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
+<script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+  </script>

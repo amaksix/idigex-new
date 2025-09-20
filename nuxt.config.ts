@@ -35,6 +35,7 @@ ssr:true,
         {src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'},
         // { src: '/assets/js/smoother-script.js', defer: true },
         { src: '/assets/js/scripts.js', defer: true },
+         { src: '/assets/js/charming.min.js', defer: true }
       ]
     }
   },

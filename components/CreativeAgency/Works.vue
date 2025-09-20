@@ -73,4 +73,6 @@
   const { t } = useI18n()
   const localePath = useLocalePath()
 import data from '@/data/CreativeAgency/works.json';
+import charming from '/assets/js/charming.min.js';
+import HoverImgFx3 from '@/common/hoverEffect3';
 </script>

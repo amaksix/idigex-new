@@ -3,28 +3,24 @@
     "id": 1,
     "image": "/assets/imgs/works/full/1.jpg",
     "link": "/project1",
-    "title": "Retouch Photo",
     "category": "Digital Design"
   },
   {
     "id": 2,
     "image": "/assets/imgs/works/full/2.jpg",
     "link": "/project2",
-    "title": "Earthmade Aroma",
     "category": "Digital Design"
   },
   {
     "id": 3,
     "image": "/assets/imgs/works/full/3.jpg",
     "link": "/project3",
-    "title": "Bank Rebranding",
     "category": "Digital Design"
   },
   {
     "id": 4,
     "image": "/assets/imgs/works/full/4.jpg",
     "link": "/project4",
-    "title": "The joy of music",
     "category": "Digital Design"
   },
   {

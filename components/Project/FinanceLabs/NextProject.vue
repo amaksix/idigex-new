@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-12">
             <div class="text-center">
-              <h6 class="sub-title fz-18">Nākamais projekts</h6>
+              <h6 class="sub-title fz-18">{{ t('next_project') }}</h6>
               <div class="inline">
                 <div class="d-flex align-items-center">
                   <a href="/projects/ViaBon" class="animsition-link fz-70 fw-700 stroke">VIABon</a>
@@ -21,3 +21,11 @@
     </div>
   </section>
 </template>
+<script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+</script>

@@ -5,15 +5,24 @@
         <div class="col-lg-11">
           <div class="row">
             <div class="col-lg-5">
-              <h4 class="mb-50">02 . Risinājums</h4>
+              <h4 class="mb-50">02 . {{ t('financelabs.solution_title') }}</h4>
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <p class="fz-18">Mēs izstrādājām logotipu ar zaļo toņu simbolu, kas atspoguļo finanšu izaugsmes un stabilitātes ideju, un tīru fontu ar uzrakstu “Finance Labs” bez liekām detaļām. Papildus tika izvēlētas korporatīvās krāsas un tipogrāfija, izveidota pilnīga zīmola grāmata ar stila ieteikumiem. Praktiskai lietošanai tika sagatavotas rēķinu un elektronisko parakstu veidnes.</p>
+                <p class="fz-18">{{ t('financelabs.solution_description') }}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
+<script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+</script>

@@ -2,15 +2,25 @@
 import { useI18n } from '#i18n'
 import { computed } from 'vue'
 
-const { t } = useI18n()
-
-// Wrap both the title and the items in computed
-const briefTitle = computed(() => t('home.brief.title'))
+const { messages, locale } = useI18n();
+const briefTitle = computed(() => messages?.value[locale.value].home?.brief?.title.body.static);
 const briefItems = computed(() => {
-  const items = t('home.brief.items', [], { returnObjects: true })
-  console.log('briefItems:', items) // This will show you what the t function is returning
-  return Array.isArray(items) ? items : []
-})
+  const currentMessages = messages.value[locale.value];
+  const items = currentMessages?.home?.brief?.items || [];
+
+  return items.map(item => ({
+    numb: item.numb.body.static,
+    // Extract the string value from the title object
+    title: item.title.body.static,
+    // Extract the string value from the content object
+    content: item.content.body.static,
+    icon: item.icon.body.static
+  }));
+});
+
+
+
+
 </script>
 
 <template>
