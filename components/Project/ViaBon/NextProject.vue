@@ -8,7 +8,7 @@
               <h6 class="sub-title fz-18">{{ t('next_project') }}</h6>
               <div class="inline">
                 <div class="d-flex align-items-center">
-                  <a href="/projects/5W" class="animsition-link fz-70 fw-700 stroke">5W</a>
+                  <NuxtLink :to="localePath('/projects/5W')" class="animsition-link fz-70 fw-700 stroke">5W</NuxtLink>
                   <span class="ml-15">
                     <img src="/assets/imgs/svg-assets/arrow-right-top.svg" alt="" class="icon-img-70" />
                   </span>

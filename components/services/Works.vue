@@ -14,14 +14,18 @@
             <h6>{{ item.year }}</h6>
           </div>
         </div>
-        <a :href="item.link" class="link-overlay animsition-link"></a>
+        <NuxtLink :href="localePath(item.link)" class="link-overlay animsition-link"></NuxtLink>
       </div>
     </div>
   </section>
 </template>
 <script setup>
 import { onMounted, onUnmounted } from 'vue';
+  import { useI18n, useLocalePath } from '#i18n'
 
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
 // ✅ Define the prop for Works
 defineProps({
   works: {

@@ -27,22 +27,24 @@
 
 <script setup>
 //= Page Head
+import { useI18n } from 'vue-i18n'
 
+const { t, locale } = useI18n()
 useHead({
   title: 'IDigex',
   meta: [
     {
       name: 'description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.home.description')
     },
     // Open Graph Tags
     {
       property: 'og:title',
-      content: 'IDigex - Jūsu digitālo risinājumu partneris'
+      content: t('metaTags.home.ogTitle')
     },
     {
       property: 'og:description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.home.description')
     },
     {
       property: 'og:image',
@@ -59,11 +61,11 @@ useHead({
     },
     {
       name: 'twitter:title',
-      content: 'IDigex - Your Digital Solution Partner'
+      content: t('metaTags.home.ogTitle')
     },
     {
       name: 'twitter:description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.home.description')
     }
   ],
   bodyAttrs: {

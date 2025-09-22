@@ -1,0 +1,80 @@
+{
+  "title": "Websites",
+  "headtitle": "Website and E-commerce Store Development | IDigex",
+  "subtitle": "Services",
+  "description": "Get a modern and functional website optimized for search engines (SEO). Contact us for a free consultation!",
+  "image": "/assets/imgs/Services_m_1.jpg",
+  "about": {
+    "sectionTitle": "From idea to launch",
+    "headline": [
+      "We develop responsive",
+      "websites."
+    ],
+    "paragraph": "We combine modern design with convenient functionality. We work with both custom solutions and popular platforms like Shopify, WordPress, and Webflow.",
+    "lists": [
+      [
+        "Types of websites: landing page, e-commerce store, corporate website.",
+        "Our approach: structured, user-friendly, modern.",
+        "Timeline and price: from €600, from 2 weeks."
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "id": 1,
+      "title": "What's included in a ready-made website?",
+      "content": "Website creation includes the following stages:\n\n1. Developing and approving the page structure;\n2. UI design and layout;\n3. Installing and configuring a CMS or other software platform;\n4. Filling the site with your provided materials;\n5. Performing basic SEO optimization;\n6. Hosting the website on the chosen hosting provider."
+    },
+    {
+      "id": 2,
+      "title": "How much does website development cost?",
+      "content": "From €600, depending on the tasks and functionality."
+    },
+    {
+      "id": 3,
+      "title": "How long does development take?",
+      "content": "On average, from 2 to 6 weeks, depending on the complexity."
+    },
+    {
+      "id": 4,
+      "title": "Do you provide support?",
+      "content": "Yes, we provide free technical support for 30 days."
+    },
+    {
+      "id": 5,
+      "title": "Can I edit the information on the site myself after it's published?",
+      "content": "You can edit the site's content yourself if it's built on a ready-made CMS (Content Management System), such as WordPress or Shopify. You can replace any text block and image on the site even without special skills."
+    },
+    {
+      "id": 6,
+      "title": "What is hosting and why do I have to pay for it?",
+      "content": "Hosting is the location where your web resource is stored. More specifically, it's a server with your website's files that is always connected to the internet. Thanks to its continuous operation, your website is constantly accessible to other users. Maintaining your own server is expensive, so in most cases, servers are rented from other companies."
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "category": "Branding, Website",
+      "title": "VIABon",
+      "year": "2025",
+      "link": "/projects/ViaBon"
+    },
+    {
+      "id": 2,
+      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "category": "Branding, Website",
+      "title": "5W",
+      "year": "2025",
+      "link": "/projects/5W"
+    },
+    {
+      "id": 3,
+      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "category": "Branding, Website",
+      "title": "Palami",
+      "year": "2024",
+      "link": "/projects/Palami"
+    }
+  ]
+}

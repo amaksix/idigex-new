@@ -243,5 +243,19 @@
       "success": "Ziņojums veiksmīgi nosūtīts!",
       "error": "Kļūda, mēģiniet vēlreiz."
     }
+  },
+  "metaTags":{
+    "portfolio":{
+      "description": "IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.",
+      "ogTitle": "IDigex - Jūsu digitālo risinājumu partneris"
+    },
+    "home":{
+      "description":"IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.",
+      "ogTitle": "IDigex - Jūsu digitālo risinājumu partneris"
+    },
+    "about":{
+      "description":"IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.",
+      "ogTitle": "IDigex - Jūsu digitālo risinājumu partneris"
+    }
   }
 }
