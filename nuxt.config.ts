@@ -1,33 +1,31 @@
-import { fileURLToPath } from 'node:url';
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { fileURLToPath } from 'node:url'
+
 export default defineNuxtConfig({
-  
+  ssr: true,
 
-ssr:true,
-
-
-    nitro: {
+  nitro: {
     preset: 'vercel'
   },
+
   typescript: {
     shim: false
   },
+
   alias: {
     "@": fileURLToPath(new URL('./', import.meta.url)),
   },
+
   app: {
     head: {
-      "link": [
+      link: [
         { rel: 'shortcut icon', href: '/assets/imgs/favicon.ico' },
-        // Google Fonts
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap' },
-        // CSS
         { rel: 'stylesheet', href: '/assets/fonts/mona-sans/style.css' },
         { rel: 'stylesheet', href: '/assets/css/plugins.css' },
         { rel: 'stylesheet', href: '/assets/css/style.css' },
       ],
-      "script": [
-        { src: '/assets/js/charming.min.js'},
+      script: [
+        { src: '/assets/js/charming.min.js' },
         { src: '/assets/js/bootstrap.bundle.min.js' },
         { src: '/assets/js/plugins.js' },
         { src: '/assets/js/isotope.pkgd.min.js' },
@@ -35,36 +33,29 @@ ssr:true,
         { src: '/assets/js/gsap.min.js' },
         { src: '/assets/js/ScrollTrigger.min.js' },
         { src: '/assets/js/ScrollSmoother.min.js' },
-        {src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'},
-        // { src: '/assets/js/smoother-script.js', defer: true },
+        { src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' },
         { src: '/assets/js/scripts.js', defer: true }
       ]
     }
   },
+
   css: [
     'swiper/css/bundle',
     '@/styles/globals.css'
   ],
-  webpack: {
-    extractCSS: true,
-    optimization: {
-      splitChunks: {
-        layouts: true
-      }
-    }
-  },
-   modules: [
+
+  modules: [
     '@nuxtjs/i18n'
   ],
- build: {
+
+  build: {
     transpile: [
-      // Add the i18n module to the transpile list
       '@nuxtjs/i18n'
     ]
   },
+
   i18n: {
-    // Add all three locales here
-     strategy: 'prefix_except_default',
+    strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
       fallbackLocale: 'en'
@@ -76,8 +67,9 @@ ssr:true,
       { code: 'lv', file: 'lv.json' },
       { code: 'ru', file: 'ru.json' }
     ],
+  },
+
+  runtimeConfig: {
+    public: {}
   }
-  
-
-
 })
