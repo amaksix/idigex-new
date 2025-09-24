@@ -5,15 +5,24 @@
         <div class="col-lg-11">
           <div class="row">
             <div class="col-lg-5">
-              <h4 class="mb-50">02 . Risinājums</h4>
+              <h4 class="mb-50">02 . {{ t('mullers.solution_title') }}</h4>
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <p class="fz-18">Mēs izstrādājām logotipu, kas balstīts uz kaligrāfisku fontu, kas piešķir zīmolam izsmalcinātību un vieglumu. Kā akcenta krāsa tika izvēlēta tumši sarkana krāsa – enerģijas un augstākās kvalitātes simbols. Vizītkartes ir veidotas vienādā stilā, kas nodrošina korporatīvā tēla integritāti.</p>
+                <p class="fz-18">{{ t('mullers.solution_description') }}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
+<script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+</script>

@@ -1,0 +1,66 @@
+{
+  "title": "Branding",
+  "headtitle": "Branding Development | We Build a Visual Brand System",
+  "subtitle": "Services",
+  "description": "We create a brand's visual system: color palette, fonts, and corporate style that forms a unified company image.",
+  "image": "/assets/imgs/Services_m_2.jpg",
+  "about": {
+    "sectionTitle": "A Unified Company Image",
+    "headline": [
+      "We create a brand's visual system:",
+      "color palette, fonts, and corporate style",
+      "that forms a unified company image."
+    ],
+    "paragraph": "We complement this with a visual style for social media and examples of how to use it — from business cards to packaging. This approach ensures communication consistency and strengthens brand recognition.",
+    "lists": [
+      [
+        "What's included: color palette, font, visual style for social media, guideline.",
+        "Why branding is necessary: recognition, trust, competitiveness.",
+        "Timeline and price: from €400, from 2 weeks."
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "id": 1,
+      "title": "How much does branding cost?",
+      "content": "The price starts from €400 and is based on the project scope and tasks."
+    },
+    {
+      "id": 2,
+      "title": "How long does the process take?",
+      "content": "From 2 to 4 weeks."
+    },
+    {
+      "id": 3,
+      "title": "Can I order just a part of it?",
+      "content": "Yes, we also work with individual elements."
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "category": "Branding, Website",
+      "title": "VIABon",
+      "year": "2025",
+      "link": "/projects/ViaBon"
+    },
+    {
+      "id": 2,
+      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "category": "Branding, Website",
+      "title": "5W",
+      "year": "2025",
+      "link": "/projects/5W"
+    },
+    {
+      "id": 3,
+      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "category": "Branding, Website",
+      "title": "Palami",
+      "year": "2024",
+      "link": "/projects/Palami"
+    }
+  ]
+}

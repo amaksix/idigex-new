@@ -5,26 +5,26 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">Kategorija :</span>
-              <h6>Brendings</h6>
+              <span class="opacity-8 mb-5">{{ t('all_projects.category_label', 'Kategorija :') }}</span>
+              <h6>{{ t('mullers.category') }}</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">Client :</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.client_label', 'Client :') }}</span>
               <h6>Müller’s</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item mb-30">
-              <span class="opacity-8 mb-5">Gads:</span>
+              <span class="opacity-8 mb-5">{{ t('all_projects.year_label', 'Gads:') }}</span>
               <h6>2024</h6>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="item">
-              <span class="opacity-8 mb-5">Darbības sfēra:</span>
-              <h6>Saldā Darbnīca</h6>
+              <span class="opacity-8 mb-5">{{ t('all_projects.field_label', 'Darbības sfēra:') }}</span>
+              <h6>{{ t('mullers.field') }}</h6>
             </div>
           </div>
         </div>
@@ -33,15 +33,21 @@
         <div class="col-lg-11">
           <div class="row">
             <div class="col-lg-5">
-              <h4 class="mb-50">01 . Uzdevums</h4>
+              <h4 class="mb-50">01 . {{ t('mullers.task_title') }}</h4>
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <h5 class="mb-30 fw-400 line-height-40">Izveidot logotipu un vizītkartes saldumu darbnīcai Latvijā. Klients vēlējās minimālistisku, elegantu risinājumu ar izteiksmīgu akcentu krāsu gammā.</h5>
+                <h5 class="mb-30 fw-400 line-height-40">{{ t('mullers.task_description') }}</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section></template>
+  </section>
+</template>
+<script setup>
+import { useI18n, useLocalePath } from '#i18n'
+const { t } = useI18n()
+const localePath = useLocalePath()
+</script>

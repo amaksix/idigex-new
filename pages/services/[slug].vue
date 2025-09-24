@@ -36,16 +36,19 @@ import ServiceContact from '~/components/services/Contact.vue'
 // ==========================
 // Load all JSON services
 // ==========================
-const servicesFiles = import.meta.glob('/data/services/*.json', { eager: true })
+const servicesFiles = import.meta.glob('/data/services/*/*.json', { eager: true });
 
-// Get the slug from the URL
-const route = useRoute()
+import { useRoute } from "vue-router";
+import { useI18n } from "vue-i18n";
+
+const route = useRoute();
+const { locale } = useI18n();
 const slug = route.params.slug
 
 // Find the matching JSON file
-const serviceEntry = Object.entries(servicesFiles).find(([path, content]) =>
-  path.endsWith(`${slug}.json`)
-)
+const serviceEntry = Object.entries(servicesFiles).find(([path, content]) => {
+  return path.includes(`/${locale.value}/`) && path.endsWith(`${slug}.json`);
+});
 
 const service = serviceEntry ? serviceEntry[1] : null
 

@@ -5,7 +5,7 @@
         <div class="col-lg-8">
           <div class="full-width">
             <div class="sec-head text-center mb-80">
-              <h3 class="text-u fz-50">Sazinieties ar mums.</h3>
+              <h3 class="text-u fz-50">{{ t('contact.title') }}</h3>
             </div>
 
             <!-- Contact Form -->
@@ -19,7 +19,7 @@
                       id="form_name"
                       type="text"
                       name="name"
-                      placeholder="Vārds"
+                      :placeholder="t('contact.form.name')"
                       required
                     />
                   </div>
@@ -31,7 +31,7 @@
                       id="form_email"
                       type="email"
                       name="email"
-                      placeholder="E-pasts"
+                      :placeholder="t('contact.form.email')"
                       required
                     />
                   </div>
@@ -42,28 +42,27 @@
                       v-model="form.message"
                       id="form_message"
                       name="message"
-                      placeholder="Ziņojums"
+                      :placeholder="t('contact.form.message')"
                       rows="4"
                       required
                     ></textarea>
                   </div>
                   <div class="text-center">
                     <div class="mt-30 hover-this cursor-pointer">
-                      <button type="submit" v-if="notSending" ><span class="hover-anim">
-                        <span class="text">Sūtīt</span></span>
+                      <button type="submit" v-if="notSending">
+                        <span class="hover-anim">
+                          <span class="text">{{ t('contact.form.button') }}</span>
+                        </span>
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
             </form>
+
             <!-- Success message -->
-            <div
-              v-if="success"
-              id="mail-message"
-              class="pop-up-message"
-            >
-              <h6>Ziņojums veiksmīgi nosūtīts!</h6>
+            <div v-if="success" id="mail-message" class="pop-up-message">
+              <h6>{{ t('contact.messages.success') }}</h6>
               <div class="close-icon-container" @click="success = false">
                 <span class="close-icon">
                   <i></i>
@@ -73,12 +72,9 @@
             </div>
 
             <!-- Error message -->
-            <div
-              v-if="error"
-              class="pop-up-message"
-            >
-              <h6> Kļūda, mēģiniet vēlreiz.</h6>
-                            <div class="close-icon-container" @click="error = false">
+            <div v-if="error" class="pop-up-message">
+              <h6>{{ t('contact.messages.error') }}</h6>
+              <div class="close-icon-container" @click="error = false">
                 <span class="close-icon">
                   <i></i>
                   <i></i>
@@ -94,6 +90,9 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 
 const form = ref({
   name: "",
@@ -104,8 +103,8 @@ const form = ref({
 const success = ref(false);
 const error = ref(false);
 const notSending = ref(true);
+
 onMounted(() => {
-  // init EmailJS once
   if (window.emailjs) {
     emailjs.init("16i6i3kCCpv42rYJv");
   }
@@ -115,17 +114,19 @@ const sendEmail = async () => {
   success.value = false;
   error.value = false;
   notSending.value = false;
+
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (!form.value.name || !form.value.email || !form.value.message) {
-    alert("Name, email, and message must not be empty.");
+    alert("Name, email, and message must not be empty."); // <-- this can also be localized if you want
     return;
   }
- 
+
   if (!emailRegex.test(form.value.email)) {
-    alert("Please enter a valid email address.");
+    alert("Please enter a valid email address."); // <-- localizable too
     return;
   }
+
   try {
     await emailjs.send("service_71sjyhe", "template_a9w2hln", {
       name: form.value.name,

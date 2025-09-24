@@ -6,14 +6,16 @@
           <div class="col-lg-12">
             <div class="text-center">
               <div class="mb-30">
-                <span class="sub-title bord">Strādājiet Ar Mums</span>
+                <span class="sub-title bord">{{ t('home.contact.sub_title') }}</span>
               </div>
               <h2 class="fz-70 f-bold text-u">
-               Mēs labprāt <span class="d-block f-ultra-light">uzzinātu vairāk </span>par jūsu projektu.
+                {{ t('home.contact.heading_part1') }}
+                <span class="d-block f-ultra-light">{{ t('home.contact.heading_part2') }}</span>
+                {{ t('home.contact.heading_part3') }}
               </h2>
-              <a href="/contact" class="butn-circle animsition-link colorbg mt-30">
-                <span>Sazinieties</span>
-              </a>
+              <NuxtLink :to="localePath('/contact')" class="butn-circle animsition-link colorbg mt-30">
+                <span>{{ t('home.contact.button') }}</span>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -22,8 +24,13 @@
   </section>
 </template>
 
-<script setup>
 
+<script setup>
+ import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
 const handleResize = () => {
   if (window.innerWidth > 991) {
     gsap.set('.contact-container', { yPercent: -50 });

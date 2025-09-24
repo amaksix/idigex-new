@@ -15,22 +15,28 @@
 </template>
 
 <script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
 //= Page Head
 useHead({
    title: 'IDigex - Par Mums',
   meta: [
     {
       name: 'description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.about.description')
     },
     // Open Graph Tags
     {
       property: 'og:title',
-      content: 'IDigex - Jūsu digitālo risinājumu partneris'
+      content: t('metaTags.about.ogTitle')
     },
     {
       property: 'og:description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.about.description')
     },
     {
       property: 'og:image',
@@ -47,11 +53,11 @@ useHead({
     },
     {
       name: 'twitter:title',
-      content: 'IDigex - Your Digital Solution Partner'
+      content: t('metaTags.about.ogTitle')
     },
     {
       name: 'twitter:description',
-      content: 'IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.'
+      content: t('metaTags.about.description')
     }
   ],
   bodyAttrs: {

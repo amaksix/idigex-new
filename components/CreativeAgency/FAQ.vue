@@ -10,7 +10,7 @@
         <div class="col-12 col-lg-7 offset-lg-1">
           <div class="cont">
             <div class="accordion bord">
-              <div v-for="(item, index) in data" :key="item.id" class="item mb-20 wow fadeInUp" @click="openAccordion"
+              <div v-for="(item, index) in faqItems" :key="item.id" class="item mb-20 wow fadeInUp" @click="openAccordion"
                 :data-wow-delay="`${((index * 0.2) + 0.1).toFixed(1)}s`">
                 <div class="title">
                   <h4 style="max-width: 85%;">{{ item.title }}</h4>
@@ -29,8 +29,24 @@
 </template>
 
 <script setup>
-import data from '@/data/CreativeAgency/faq.json';
 
+import { computed } from 'vue';
+import { useI18n, useLocalePath } from '#i18n';
+
+const { messages, locale } = useI18n();
+
+const faqItems = computed(() => {
+  const currentMessages = messages.value[locale.value];
+  const items = currentMessages?.home?.faq || [];
+
+  return items.map(item => ({
+    id: item.id,
+    // Extract the string value from the title object
+    title: item.title.body.static,
+    // Extract the string value from the content object
+    content: item.content.body.static
+  }));
+});
 const openAccordion = (event) => {
   const currentItem = event.currentTarget;
   const isActive = currentItem.classList.contains('active');

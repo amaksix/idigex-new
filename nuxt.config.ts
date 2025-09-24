@@ -61,32 +61,21 @@ ssr:true,
     ]
   },
   i18n: {
-    // Defines your supported locales and their properties.
-    locales: [
-      {
-        code: 'en',
-        iso: 'en-US',
-        name: 'English',
-        file: 'en.json'
-      },
-      {
-        code: 'fr',
-        iso: 'fr-FR',
-        name: 'Français',
-        file: 'fr.json'
-      }
-    ],
-
-    // The directory where your translation files will be stored.
-    langDir: 'locales/',
-
-    // The default locale your app will use.
+    // Add all three locales here
+     strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      fallbackLocale: 'en'
+    },
     defaultLocale: 'en',
-
-    // Strategy for handling routes. 'prefix_except_default' is best for SEO in SPA mode.
-    // It adds a language prefix to all URLs except for the default language.
-    // e.g., /about for English, /es/about for Spanish.
-    strategy: 'prefix_except_default',
-
+    langDir: 'locales/',
+    locales: [
+      { code: 'en', file: 'en.json' },
+      { code: 'lv', file: 'lv.json' },
+      { code: 'ru', file: 'ru.json' }
+    ],
   }
+  
+
+
 })

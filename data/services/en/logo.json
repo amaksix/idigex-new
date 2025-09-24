@@ -1,0 +1,65 @@
+{
+  "title": "Logos",
+  "headtitle": "Logo Creation | Logos That Reflect Your Company's Character",
+  "subtitle": "Services",
+  "description": "We create logos based on analysis of competitors and trends, taking your goals and style into account.",
+  "image": "/assets/imgs/Services_m_3.jpg",
+  "about": {
+    "sectionTitle": "Simplicity and Recognition",
+    "headline": [
+      "We design clear and memorable",
+      "logos that reflect the company's character."
+    ],
+    "paragraph": "We create logos based on analysis of competitors and trends, considering your goals and style. Each version is adapted for various formats — from websites to packaging and promotional materials.",
+    "lists": [
+      [
+        "What we offer: 3 logo variations, up to 3 rounds of revisions.",
+        "Why it's important: A logo is the foundation of a brand, its credibility, and its recognition.",
+        "Timeline and price: from €250, from 1 week."
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "id": 1,
+      "title": "How much does a logo cost?",
+      "content": "From €250 for 3 variations."
+    },
+    {
+      "id": 2,
+      "title": "How long does the development take?",
+      "content": "From 1 to 2 weeks."
+    },
+    {
+      "id": 3,
+      "title": "Can you redesign an old logo?",
+      "content": "Yes, we do redesign and adaptation."
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "category": "Branding, Website",
+      "title": "VIABon",
+      "year": "2025",
+      "link": "/projects/ViaBon"
+    },
+    {
+      "id": 2,
+      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "category": "Branding, Website",
+      "title": "5W",
+      "year": "2025",
+      "link": "/projects/5W"
+    },
+    {
+      "id": 3,
+      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "category": "Branding, Website",
+      "title": "Palami",
+      "year": "2024",
+      "link": "/projects/Palami"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Promotional Materials",
+  "headtitle": "Promotional Materials Design | Print and Digital Solutions",
+  "subtitle": "Services",
+  "description": "We create banners, business cards, presentations, and packaging that help brands communicate with their audience in a unified voice.",
+  "image": "/assets/imgs/Services_m_4.jpg",
+  "about": {
+    "sectionTitle": "A Unified Communication Style",
+    "headline": [
+      "We create banners, business cards, presentations, and packaging,",
+      "that help brands communicate",
+      "with their audience in a unified voice."
+    ],
+    "paragraph": "All materials are developed in a consistent style to maintain a unified corporate image. Our focus is on clarity, expressiveness, and practicality in every solution.",
+    "lists": [
+      [
+        "What we do: banners, business cards, presentations, social media.",
+        "Advantages: a unified visual style, brand image work.",
+        "Timeline and price: discussed individually, depending on the task and format."
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "id": 1,
+      "title": "What's included in promotional materials?",
+      "content": "Banners, posters, presentations, packaging, social media design, business cards, and printed materials."
+    },
+    {
+      "id": 2,
+      "title": "Do you work with existing corporate styles?",
+      "content": "Yes, we can adapt materials to your current style or offer updates."
+    },
+    {
+      "id": 3,
+      "title": "Do you work online and offline?",
+      "content": "Yes, we work with both formats."
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "category": "Branding, Website",
+      "title": "VIABon",
+      "year": "2025",
+      "link": "/projects/ViaBon"
+    },
+    {
+      "id": 2,
+      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "category": "Branding, Website",
+      "title": "5W",
+      "year": "2025",
+      "link": "/projects/5W"
+    },
+    {
+      "id": 3,
+      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "category": "Branding, Website",
+      "title": "Palami",
+      "year": "2024",
+      "link": "/projects/Palami"
+    }
+  ]
+}

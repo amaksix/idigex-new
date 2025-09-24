@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <div :class="`cont ${isCenter ? 'text-center' : ''}`">
-            <h1 class="fz-80 fw-500">PROJEKTI</h1>
+            <h1 class="fz-80 fw-500">{{ t('portfolio.title') }}</h1>
           </div>
         </div>
       </div>
@@ -13,5 +13,11 @@
 </template>
 
 <script setup>
+// Import both the t() function via useI18n AND the localePath function via useLocalePath
+  import { useI18n, useLocalePath } from '#i18n'
+
+  // Declare the functions so they are available in the template
+  const { t } = useI18n()
+  const localePath = useLocalePath()
 const { isCenter } = defineProps(['isCenter'])
 </script>
