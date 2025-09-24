@@ -6523,8 +6523,15 @@ footer .logo img {
     margin-left: 0;
     margin-top: 20px;
   }
-  .hamenu .cont-info,
+
   .md-hide {
+    display: none;
+  }
+    .hamenu .cont-info{
+      padding-left: 0;
+      margin-top: 50px;
+    }
+  .mb-hide{
     display: none;
   }
   .to-out .swiper-container {

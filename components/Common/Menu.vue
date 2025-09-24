@@ -72,11 +72,25 @@
         </div>
         <div class="col-lg-4 valign">
           <div class="cont-info">
-            <div class="item mb-50">
+           <div class="item mb-50">
+              <h6 class="text-u fw-600 mb-20">{{ $t('menu.languages') }}</h6>
+              <ul class="rest social-text d-flex fz-13">
+                <li class="mr-20">
+                   <NuxtLink :to="switchLocalePath('en')" class="hover-this"><span class="hover-anim">English</span></NuxtLink>
+                </li>
+                <li class="mr-20">
+                  <NuxtLink :to="switchLocalePath('lv')" class="hover-this"><span class="hover-anim">Latviešu</span></NuxtLink>
+                </li>
+                <li class="mr-20">
+                  <NuxtLink :to="switchLocalePath('ru')" class="hover-this"><span class="hover-anim">Русский</span></NuxtLink>
+                </li>
+              </ul>
+            </div>
+            <div class="item mb-50 mb-hide">
               <h6 class="text-u fw-600 mb-20">{{ $t('menu.contact_info') }}</h6>
               <p class="fw-400 fz-18">idigexlv@gmail.com</p>
             </div>
-            <div class="bottom">
+            <div class="bottom mb-hide">
               <h6 class="text-u fw-600 mb-20">{{ $t('menu.social_media') }}</h6>
               <ul class="rest social-text d-flex fz-13">
                 <li class="mr-20">
@@ -98,12 +112,12 @@
 </template>
 <script setup>
 // Import both the t() function via useI18n AND the localePath function via useLocalePath
-  import { useI18n, useLocalePath } from '#i18n'
+  import { useI18n, useLocalePath,  useSwitchLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()
   const localePath = useLocalePath()
-
+const switchLocalePath = useSwitchLocalePath()
 const closeMenu = () => {
   document.querySelector('.hamenu').classList.remove("open");
 };

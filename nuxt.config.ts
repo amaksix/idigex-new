@@ -63,6 +63,10 @@ ssr:true,
   i18n: {
     // Add all three locales here
      strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      fallbackLocale: 'en'
+    },
     defaultLocale: 'en',
     langDir: 'locales/',
     locales: [
