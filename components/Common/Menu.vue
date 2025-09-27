@@ -7,19 +7,19 @@
             <ul class="main-menu rest">
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <NuxtLink :to="localePath('/')" class="link animsition-link" @click="closeMenu">
+                  <NuxtLink :to="localePath('/')" class="link animsition-link" >
                     <span class="nm">01.</span>{{ t('menu.home') }}
                   </NuxtLink>
                 </div>
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <NuxtLink :to="localePath('/about')" class="link animsition-link" @click="closeMenu"><span class="nm">02.</span>{{ t('menu.about') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/about')" class="link animsition-link" ><span class="nm">02.</span>{{ t('menu.about') }}</NuxtLink>
                 </div>
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <NuxtLink :to="localePath('/portfolio')" class="link animsition-link" @click="closeMenu"><span class="nm">03.</span>{{ t('menu.projects') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/portfolio')" class="link animsition-link" ><span class="nm">03.</span>{{ t('menu.projects') }}</NuxtLink>
                 </div>
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
@@ -39,22 +39,22 @@
                       <ul class="rest">
                         <li>
                           <div class="o-hidden">
-                            <NuxtLink :to="localePath('/services/websites')" class="sub-link animsition-link" @click="closeMenu">{{ t('menu.websites') }}</NuxtLink>
+                            <NuxtLink :to="localePath('/services/websites')" class="sub-link animsition-link" >{{ t('menu.websites') }}</NuxtLink>
                           </div>
                         </li>
                         <li>
                           <div class="o-hidden">
-                            <NuxtLink :to="localePath('/services/branding')" class="sub-link animsition-link" @click="closeMenu">{{ t('menu.branding') }}</NuxtLink>
+                            <NuxtLink :to="localePath('/services/branding')" class="sub-link animsition-link" >{{ t('menu.branding') }}</NuxtLink>
                           </div>
                         </li>
                         <li>
                           <div class="o-hidden">
-                            <NuxtLink :to="localePath('/services/logo')" class="sub-link animsition-link" @click="closeMenu">{{ t('menu.logos') }}</NuxtLink>
+                            <NuxtLink :to="localePath('/services/logo')" class="sub-link animsition-link" >{{ t('menu.logos') }}</NuxtLink>
                           </div>
                         </li>
                         <li>
                           <div class="o-hidden">
-                            <NuxtLink :to="localePath('/services/advertising_materials')" class="sub-link animsition-link" @click="closeMenu">{{ t('menu.advertising_materials') }}</NuxtLink>
+                            <NuxtLink :to="localePath('/services/advertising_materials')" class="sub-link animsition-link" >{{ t('menu.advertising_materials') }}</NuxtLink>
                           </div>
                         </li>
                       </ul>
@@ -64,7 +64,7 @@
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <NuxtLink :to="localePath('/contact')" class="link animsition-link" @click="closeMenu"><span class="nm">05.</span>{{ t('menu.contacts') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/contact')" class="link animsition-link" ><span class="nm">05.</span>{{ t('menu.contacts') }}</NuxtLink>
                 </div>
               </li>
             </ul>

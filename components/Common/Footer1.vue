@@ -49,16 +49,16 @@
               <h6 class="sub-title mb-30">{{ t('footer.nav_title') }}</h6>
               <ul class="rest">
                 <li class="hover-this cursor-pointer">
-                  <NuxtLink :to="localePath('/')">{{ t('menu.home') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/')"><span class="hover-anim">{{ t('menu.home') }}</span></NuxtLink>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <NuxtLink :to="localePath('/about')">{{ t('menu.about') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/about')"><span class="hover-anim">{{ t('menu.about') }}</span></NuxtLink>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <NuxtLink :to="localePath('/portfolio')">{{ t('menu.projects') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/portfolio')"><span class="hover-anim">{{ t('menu.projects') }}</span></NuxtLink>
                 </li>
                 <li class="hover-this cursor-pointer">
-                  <NuxtLink :to="localePath('/contact')">{{ t('menu.contacts') }}</NuxtLink>
+                  <NuxtLink :to="localePath('/contact')"><span class="hover-anim">{{ t('menu.contacts') }}</span></NuxtLink>
                 </li>
               </ul>
             </div>
