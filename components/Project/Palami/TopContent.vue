@@ -54,7 +54,6 @@
   </section>
 </template>
 <script setup>
-  import { useI18n, useLocalePath } from '#i18n'
   const { t } = useI18n()
   const localePath = useLocalePath()
 </script>

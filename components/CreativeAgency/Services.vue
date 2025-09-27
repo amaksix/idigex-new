@@ -57,14 +57,13 @@
   </section>
 </template>
 <script setup>
-  import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()
   const localePath = useLocalePath()
 import { onMounted } from 'vue';
 //= Scritps
-import charming from '/assets/js/charming.min.js';
+import charming from '/js/charming.min.js';
 import HoverImgFx3 from '@/common/hoverEffect3';
 //= Static Data
 import data from '@/data/CreativeAgency/blog.json';

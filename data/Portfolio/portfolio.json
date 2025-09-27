@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "image": "/assets/imgs/works/full/Project_1.jpg",
+    "image": "/imgs/works/full/Project_1.jpg",
     "link": "/projects/ViaBon",
     "title": "VIABon"
   },
   {
     "id": 2,
-    "image": "/assets/imgs/works/full/Project_2.jpg",
+    "image": "/imgs/works/full/Project_2.jpg",
     "link": "/projects/5W",
     "title": "5W"
   },
   {
     "id": 3,
-    "image": "/assets/imgs/works/full/Project_3.jpg",
+    "image": "/imgs/works/full/Project_3.jpg",
     "link": "/projects/PenaLab",
     "title": "Pena Lab"
   },
   {
     "id": 4,
-    "image": "/assets/imgs/works/full/Project_4.jpg",
+    "image": "/imgs/works/full/Project_4.jpg",
     "link": "/projects/Palami",
     "title": "Palami"
   },
   {
     "id": 5,
-    "image": "/assets/imgs/works/full/Project_5.jpg",
+    "image": "/imgs/works/full/Project_5.jpg",
     "link": "/projects/Mullers",
     "title": "Müller’s"
   },
     {
     "id": 6,
-    "image": "/assets/imgs/works/full/Project_6.jpg",
+    "image": "/imgs/works/full/Project_6.jpg",
     "link": "/projects/FinanceLabs",
     "title": "FinanceLabs"
   }

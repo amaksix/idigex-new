@@ -2,7 +2,7 @@
   <div class="section-padding pt-0 pb-0">
     <div class="container">
       <div class="img">
-        <img src="/assets/imgs/works/full/Project_2_4.jpg" alt="" />
+        <img src="/imgs/works/full/Project_2_4.jpg" alt="" />
       </div>
     </div>
   </div>

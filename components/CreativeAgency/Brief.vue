@@ -1,26 +1,62 @@
 <script setup>
-import { useI18n } from '#i18n'
-import { computed } from 'vue'
+import { ref, watch, onMounted } from 'vue';
+const { messages, locale } = useI18n(); 
 
-const { messages, locale } = useI18n();
-const briefTitle = computed(() => messages?.value[locale.value].home?.brief?.title.body.static);
-const briefItems = computed(() => {
-  const currentMessages = messages.value[locale.value];
-  const items = currentMessages?.home?.brief?.items || [];
+const briefTitle = ref('');
+const briefItems = ref([]); 
 
-  return items.map(item => ({
-    numb: item.numb.body.static,
-    // Extract the string value from the title object
-    title: item.title.body.static,
-    // Extract the string value from the content object
-    content: item.content.body.static,
-    icon: item.icon.body.static
-  }));
+const processData = () => {
+    const messagesByLocale = messages.value?.[locale.value];
+
+    // Check for structure, though logging confirmed this is now reliable
+    if (!messagesByLocale || !messagesByLocale.home?.brief) {
+        briefTitle.value = '';
+        briefItems.value = [];
+        return; 
+    }
+
+    const briefData = messagesByLocale.home.brief;
+
+    // --- CRITICAL FIX 1: Simplify the title path ---
+    // The string is directly on `briefData.title`
+    briefTitle.value = briefData.title || '';
+
+    // --- CRITICAL FIX 2: Simplify the items path ---
+    const items = briefData.items || [];
+    
+    if (!Array.isArray(items)) {
+        briefItems.value = [];
+        return;
+    }
+    
+    briefItems.value = items.map((item) => ({
+        // Based on the simplified title path, assume item properties are also strings
+        // OR, if the items array contains deeply nested objects, you need to check the JSON.
+        
+        // Let's assume the CMS structure is only applied to the array's root elements (briefData.items),
+        // but the item properties themselves are just strings in the array:
+        
+        // If your JSON looks like: items: [{ numb: '01', title: 'Strategy' }, ...]
+        numb: item.numb || '',
+        title: item.title || '',
+        content: item.content || '',
+        icon: item.icon || '',
+
+        /* // IF the CMS structure is nested *inside* the items (e.g., item.title: { body: { static: ... } })
+        // You MUST revert to the long path:
+        numb: item.numb?.body?.static || '',
+        title: item.title?.body?.static || '', 
+        content: item.content?.body?.static || '',
+        icon: item.icon?.body?.static || '',
+        */
+    }));
+};
+
+watch([messages, locale], processData, { immediate: true, deep: true }); 
+
+onMounted(() => {
+    processData();
 });
-
-
-
-
 </script>
 
 <template>

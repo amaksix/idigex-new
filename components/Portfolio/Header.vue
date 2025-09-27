@@ -14,7 +14,6 @@
 
 <script setup>
 // Import both the t() function via useI18n AND the localePath function via useLocalePath
-  import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()

@@ -3,7 +3,7 @@
   "headtitle": "Brendinga izstrāde | Mēs veidojam vizuālu zīmola sistēmu",
   "subtitle": "Pakalpojumi",
   "description":"Mēs veidojam zīmola vizuālo sistēmu:krāsu paleti, fontus un firmas stilu,kas veido vienotu uzņēmuma tēlu.",
-  "image": "/assets/imgs/Services_m_2.jpg",
+  "image": "/imgs/Services_m_2.jpg",
   "about": {
     "sectionTitle": "Vienots uzņēmuma tēls",
     "headline": [
@@ -40,7 +40,7 @@
 "works": [
   {
     "id": 1,
-    "img": "/assets/imgs/works/full/Project_1.jpg",
+    "img": "/imgs/works/full/Project_1.jpg",
     "category": "Brendings, Mājaslapa",
     "title": "VIABon",
     "year": "2025",
@@ -48,7 +48,7 @@
   },
   {
     "id": 2,
-    "img": "/assets/imgs/works/full/Project_2.jpg",
+    "img": "/imgs/works/full/Project_2.jpg",
     "category": "Brendings, Mājaslapa",
     "title": "5W",
     "year": "2025",
@@ -56,7 +56,7 @@
   },
   {
     "id": 3,
-    "img": "/assets/imgs/works/full/Project_4.jpg",
+    "img": "/imgs/works/full/Project_4.jpg",
     "category": "Brendings, Mājaslapa",
     "title": "Palami",
     "year": "2024",

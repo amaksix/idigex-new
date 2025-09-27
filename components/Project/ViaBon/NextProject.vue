@@ -10,7 +10,7 @@
                 <div class="d-flex align-items-center">
                   <NuxtLink :to="localePath('/projects/5W')" class="animsition-link fz-70 fw-700 stroke">5W</NuxtLink>
                   <span class="ml-15">
-                    <img src="/assets/imgs/svg-assets/arrow-right-top.svg" alt="" class="icon-img-70" />
+                    <img src="/imgs/svg-assets/arrow-right-top.svg" alt="" class="icon-img-70" />
                   </span>
                 </div>
               </div>
@@ -22,8 +22,6 @@
   </section>
 </template>
 <script setup>
-// Import both the t() function via useI18n AND the localePath function via useLocalePath
-  import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()

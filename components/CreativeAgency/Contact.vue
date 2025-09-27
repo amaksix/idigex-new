@@ -26,7 +26,6 @@
 
 
 <script setup>
- import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()

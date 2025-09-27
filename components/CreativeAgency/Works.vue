@@ -67,12 +67,11 @@
 </template>
 
 <script setup>
-  import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()
   const localePath = useLocalePath()
 import data from '@/data/CreativeAgency/works.json';
-import charming from '/assets/js/charming.min.js';
+import charming from '/js/charming.min.js';
 import HoverImgFx3 from '@/common/hoverEffect3';
 </script>

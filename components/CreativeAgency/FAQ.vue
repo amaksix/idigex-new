@@ -29,38 +29,74 @@
 </template>
 
 <script setup>
+import { ref, watch, onMounted } from 'vue';
 
-import { computed } from 'vue';
-import { useI18n, useLocalePath } from '#i18n';
+// 1. Destructure all necessary reactivity primitives
+const { messages, locale } = useI18n(); 
+// We don't need 't' here since we are accessing the raw 'messages' object
 
-const { messages, locale } = useI18n();
+// 2. Local ref to hold the processed, final data array
+const faqItems = ref([]);
 
-const faqItems = computed(() => {
-  const currentMessages = messages.value[locale.value];
-  const items = currentMessages?.home?.faq || [];
+// 3. Define the main data processing function
+const processData = () => {
+    // CRITICAL: Safest guard against undefined messages/locale
+    const messagesByLocale = messages.value?.[locale.value];
 
-  return items.map(item => ({
-    id: item.id,
-    // Extract the string value from the title object
-    title: item.title.body.static,
-    // Extract the string value from the content object
-    content: item.content.body.static
-  }));
+    if (!messagesByLocale || !messagesByLocale.home?.faq) {
+        // Data not loaded yet for the current locale or path is wrong
+        faqItems.value = [];
+        return; 
+    }
+
+    // Safely access the FAQ items array (based on your debug: home.faq is the array)
+    const items = messagesByLocale.home.faq || [];
+    
+    if (!Array.isArray(items)) {
+        faqItems.value = [];
+        return;
+    }
+    
+    // Process the array, assuming the data structure confirmed by your logging
+    faqItems.value = items.map(item => ({
+        id: item.id,
+        // Use the long CMS path with fallbacks, as originally suspected,
+        // combined with a direct property access if the structure is flatter.
+        // Based on the working debug, we should use the simplest working path:
+        
+        // Use the safest possible access:
+        title: item.title?.body?.static || item.title || '',
+        content: item.content?.body?.static || item.content || '',
+    }));
+};
+
+// 4. CRITICAL: Watch for ANY change in messages or locale, and run immediately and deeply.
+watch([messages, locale], processData, { immediate: true, deep: true }); 
+
+
+// 5. Optional: Call once on mounted, just in case
+onMounted(() => {
+    processData();
 });
+
+
+// 6. Keep your non-i18n related functions outside the data processing logic
 const openAccordion = (event) => {
-  const currentItem = event.currentTarget;
-  const isActive = currentItem.classList.contains('active');
+    const currentItem = event.currentTarget;
+    const isActive = currentItem.classList.contains('active');
 
-  // close all first
-  document.querySelectorAll('.accordion .item').forEach((el) => {
-    el.classList.remove('active');
-    el.querySelector('.accordion-info').style.display = 'none';
-  });
+    // close all first
+    document.querySelectorAll('.accordion .item').forEach((el) => {
+        el.classList.remove('active');
+        // NOTE: This style manipulation is generally best done with Vue class bindings
+        // to avoid manual DOM manipulation, but kept here for function.
+        el.querySelector('.accordion-info').style.display = 'none';
+    });
 
-  // if the clicked one was NOT active, open it
-  if (!isActive) {
-    currentItem.classList.add('active');
-    currentItem.querySelector('.accordion-info').style.display = 'block';
-  }
+    // if the clicked one was NOT active, open it
+    if (!isActive) {
+        currentItem.classList.add('active');
+        currentItem.querySelector('.accordion-info').style.display = 'block';
+    }
 };
 </script>

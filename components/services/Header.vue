@@ -20,6 +20,6 @@
 defineProps({
   title: { type: String, required: true },
   subtitle: { type: String, default: "Services" },
-  image: { type: String, default: "/assets/imgs/b3.jpg" }
+  image: { type: String, default: "/imgs/b3.jpg" }
 })
 </script>

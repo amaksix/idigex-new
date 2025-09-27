@@ -3,7 +3,7 @@
     <div class="container">
       <div :class="`logo icon-img-${borderBottom ? '100' : '90'}`">
         <NuxtLink :to="localePath('/')">
-          <img src="/assets/imgs/Logo_IDigex.svg" alt="" />
+          <img src="/imgs/Logo_IDigex.svg" alt="" />
         </NuxtLink>
       </div>
       <div class="menu-icon cursor-pointer" @click="toggleMenu">
@@ -18,7 +18,6 @@
 </template>
 
 <script setup>
- import { useI18n, useLocalePath } from '#i18n'
 
   // Declare the functions so they are available in the template
   const { t } = useI18n()

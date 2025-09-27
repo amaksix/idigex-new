@@ -1,3 +1,20 @@
+<script setup>
+import { computed } from 'vue';
+
+// 1. Declare all necessary functions/properties
+const { t, messages, locale } = useI18n(); 
+const localePath = useLocalePath();
+
+// 2. Computed property to safely access and return the array
+const solutionItems = computed(() => {
+    // Safely navigate to the array in the messages object
+    const items = messages.value?.[locale.value]?.palami?.solution_description;
+    
+    // Ensure it's an array before returning
+    return Array.isArray(items) ? items : [];
+});
+</script>
+
 <template>
   <section class="section-padding">
     <div class="container">
@@ -9,7 +26,11 @@
             </div>
             <div class="col-lg-7">
               <div class="text">
-                <p class="fz-18" v-html="t('palami.solution_description')"></p>
+                <ul class="fz-18 list-unstyled">
+                  <li v-for="(item, index) in solutionItems" :key="index" class="mb-1">
+                    {{ item }}
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -18,11 +39,3 @@
     </div>
   </section>
 </template>
-<script setup>
-// Import both the t() function via useI18n AND the localePath function via useLocalePath
-  import { useI18n, useLocalePath } from '#i18n'
-
-  // Declare the functions so they are available in the template
-  const { t } = useI18n()
-  const localePath = useLocalePath()
-  </script>

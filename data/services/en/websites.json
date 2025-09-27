@@ -3,7 +3,7 @@
   "headtitle": "Website and E-commerce Store Development | IDigex",
   "subtitle": "Services",
   "description": "Get a modern and functional website optimized for search engines (SEO). Contact us for a free consultation!",
-  "image": "/assets/imgs/Services_m_1.jpg",
+  "image": "/imgs/Services_m_1.jpg",
   "about": {
     "sectionTitle": "From idea to launch",
     "headline": [
@@ -54,7 +54,7 @@
   "works": [
     {
       "id": 1,
-      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "img": "/imgs/works/full/Project_1.jpg",
       "category": "Branding, Website",
       "title": "VIABon",
       "year": "2025",
@@ -62,7 +62,7 @@
     },
     {
       "id": 2,
-      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "img": "/imgs/works/full/Project_2.jpg",
       "category": "Branding, Website",
       "title": "5W",
       "year": "2025",
@@ -70,7 +70,7 @@
     },
     {
       "id": 3,
-      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "img": "/imgs/works/full/Project_4.jpg",
       "category": "Branding, Website",
       "title": "Palami",
       "year": "2024",

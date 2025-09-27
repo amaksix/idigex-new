@@ -4,7 +4,7 @@
     "key": "websites",
     "subtitle": "/01",
     "link": "/services/websites",
-    "img": "/assets/imgs/services/Services_1.jpg",
+    "img": "/imgs/services/Services_1.jpg",
     "readMoreLink": "/services/websites"
   },
   {
@@ -12,7 +12,7 @@
     "key": "branding",
     "subtitle": "/02",
     "link": "/services/branding",
-    "img": "/assets/imgs/services/Services_2.jpg",
+    "img": "/imgs/services/Services_2.jpg",
     "readMoreLink": "/services/branding"
   },
   {
@@ -20,7 +20,7 @@
     "key": "logos",
     "subtitle": "/03",
     "link": "/services/logo",
-    "img": "/assets/imgs/services/Services_3.jpg",
+    "img": "/imgs/services/Services_3.jpg",
     "readMoreLink": "/services/logo"
   },
   {
@@ -28,7 +28,7 @@
     "key": "advertising_materials",
     "subtitle": "/04",
     "link": "/services/advertising_materials",
-    "img": "/assets/imgs/services/Services_4.jpg",
+    "img": "/imgs/services/Services_4.jpg",
     "readMoreLink": "/services/advertising_materials"
   }
 ]

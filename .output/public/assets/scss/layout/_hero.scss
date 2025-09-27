@@ -1,0 +1,29 @@
+
+/* Hero
+-----------------------------------------------------------------*/
+
+.marquee {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    background: $main_bg;
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -30px;
+        right: -30px;
+        pointer-events: none;
+        background: linear-gradient(to left, $main_bg, transparent 300px, transparent calc(100% - 300px), $main_bg);
+        z-index: 3;
+    }
+
+	h4{
+		font-size: 70px;
+        text-transform: uppercase;
+	}
+}

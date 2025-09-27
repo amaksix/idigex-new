@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   nitro: {
-    preset: 'vercel'
+   preset: 'node-server'
   },
 
   typescript: {
@@ -18,23 +18,23 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'shortcut icon', href: '/assets/imgs/favicon.ico' },
+        { rel: 'shortcut icon', href: '/imgs/favicon.ico' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap' },
-        { rel: 'stylesheet', href: '/assets/fonts/mona-sans/style.css' },
-        { rel: 'stylesheet', href: '/assets/css/plugins.css' },
-        { rel: 'stylesheet', href: '/assets/css/style.css' },
+        { rel: 'stylesheet', href: '/fonts/mona-sans/style.css' },
+        { rel: 'stylesheet', href: '/css/plugins.css' },
+        { rel: 'stylesheet', href: '/css/style.css' },
       ],
       script: [
-        { src: '/assets/js/charming.min.js' },
-        { src: '/assets/js/bootstrap.bundle.min.js' },
-        { src: '/assets/js/plugins.js' },
-        { src: '/assets/js/isotope.pkgd.min.js' },
-        { src: '/assets/js/wow.min.js' },
-        { src: '/assets/js/gsap.min.js' },
-        { src: '/assets/js/ScrollTrigger.min.js' },
-        { src: '/assets/js/ScrollSmoother.min.js' },
+        { src: '/js/charming.min.js' },
+        { src: '/js/bootstrap.bundle.min.js' },
+        { src: '/js/plugins.js' },
+        { src: '/js/isotope.pkgd.min.js' },
+        { src: '/js/wow.min.js' },
+        { src: '/js/gsap.min.js' },
+        { src: '/js/ScrollTrigger.min.js' },
+        { src: '/js/ScrollSmoother.min.js' },
         { src: 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js' },
-        { src: '/assets/js/scripts.js', defer: true }
+        { src: '/js/scripts.js', defer: true }
       ]
     }
   },
@@ -57,6 +57,7 @@ export default defineNuxtConfig({
   i18n: {
   strategy: 'prefix_except_default',
    vueI18n: './i18n.config.ts',
+  langDir: 'locales',   
   defaultLocale: 'en',
   detectBrowserLanguage: {
     useCookie: true,
@@ -67,11 +68,11 @@ export default defineNuxtConfig({
     { code: 'lv', file: 'lv.json', iso: 'lv-LV' },
     { code: 'ru', file: 'ru.json', iso: 'ru-RU' }
   ],
-  langDir: 'locales/',
+   
 },
 
   runtimeConfig: {
     public: {}
-    
+
   }
 })

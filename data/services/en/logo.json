@@ -3,7 +3,7 @@
   "headtitle": "Logo Creation | Logos That Reflect Your Company's Character",
   "subtitle": "Services",
   "description": "We create logos based on analysis of competitors and trends, taking your goals and style into account.",
-  "image": "/assets/imgs/Services_m_3.jpg",
+  "image": "/imgs/Services_m_3.jpg",
   "about": {
     "sectionTitle": "Simplicity and Recognition",
     "headline": [
@@ -39,7 +39,7 @@
   "works": [
     {
       "id": 1,
-      "img": "/assets/imgs/works/full/Project_1.jpg",
+      "img": "/imgs/works/full/Project_1.jpg",
       "category": "Branding, Website",
       "title": "VIABon",
       "year": "2025",
@@ -47,7 +47,7 @@
     },
     {
       "id": 2,
-      "img": "/assets/imgs/works/full/Project_2.jpg",
+      "img": "/imgs/works/full/Project_2.jpg",
       "category": "Branding, Website",
       "title": "5W",
       "year": "2025",
@@ -55,7 +55,7 @@
     },
     {
       "id": 3,
-      "img": "/assets/imgs/works/full/Project_4.jpg",
+      "img": "/imgs/works/full/Project_4.jpg",
       "category": "Branding, Website",
       "title": "Palami",
       "year": "2024",

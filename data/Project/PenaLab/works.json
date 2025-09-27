@@ -1,18 +1,18 @@
 [
       {
     "id": 1,
-    "image": "/assets/imgs/works/full/Project3_2.jpg"
+    "image": "/imgs/works/full/Project3_2.jpg"
   },
     {
     "id": 3,
-    "image": "/assets/imgs/works/full/Project3_5.jpg"
+    "image": "/imgs/works/full/Project3_5.jpg"
   },
     {
     "id": 2,
-    "image": "/assets/imgs/works/full/Project3_6.jpg"
+    "image": "/imgs/works/full/Project3_6.jpg"
   },
   {
     "id": 4,
-    "image": "/assets/imgs/works/full/Project3_7.jpg"
+    "image": "/imgs/works/full/Project3_7.jpg"
   }
 ]

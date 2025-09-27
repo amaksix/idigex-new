@@ -88,10 +88,10 @@
      "brief": {
       "title": "Kā mēs strādājam",
       "items": [
-        { "numb": "01", "title": "Brief", "content": "Mēs definējam projekta uzdevumus un mērķus", "icon": "/assets/imgs/serv-icons/S1.png" },
-        { "numb": "02", "title": "Koncepcija", "content": "Mēs piedāvājam virzienu un vizuālo risinājumu", "icon": "/assets/imgs/serv-icons/S2.png" },
-        { "numb": "03", "title": "Web izstrāde", "content": "Mēs izstrādājam dizainu un īstenojam projektu", "icon": "/assets/imgs/serv-icons/S3.png" },
-        { "numb": "04", "title": "Uzstādīšana", "content": "Mēs piegādājam gatavo produktu un sniedzam atbalstu", "icon": "/assets/imgs/serv-icons/S4.png" }
+        { "numb": "01", "title": "Brief", "content": "Mēs definējam projekta uzdevumus un mērķus", "icon": "/imgs/serv-icons/S1.png" },
+        { "numb": "02", "title": "Koncepcija", "content": "Mēs piedāvājam virzienu un vizuālo risinājumu", "icon": "/imgs/serv-icons/S2.png" },
+        { "numb": "03", "title": "Web izstrāde", "content": "Mēs izstrādājam dizainu un īstenojam projektu", "icon": "/imgs/serv-icons/S3.png" },
+        { "numb": "04", "title": "Uzstādīšana", "content": "Mēs piegādājam gatavo produktu un sniedzam atbalstu", "icon": "/imgs/serv-icons/S4.png" }
       ]
     },
      "faq": [
@@ -258,5 +258,52 @@
       "description":"IDigex ir digitālā aģentūra, kas specializējas mājaslapu izstrādē, UI/UX dizainā, logotipu un zīmolu izstrādē.",
       "ogTitle": "IDigex - Jūsu digitālo risinājumu partneris"
     }
+  },
+
+  "privacy_policy": {
+    "title": "Privātuma politika",
+    "items": [
+      {
+        "heading": "Kādu informāciju mēs vācam",
+        "body": "Mēs vācam jūsu vārdu un e-pasta adresi, kad aizpildāt mūsu kontaktformu."
+      },
+      {
+        "heading": "Kā mēs izmantojam informāciju",
+        "body": "Jūsu informāciju izmantojam tikai, lai atbildētu uz jūsu jautājumu vai sniegtu pieprasīto informāciju."
+      },
+      {
+        "heading": "Tiesiskais pamats apstrādei",
+        "body": "Ja atrodaties Eiropas Ekonomikas zonā, mēs apstrādājam jūsu personas datus, pamatojoties uz jūsu piekrišanu un/vai mūsu leģitīmo interesi atbildēt uz jūsu pieprasījumiem."
+      },
+      {
+        "heading": "Datu glabāšana un drošība",
+        "body": "Mēs glabājam jūsu informāciju droši un ierobežojam piekļuvi tikai pilnvarotām personām."
+      },
+      {
+        "heading": "Datu saglabāšana",
+        "body": "Mēs glabājam jūsu datus tikai tik ilgi, cik nepieciešams, lai izpildītu mērķi, kādam tie tika vākti, un pēc tam tos droši dzēšam."
+      },
+      {
+        "heading": "Jūsu informācijas koplietošana",
+        "body": "Mēs nepārdodam un nelīzējam jūsu personas informāciju. To varam koplietot ar uzticamiem pakalpojumu sniedzējiem tikai, lai pārvaldītu mūsu vietni un sazinātos ar jums."
+      },
+      {
+        "heading": "Jūsu tiesības",
+        "body": "Jums ir tiesības jebkurā laikā atsaukt savu piekrišanu datu apstrādei."
+      },
+      {
+        "heading": "Sīkdatnes",
+        "body": "Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga."
+      },
+      {
+        "heading": "Izmaiņas šajā politikā",
+        "body": "Mēs varam laiku pa laikam atjaunināt šo politiku. Atjauninājumi tiks publicēti šajā lapā ar jaunu 'pēdējās izmaiņas' datumu."
+      },
+      {
+        "heading": "Kontaktinformācija",
+        "body": "Ja jums ir jautājumi, sazinieties ar mums"
+      }
+    ]
   }
+
 }

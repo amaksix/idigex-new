@@ -26,7 +26,7 @@
                     <div class="row">
                       <div class="col-md-2">
                         <div class="quote-icon icon-img-80 pt-10">
-                          <img src="/assets/imgs/svg-assets/quote.png" alt="" />
+                          <img src="/imgs/svg-assets/quote.png" alt="" />
                         </div>
                       </div>
                       <div class="col-md-10">

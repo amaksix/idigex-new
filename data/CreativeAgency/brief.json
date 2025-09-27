@@ -3,28 +3,28 @@
     "id": 1,
     "numb": "01",
     "title": "Brief",
-    "icon": "/assets/imgs/serv-icons/S1.png",
+    "icon": "/imgs/serv-icons/S1.png",
     "content": "Mēs definējam projekta uzdevumus un mērķus"
   },
   {
     "id": 2,
     "numb": "02",
     "title": "Koncepcija",
-    "icon": "/assets/imgs/serv-icons/S2.png",
+    "icon": "/imgs/serv-icons/S2.png",
     "content": "Mēs piedāvājam virzienu un vizuālo risinājumu"
   },
   {
     "id": 3,
     "numb": "03",
     "title": "Web izstrāde",
-    "icon": "/assets/imgs/serv-icons/S3.png",
+    "icon": "/imgs/serv-icons/S3.png",
     "content": "Mēs izstrādājam dizainu un īstenojam projektu"
   },
   {
     "id": 4,
     "numb": "04",
     "title": "Uzstādīšana",
-    "icon": "/assets/imgs/serv-icons/S4.png",
+    "icon": "/imgs/serv-icons/S4.png",
     "content": "Mēs piegādājam gatavo produktu un sniedzam atbalstu"
   }
 ]

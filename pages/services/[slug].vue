@@ -39,7 +39,6 @@ import ServiceContact from '~/components/services/Contact.vue'
 const servicesFiles = import.meta.glob('/data/services/*/*.json', { eager: true });
 
 import { useRoute } from "vue-router";
-import { useI18n } from "vue-i18n";
 
 const route = useRoute();
 const { locale } = useI18n();

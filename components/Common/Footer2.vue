@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="logo">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/imgs/logo-light.png" alt="" />
             </div>
           </div>
           <div class="col-lg-6">

@@ -1,0 +1,1 @@
+import{p as t}from"#entry";function g(){let a=document.querySelectorAll("[data-background]");a.length>0&&a.forEach(s=>{let o=s.dataset.background;s.style.backgroundImage=`url('${o}')`})}const e=t("/imgs/svg-assets/arrow-right-top.svg");export{e as _,g as l};

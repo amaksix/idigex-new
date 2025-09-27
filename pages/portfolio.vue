@@ -12,7 +12,6 @@
 
 <script setup>
 //= Page Head
-import { useI18n } from 'vue-i18n'
 
 const { t, locale } = useI18n()
 useHead({

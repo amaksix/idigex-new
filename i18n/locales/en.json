@@ -89,25 +89,25 @@
           "numb": "01",
           "title": "Brief",
           "content": "We define the project tasks and goals",
-          "icon": "/assets/imgs/serv-icons/S1.png"
+          "icon": "/imgs/serv-icons/S1.png"
         },
         {
           "numb": "02",
           "title": "Concept",
           "content": "We offer a direction and a visual solution",
-          "icon": "/assets/imgs/serv-icons/S2.png"
+          "icon": "/imgs/serv-icons/S2.png"
         },
         {
           "numb": "03",
           "title": "Web development",
           "content": "We develop the design and implement the project",
-          "icon": "/assets/imgs/serv-icons/S3.png"
+          "icon": "/imgs/serv-icons/S3.png"
         },
         {
           "numb": "04",
           "title": "Installation",
           "content": "We deliver the finished product and provide support",
-          "icon": "/assets/imgs/serv-icons/S4.png"
+          "icon": "/imgs/serv-icons/S4.png"
         }
       ]
     },
@@ -274,7 +274,52 @@
     "description": "IDigex is a digital agency specializing in website development, UI/UX design, logo creation, and brand development.",
     "ogTitle": "IDigex - Your Digital Solution Partner"
   }
-}
+},
+"privacy_policy": {
+    "title": "Privacy Policy",
+    "items": [
+      {
+        "heading": "What Information We Collect",
+        "body": "We collect your name and email address when you fill out our contact form."
+      },
+      {
+        "heading": "How We Use the Information",
+        "body": "We only use your information to respond to your inquiry or provide the requested information."
+      },
+      {
+        "heading": "Legal Basis for Processing",
+        "body": "If you are in the European Economic Area, we process your personal data based on your consent and/or our legitimate interest in responding to your requests."
+      },
+      {
+        "heading": "Data Storage and Security",
+        "body": "We store your information securely and restrict access only to authorized personnel."
+      },
+      {
+        "heading": "Data Retention",
+        "body": "We only keep your data for as long as necessary to fulfill the purpose for which it was collected, and we then securely delete it."
+      },
+      {
+        "heading": "Sharing Your Information",
+        "body": "We do not sell or rent your personal information. We may share it with trusted service providers only to manage our website and communicate with you."
+      },
+      {
+        "heading": "Your Rights",
+        "body": "You have the right to withdraw your consent to data processing at any time."
+      },
+      {
+        "heading": "Cookies",
+        "body": "We use cookies only to ensure the proper functioning of our website. No tracking, analytics, or marketing cookies are used."
+      },
+      {
+        "heading": "Changes to This Policy",
+        "body": "We may update this policy from time to time. Updates will be posted on this page with a new 'last changed' date."
+      },
+      {
+        "heading": "Contact Information",
+        "body": "If you have any questions, please contact us at"
+      }
+    ]
+  }
 
   
 }

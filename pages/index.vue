@@ -27,7 +27,6 @@
 
 <script setup>
 //= Page Head
-import { useI18n } from 'vue-i18n'
 
 const { t, locale } = useI18n()
 useHead({
@@ -48,7 +47,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://www.idigex.com/public/assets/imgs/Logo_IDigex.svg' // Use an absolute URL
+      content: 'https://www.idigex.com/public/imgs/Logo_IDigex.svg' // Use an absolute URL
     },
     {
       property: 'og:url',
@@ -74,12 +73,12 @@ useHead({
     link: [
     {
       rel: "stylesheet",
-      href: '/assets/css/base.css'
+      href: '/css/base.css'
     }
   ],
     script: [
-    { src: "/assets/js/charming.min.js" },
-    { src: "/assets/js/TweenMax.min.js" },
+    { src: "/js/charming.min.js" },
+    { src: "/js/TweenMax.min.js" },
  
   ]
 });
