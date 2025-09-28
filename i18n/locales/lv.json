@@ -24,13 +24,13 @@
       "heading_part1": "IDigex apvieno dizainu un",
       "heading_part2": "tehnoloģijas.",
       "paragraph1": "Mēs veidojam tīmekļa vietnes, zīmolu veidošanu, logotipus un reklāmas materiālus, kas palīdz uzņēmumiem izcelties un runāt vienā valodā ar savu auditoriju. Savā darbā mēs koncentrējamies uz skaidrību un funkcionalitāti, izvairoties no liekā. Katrs projekts tiek izstrādāts, ņemot vērā biznesa mērķus un tā tirgus specifiku. Mūsu mērķis ir radīt risinājumus, kas ne tikai izskatās moderni, bet arī sniedz rezultātus.",
-      "paragraph2": "Mūsu tīmekļa projektu unikālās iezīmes:",
-      "feature1": "SEO-friendly",
-      "feature2": "Adaptācija uz mobilajām ierīcēm",
-      "feature3": "Ērta un intuitīva navigācija",
-      "feature4": "Pārdošanas rīki",
-      "feature5": "Neaizmirstams dizains",
-      "feature6": "Operatīvais atbalsts"
+      "paragraph2": "Mūsu vērtības:",
+      "feature1": "Atbalsts pēc projekta nodošanas",
+      "feature2": "Konsultācijas, palīdzība mājaslapas palaišanā, pamata apmācība.",
+      "feature3": "Ātrums un Caurspīdīgums",
+      "feature4": "Mēs nodrošinām stingru termiņu ievērošanu un caurspīdīgu projektu vadību, lai klients vienmēr precīzi saprastu tā pašreizējo statusu.",
+      "feature5": "Pieejamas cenas",
+      "feature6": "Mēs atlasām pakalpojumu paketes jebkuram budžetam un uzņēmuma attīstības posmam."
     }
   },
   "home":
@@ -46,7 +46,7 @@
       "paragraph": "IDigex mēs ticam, ka mūsdienīgam brendam jābūt gan stilīgam, gan funkcionālam. Mēs izstrādājam mājaslapas, radām brendu un logotipus, kas palīdz uzņēmumiem izcelties, runāt vienā valodā ar savu auditoriju."
     },
     "contact": {
-      "sub_title": "Strādājiet Ar Mums",
+      "sub_title": "Rakstiet Mums",
       "heading_part1": "Mēs labprāt",
       "heading_part2": "uzzinātu vairāk",
       "heading_part3": "par jūsu projektu.",
@@ -123,7 +123,7 @@
     ]
   },  
   "footer": {
-    "contact_text": "mēs ar prieku uzklausīsim jūs.",
+    "contact_text": "Apspriedīsim jūsu projektu.",
     "social_title": "Sociālie tīkli",
     "nav_title": "Navigācija",
     "privacy": "Privātuma politika",
@@ -144,9 +144,9 @@
       "task_title": "Uzdevums",
       "task_description": "Izveidot vizuālo stilu un digitālo risinājumu, kas atspoguļo uzņēmuma uzticamību un prestižu. Klienta galvenā prasība ir uzsvērt zīmola reprezentativitāti un \"dārgo\" tēlu.",
       "solution_title": "Risinājums",
-      "solution_description": "Mēs izstrādājām pilnīgu vizuālo stilu: logotipu, krāsu paleti un tipogrāfiju, kā arī izveidojām zīmola grāmatu ar identitātes lietošanas noteikumiem. Papildus tika izveidota adaptīva ājaslapa, kas pilnībā atbilst korporatīvajam stilam, ar ērtu struktūru un modernu dizainu.",
+      "solution_description": "Finanšu uzņēmumam ViaBON tika izstrādāts vienots vizuālais stils: izvēlētas korporatīvās krāsas un fonti, kā arī izveidots brendbooks ar ieteikumiem identitātes lietošanai. Pašlaik notiek darbs pie korporatīvās mājaslapas, tostarp tās adaptācija dažādām ierīcēm.",
       "result_title": "Rezultāts",
-      "result_description": "Uzņēmums ieguva vienotu vizuālo valodu, kas uzsver statusu un uzticību. Jaunais stils uzlabo uzticamības uztveri tirgū un rada augstākās klases apkalpošanas sajūtu klientu vidū."
+      "result_description": "Uzņēmums ieguva vienotu vizuālo tēlu, kas uzsver tā statusu un uzticamību. Jaunais stils uzlabo uzticamības uztveri tirgū un rada klientiem sajūtu, ka uzņēmums ir augstākās klases."
   },
   "penalab": {
     "category": "Brendings, Mājaslapa",
@@ -174,7 +174,7 @@
     "result_title": "Rezultāts",
     "result_description": "Uzņēmums saņēma modernu mājaslapu ar interaktīviem rīkiem un vizuāliem materiāliem, kas uzlaboja produktu prezentāciju un padarīja izvēles procesu ērtu un skaidru.",
     "models_title": "3D modeļi",
-    "models_description": "Mēs izveidojām fotoreālistiskus pilonu un autobusu pieturu 3D modeļus. Projekts ietvēra divus pieturu dizaina variantus četros izmēros ar plašu iespēju klāstu: ekrānu skaitu, pilsētas karti, transporta grafiku un individuālu pilsētas apdruku uz stikla. Pilons tiek atjaunots kā precīza esošā produkta digitālā kopija. Visas konstrukcijas tiek atjaunotas kā precīzas reālu objektu digitālās kopijas.",
+    "models_description": "Mēs izveidojām fotoreālistiskus pilonu un autobusu pieturu 3D modeļus. Projekts ietvēra divus pieturu dizaina variantus četros izmēros ar plašu iespēju klāstu: ekrānu skaitu, pilsētas karti, transporta grafiku un individuālu pilsētas apdruku uz stikla. Visas konstrukcijas tiek atjaunotas kā precīzas reālu objektu digitālās kopijas.",
     "configurator_title": "Konfigurators",
     "configurator_description": "Klientu ērtībām esam izstrādājuši interaktīvu autobusu pieturu konfiguratoru. Tas ļauj reāllaikā salikt nepieciešamo konfigurāciju: izvēlēties ekrānu skaitu, pievienot pilsētas karti, kustības sarakstu un arī drukāt uz stikla. Konfigurators skaidri demonstrē visas pieejamās iespējas un vienkāršo izvēles procesu, pārvēršot sarežģītu produktu skaidrā un ērtā risinājumā."
   },
@@ -302,6 +302,10 @@
       {
         "heading": "Kontaktinformācija",
         "body": "Ja jums ir jautājumi, sazinieties ar mums"
+      },
+      {
+        "heading": "",
+        "body": "Pēdējās izmaiņas - 28.09.2025"
       }
     ]
   }

@@ -29,8 +29,9 @@ body {
   color: #f9f9f9;
   background-color: #0c0c0c;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Mona-Sans Regular', sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-family: 'Mona-Sans Regular', 'Inter', sans-serif;
+  font-weight: 400;
   overflow-x: hidden !important;
   width: 100vw;
 }
@@ -114,7 +115,7 @@ body.crev-portfolio:after {
   padding: 12px 20px;
   border: 1.2px solid rgba(20, 20, 20, 0.5);
   border-radius: 5px;
-  width: 201px;
+  width: fit-content;
 }
     
 .close-icon-container{
@@ -281,7 +282,7 @@ h1, h2, h3, h4, h5 {
   line-height: 1.2;
   margin: 0;
   font-weight: 500;
-  font-family: 'Mona-Sans Medium', sans-serif;
+  font-family: 'Mona-Sans Medium', 'Inter', sans-serif;
 }
 
 h1 {
@@ -316,7 +317,7 @@ h6 {
 
 p {
   line-height: 1.8;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 300;
   color: #ddd;
@@ -324,39 +325,48 @@ p {
 }
 
 .f-thin {
-  font-family: 'Mona Sans Thin';
-}
-
-.f-light {
-  font-family: 'Mona-Sans Light';
+  font-family: 'Mona-Sans Thin', 'Inter', sans-serif;
+  font-weight: 100;
 }
 
 .f-ultra-light {
-  font-family: 'Mona-Sans UltraLight';
+  font-family: 'Mona-Sans UltraLight', 'Inter', sans-serif;
+  font-weight: 200;
+}
+
+.f-light {
+  font-family: 'Mona-Sans Light', 'Inter', sans-serif;
+  font-weight: 300;
 }
 
 .f-regular {
-  font-family: 'Mona-Sans Regular';
+  font-family: 'Mona-Sans Regular', 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .f-medium {
-  font-family: 'Mona-Sans Medium';
+  font-family: 'Mona-Sans Medium', 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .f-sbold {
-  font-family: 'Mona-Sans SemiBold';
+  font-family: 'Mona-Sans SemiBold', 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .f-bold {
-  font-family: 'Mona-Sans Bold';
+  font-family: 'Mona-Sans Bold', 'Inter', sans-serif;
+  font-weight: 700;
 }
 
 .f-xbold {
-  font-family: 'Mona-Sans ExtraBold';
+  font-family: 'Mona-Sans ExtraBold', 'Inter', sans-serif;
+  font-weight: 800;
 }
 
 .f-black {
-  font-family: 'Mona-Sans Black';
+  font-family: 'Mona-Sans Black', 'Inter', sans-serif;
+  font-weight: 900;
 }
 
 a, a:hover {

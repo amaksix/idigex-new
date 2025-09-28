@@ -4231,7 +4231,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "e16ab747-ceb7-45d9-8fdb-168de48b4f1f",
+    "buildId": "fd4cda3b-4973-41b5-b98f-c9e6d8e6d376",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -5399,765 +5399,597 @@ const assets = {
   "/css/base.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"250-ouxLnOtTYWSycsILBdEthtGAuLU\"",
-    "mtime": "2025-08-21T10:20:41.893Z",
+    "mtime": "2025-09-27T20:41:38.046Z",
     "size": 592,
     "path": "../public/css/base.css"
   },
   "/css/plugins.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"564-9EobcUslqGhpJBWOMPLxZC0BDR4\"",
-    "mtime": "2025-08-21T10:20:41.916Z",
+    "mtime": "2025-09-27T20:41:38.062Z",
     "size": 1380,
     "path": "../public/css/plugins.css"
   },
   "/css/style.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"21b54-vzDQSUR6XYIYMO1XBhKjrlpnoEg\"",
-    "mtime": "2025-09-24T19:31:33.306Z",
-    "size": 138068,
+    "etag": "\"21d0d-G6seaqcco2rMNPLr6960KsPKWTg\"",
+    "mtime": "2025-09-28T19:30:15.195Z",
+    "size": 138509,
     "path": "../public/css/style.css"
   },
   "/imgs/About_banner.jpg": {
     "type": "image/jpeg",
     "etag": "\"18657-x7AEFGP2mKKID0HEFcJ+XveoNnw\"",
-    "mtime": "2025-09-09T19:19:21.620Z",
+    "mtime": "2025-09-27T20:41:38.212Z",
     "size": 99927,
     "path": "../public/imgs/About_banner.jpg"
   },
   "/imgs/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"2c74d-kGts8wM10KXmAmsg4yN4cNeWOfQ\"",
-    "mtime": "2025-09-14T08:26:34.434Z",
+    "mtime": "2025-09-27T20:41:38.223Z",
     "size": 182093,
     "path": "../public/imgs/favicon.ico"
   },
   "/imgs/logo-light.png": {
     "type": "image/png",
     "etag": "\"1064-PUPkZypBdpllnGVWZ1gP/hKXd7U\"",
-    "mtime": "2025-08-21T10:20:42.534Z",
+    "mtime": "2025-09-27T20:41:38.225Z",
     "size": 4196,
     "path": "../public/imgs/logo-light.png"
   },
   "/imgs/Logo_dark.svg": {
     "type": "image/svg+xml",
-    "etag": "\"161c-Oue/qEkHh0w6l6Kl0r+WukmqNZo\"",
-    "mtime": "2025-08-05T17:14:50.484Z",
-    "size": 5660,
+    "etag": "\"1635-+TLBAv/5EVIva0ycD/F9DTZZCeM\"",
+    "mtime": "2025-09-27T20:41:38.213Z",
+    "size": 5685,
     "path": "../public/imgs/Logo_dark.svg"
   },
   "/imgs/Logo_IDigex.svg": {
     "type": "image/svg+xml",
-    "etag": "\"1415-hybtumkEwDs6T1ipJA3ynSICDmg\"",
-    "mtime": "2025-07-07T13:18:48.363Z",
-    "size": 5141,
+    "etag": "\"1424-C+y5G2zXkQP9n6S0VFzVuw5ouBE\"",
+    "mtime": "2025-09-27T20:41:38.213Z",
+    "size": 5156,
     "path": "../public/imgs/Logo_IDigex.svg"
   },
   "/imgs/Main banner-min.jpg": {
     "type": "image/jpeg",
     "etag": "\"4ae3f-SVO4eKMruxQaBO37QXSnoovP+xk\"",
-    "mtime": "2025-09-06T16:15:26.783Z",
+    "mtime": "2025-09-27T20:41:38.216Z",
     "size": 306751,
     "path": "../public/imgs/Main banner-min.jpg"
   },
   "/imgs/noise.png": {
     "type": "image/png",
     "etag": "\"17971-wH61vgfLMMKLxhmRrJROi3gQYyg\"",
-    "mtime": "2025-08-21T10:20:42.542Z",
+    "mtime": "2025-09-27T20:41:38.226Z",
     "size": 96625,
     "path": "../public/imgs/noise.png"
   },
   "/imgs/Services_m_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"1cc21-qU5JvrX2sLOk85p8U0sEsraQleU\"",
-    "mtime": "2025-09-08T19:14:23.652Z",
+    "mtime": "2025-09-27T20:41:38.217Z",
     "size": 117793,
     "path": "../public/imgs/Services_m_1.jpg"
   },
   "/imgs/Services_m_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"4973c-vTSuODyS//wE63726oa/iE2OJWw\"",
-    "mtime": "2025-09-08T19:14:32.169Z",
+    "mtime": "2025-09-27T20:41:38.220Z",
     "size": 300860,
     "path": "../public/imgs/Services_m_2.jpg"
   },
   "/imgs/Services_m_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"1a1c9-4gRayqJQzcWbB+h6Wf/reQeU68M\"",
-    "mtime": "2025-09-08T19:14:36.068Z",
+    "mtime": "2025-09-27T20:41:38.221Z",
     "size": 106953,
     "path": "../public/imgs/Services_m_3.jpg"
   },
   "/imgs/Services_m_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"49449-XLyzfPusQhZfhmKfqF/gx5+q4d8\"",
-    "mtime": "2025-09-08T19:14:28.543Z",
+    "mtime": "2025-09-27T20:41:38.222Z",
     "size": 300105,
     "path": "../public/imgs/Services_m_4.jpg"
   },
   "/fonts/fa-brands-400.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"20c96-0f/WNAzb9yiQzLZ/MgFer8XfUac\"",
-    "mtime": "2025-08-21T10:20:42.083Z",
+    "mtime": "2025-09-27T20:41:38.080Z",
     "size": 134294,
     "path": "../public/fonts/fa-brands-400.eot"
   },
   "/fonts/fa-brands-400.ttf": {
     "type": "font/ttf",
     "etag": "\"20b64-irkHCD/sqqKp7JOyf4hK10VzcFw\"",
-    "mtime": "2025-08-21T10:20:42.083Z",
+    "mtime": "2025-09-27T20:41:38.082Z",
     "size": 133988,
     "path": "../public/fonts/fa-brands-400.ttf"
   },
   "/fonts/fa-brands-400.woff": {
     "type": "font/woff",
     "etag": "\"15f84-Hh8Cv6ieF5/i3RODJzuIEqqHNBg\"",
-    "mtime": "2025-08-21T10:20:42.098Z",
+    "mtime": "2025-09-27T20:41:38.083Z",
     "size": 89988,
     "path": "../public/fonts/fa-brands-400.woff"
   },
   "/fonts/fa-brands-400.woff2": {
     "type": "font/woff2",
     "etag": "\"12bc0-BhPH67pV7kfvMCwPd2YyRpL4mac\"",
-    "mtime": "2025-08-21T10:20:42.105Z",
+    "mtime": "2025-09-27T20:41:38.083Z",
     "size": 76736,
     "path": "../public/fonts/fa-brands-400.woff2"
   },
   "/fonts/fa-regular-400.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"84f2-Zw+wHkkwrkb+jW0rderSiPVOjmE\"",
-    "mtime": "2025-08-21T10:20:42.116Z",
+    "mtime": "2025-09-27T20:41:38.084Z",
     "size": 34034,
     "path": "../public/fonts/fa-regular-400.eot"
   },
   "/fonts/fa-regular-400.ttf": {
     "type": "font/ttf",
     "etag": "\"83c8-w0rNaBjfbba+QaLjMYhnZdYB8us\"",
-    "mtime": "2025-08-21T10:20:42.116Z",
+    "mtime": "2025-09-27T20:41:38.085Z",
     "size": 33736,
     "path": "../public/fonts/fa-regular-400.ttf"
   },
   "/fonts/fa-regular-400.woff": {
     "type": "font/woff",
     "etag": "\"3f94-OtT05LH7Pt7j1Lol5s3+0vC4ilQ\"",
-    "mtime": "2025-08-21T10:20:42.116Z",
+    "mtime": "2025-09-27T20:41:38.085Z",
     "size": 16276,
     "path": "../public/fonts/fa-regular-400.woff"
   },
   "/fonts/fa-regular-400.woff2": {
     "type": "font/woff2",
     "etag": "\"33a8-E1F1Ka/6OeJYXFkayubcM2tqqRc\"",
-    "mtime": "2025-08-21T10:20:42.130Z",
+    "mtime": "2025-09-27T20:41:38.085Z",
     "size": 13224,
     "path": "../public/fonts/fa-regular-400.woff2"
   },
   "/fonts/fa-solid-900.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"31916-6oRcWb7kpcbbd0uNgGD1ZBt4muk\"",
-    "mtime": "2025-08-21T10:20:42.130Z",
+    "mtime": "2025-09-27T20:41:38.088Z",
     "size": 203030,
     "path": "../public/fonts/fa-solid-900.eot"
   },
   "/fonts/fa-solid-900.ttf": {
     "type": "font/ttf",
     "etag": "\"317f8-64kU9rF5e0XuCIPmCJ2SaV2flEE\"",
-    "mtime": "2025-08-21T10:20:42.130Z",
+    "mtime": "2025-09-27T20:41:38.091Z",
     "size": 202744,
     "path": "../public/fonts/fa-solid-900.ttf"
   },
   "/fonts/fa-solid-900.woff": {
     "type": "font/woff",
     "etag": "\"18d10-oirNdpfzbn1MwxqFPHDndurFS7E\"",
-    "mtime": "2025-08-21T10:20:42.148Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 101648,
     "path": "../public/fonts/fa-solid-900.woff"
   },
   "/fonts/fa-solid-900.woff2": {
     "type": "font/woff2",
     "etag": "\"131bc-DMssgUp+TKEsR3iCFjOAnLA2Hqo\"",
-    "mtime": "2025-08-21T10:20:42.148Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 78268,
     "path": "../public/fonts/fa-solid-900.woff2"
   },
   "/fonts/fontawesome-webfont.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"2876e-2YDCzoc9xDr0YNTVctRBMESZ9AA\"",
-    "mtime": "2025-08-21T10:20:42.173Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 165742,
     "path": "../public/fonts/fontawesome-webfont.eot"
   },
   "/fonts/fontawesome-webfont.ttf": {
     "type": "font/ttf",
     "etag": "\"286ac-E7HqtlqYPHpzvHmXxHnWaUP3xss\"",
-    "mtime": "2025-08-21T10:20:42.178Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 165548,
     "path": "../public/fonts/fontawesome-webfont.ttf"
   },
   "/fonts/fontawesome-webfont.woff": {
     "type": "font/woff",
     "etag": "\"17ee8-KLeCJAs+dtuCThLAJ1SpcxoWdSc\"",
-    "mtime": "2025-08-21T10:20:42.178Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 98024,
     "path": "../public/fonts/fontawesome-webfont.woff"
   },
   "/fonts/fontawesome-webfont.woff2": {
     "type": "font/woff2",
     "etag": "\"12d68-1vSMun0Hb7by/Wupk6dbncHsvww\"",
-    "mtime": "2025-08-21T10:20:42.178Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 77160,
     "path": "../public/fonts/fontawesome-webfont.woff2"
   },
   "/fonts/FontAwesome.otf": {
     "type": "font/otf",
     "etag": "\"20e98-BIcHvFKsS2VjqqODv+hmCg3ckIw\"",
-    "mtime": "2025-08-21T10:20:42.162Z",
+    "mtime": "2025-09-27T20:41:38.074Z",
     "size": 134808,
     "path": "../public/fonts/FontAwesome.otf"
   },
   "/fonts/ionicons.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"1d794-YVMuieIS+N0WujHz6881wKczQDU\"",
-    "mtime": "2025-08-21T10:20:42.198Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 120724,
     "path": "../public/fonts/ionicons.eot"
   },
   "/fonts/ionicons.ttf": {
     "type": "font/ttf",
     "etag": "\"2e05c-GwoN4ISQWUaiAwDKjDVIZd7EZ2Q\"",
-    "mtime": "2025-08-21T10:20:42.204Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 188508,
     "path": "../public/fonts/ionicons.ttf"
   },
   "/fonts/ionicons.woff": {
     "type": "font/woff",
     "etag": "\"10940-5GgZ6GOkZ1HWIsEZDE6Kg+vCBhI\"",
-    "mtime": "2025-08-21T10:20:42.209Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 67904,
     "path": "../public/fonts/ionicons.woff"
   },
   "/fonts/Pe-icon-7-stroke.eot": {
     "type": "application/vnd.ms-fontobject",
     "etag": "\"e538-bAn5sBovip1nIpKy1B2U5jnq8T0\"",
-    "mtime": "2025-08-21T10:20:42.209Z",
+    "mtime": "2025-09-27T20:41:38.074Z",
     "size": 58680,
     "path": "../public/fonts/Pe-icon-7-stroke.eot"
   },
   "/fonts/Pe-icon-7-stroke.ttf": {
     "type": "font/ttf",
     "etag": "\"e470-6NIauRh38AQvvutyvq9xymWVueg\"",
-    "mtime": "2025-08-21T10:20:42.209Z",
+    "mtime": "2025-09-27T20:41:38.076Z",
     "size": 58480,
     "path": "../public/fonts/Pe-icon-7-stroke.ttf"
   },
   "/fonts/Pe-icon-7-stroke.woff": {
     "type": "font/woff",
     "etag": "\"e4bc-flRLsRt2VZmNtvMkxhL3/78Ktm4\"",
-    "mtime": "2025-08-21T10:20:42.225Z",
+    "mtime": "2025-09-27T20:41:38.078Z",
     "size": 58556,
     "path": "../public/fonts/Pe-icon-7-stroke.woff"
   },
   "/js/bootstrap.bundle.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"13137-vNOSotlQUYEeolAIyoXKpLsMT+g\"",
-    "mtime": "2025-08-21T10:20:43.858Z",
+    "mtime": "2025-09-27T20:41:38.609Z",
     "size": 78135,
     "path": "../public/js/bootstrap.bundle.min.js"
   },
   "/js/charming.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"34f-MFvRWHdJ4u13AhmXbmpFI9gnaPI\"",
-    "mtime": "2025-09-06T12:20:22.492Z",
+    "mtime": "2025-09-27T20:41:38.611Z",
     "size": 847,
     "path": "../public/js/charming.min.js"
   },
   "/js/countdown.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"863-0RVVvwOnswGLeDtyDqCkh9mMpy0\"",
-    "mtime": "2025-08-21T10:20:43.866Z",
+    "mtime": "2025-09-27T20:41:38.611Z",
     "size": 2147,
     "path": "../public/js/countdown.js"
   },
   "/js/demo.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"1a8c6-2RQ5iWzUMWEYCCaaftIHpmHZ4ss\"",
-    "mtime": "2025-08-21T10:20:43.875Z",
+    "mtime": "2025-09-27T20:41:38.612Z",
     "size": 108742,
     "path": "../public/js/demo.js"
   },
   "/js/gsap.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"116d8-nXR3+f0D8boWxkVMLap7uIAWA0I\"",
-    "mtime": "2025-08-21T10:20:43.883Z",
+    "mtime": "2025-09-27T20:41:38.613Z",
     "size": 71384,
     "path": "../public/js/gsap.min.js"
   },
   "/js/hscroll.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"259-VG6e+FKbrcZSciAfdv4pFx+prso\"",
-    "mtime": "2025-08-21T10:20:43.889Z",
+    "mtime": "2025-09-27T20:41:38.614Z",
     "size": 601,
     "path": "../public/js/hscroll.js"
   },
   "/js/imagesloaded.pkgd.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"1547-bgFCCIki8JtmbXJdg/UyWPYKzOE\"",
-    "mtime": "2025-08-21T10:20:43.895Z",
+    "mtime": "2025-09-27T20:41:38.615Z",
     "size": 5447,
     "path": "../public/js/imagesloaded.pkgd.min.js"
   },
   "/js/isotope.pkgd.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"8a80-FMf1nnPSqZqmiMJEOpqbJKy/9Dw\"",
-    "mtime": "2025-08-21T10:20:43.901Z",
+    "mtime": "2025-09-27T20:41:38.615Z",
     "size": 35456,
     "path": "../public/js/isotope.pkgd.min.js"
   },
   "/js/map.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"f16-IQeKxBR27To+sQYDVUXeZL0xz8E\"",
-    "mtime": "2025-08-21T10:20:43.907Z",
+    "mtime": "2025-09-27T20:41:38.616Z",
     "size": 3862,
     "path": "../public/js/map.js"
   },
   "/js/parallax.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"2486-j84+ubRMUHHtxGcdkhMpcrcFv+o\"",
-    "mtime": "2025-08-21T10:20:43.913Z",
+    "mtime": "2025-09-27T20:41:38.616Z",
     "size": 9350,
     "path": "../public/js/parallax.min.js"
   },
   "/js/plugins.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"3f37-FUE3/qFk/Wgy21uNy8iNo9wJPKY\"",
-    "mtime": "2025-08-21T10:20:43.919Z",
+    "mtime": "2025-09-27T20:41:38.617Z",
     "size": 16183,
     "path": "../public/js/plugins.js"
   },
   "/js/scripts.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"b2-7g8f1S+H3MFXnMULBpvGEyLwio8\"",
-    "mtime": "2025-09-06T12:26:11.228Z",
+    "mtime": "2025-09-27T20:41:38.617Z",
     "size": 178,
     "path": "../public/js/scripts.js"
   },
   "/js/ScrollSmoother.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"2f9c-eFL7pS4SZ21OtkNgMsF+MwLumrM\"",
-    "mtime": "2025-08-21T10:20:43.928Z",
+    "mtime": "2025-09-27T20:41:38.594Z",
     "size": 12188,
     "path": "../public/js/ScrollSmoother.min.js"
   },
   "/js/ScrollTrigger.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"a169-AuMgdWb0+tY65QmLLJQZJ+wPbX0\"",
-    "mtime": "2025-08-21T10:20:43.939Z",
+    "mtime": "2025-09-27T20:41:38.594Z",
     "size": 41321,
     "path": "../public/js/ScrollTrigger.min.js"
   },
   "/js/smoother-script.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"177-GaTDbJXXIKAdAkTgeJJdpNatnMg\"",
-    "mtime": "2025-09-06T10:29:38.180Z",
+    "mtime": "2025-09-27T20:41:38.618Z",
     "size": 375,
     "path": "../public/js/smoother-script.js"
   },
   "/js/TweenMax.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"3f914-3fF9gKUHKjKptE4E9OFffyaenOg\"",
-    "mtime": "2025-09-06T12:03:31.263Z",
+    "mtime": "2025-09-27T20:41:38.594Z",
     "size": 260372,
     "path": "../public/js/TweenMax.min.js"
   },
   "/js/wow.min.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"3ae5-WKqSatx4JTob60BXlFPi1Wz6FFk\"",
-    "mtime": "2025-09-06T12:19:12.678Z",
+    "mtime": "2025-09-27T20:41:38.619Z",
     "size": 15077,
     "path": "../public/js/wow.min.js"
   },
-  "/_nuxt/0Scj21Sr.js": {
+  "/_nuxt/1jH27Qmq.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"d2e-SK47RljTR9phi1OImfAwkKyNBV4\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 3374,
-    "path": "../public/_nuxt/0Scj21Sr.js"
-  },
-  "/_nuxt/2P_8sk1T.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"13a5-bD32D0hGwjCbt0Vedf6OeRsGoAE\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5029,
-    "path": "../public/_nuxt/2P_8sk1T.js"
+    "etag": "\"13e6-fmxU6B21QRGvx8UtHjRkzFOH42I\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5094,
+    "path": "../public/_nuxt/1jH27Qmq.js"
   },
   "/_nuxt/B-tiLm8f.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"25a-/QkURa6Xw+tt9Cjl0eiw6OWCX5w\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 602,
     "path": "../public/_nuxt/B-tiLm8f.js"
+  },
+  "/_nuxt/B21icfte.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"8e5a-fVWt/lOvUmBcWENabCsojRMKHdA\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 36442,
+    "path": "../public/_nuxt/B21icfte.js"
+  },
+  "/_nuxt/B7IEb7eY.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"13a5-YGeagEpNBPyyNYefXN4jQk89poQ\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5029,
+    "path": "../public/_nuxt/B7IEb7eY.js"
   },
   "/_nuxt/Bjou_V1r.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"d37-okd+n7meFV32CeARZnQ5fZ7hc1E\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 3383,
     "path": "../public/_nuxt/Bjou_V1r.js"
   },
-  "/_nuxt/BoWxp68E.js": {
+  "/_nuxt/BVad-gR8.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"16b5-2ee5F9KgkFsw881Vs3TlCV2awik\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5813,
-    "path": "../public/_nuxt/BoWxp68E.js"
+    "etag": "\"685e-j6Q6tDfPfJ62CDaIIspr2eFshdA\"",
+    "mtime": "2025-09-28T19:30:26.737Z",
+    "size": 26718,
+    "path": "../public/_nuxt/BVad-gR8.js"
   },
-  "/_nuxt/ByM7KBZJ.js": {
+  "/_nuxt/BwoIW13p.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"47ff-s2lYb/3beUYskxlw/wEccE+/K6I\"",
-    "mtime": "2025-09-27T20:37:26.320Z",
-    "size": 18431,
-    "path": "../public/_nuxt/ByM7KBZJ.js"
+    "etag": "\"391-itCgzO5LAw5mOybXxX4/rE9Txz8\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 913,
+    "path": "../public/_nuxt/BwoIW13p.js"
   },
   "/_nuxt/B_Kdjlo6.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"2e7c-Zmit0feigVEhodA5RETw+rHaRkA\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 11900,
     "path": "../public/_nuxt/B_Kdjlo6.js"
-  },
-  "/_nuxt/C0pZQpPB.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"3e0-CEzifZN+qHLqBZVfID22u9T6mts\"",
-    "mtime": "2025-09-27T20:37:26.319Z",
-    "size": 992,
-    "path": "../public/_nuxt/C0pZQpPB.js"
-  },
-  "/_nuxt/C0ZTSMqK.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"8e72-aNDCM73QgOmzvTbCAvbps3rpNfw\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 36466,
-    "path": "../public/_nuxt/C0ZTSMqK.js"
   },
   "/_nuxt/C4nn2V66.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"1f9-Hll4Or8forfCLn9afWR2es+6Lyc\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 505,
     "path": "../public/_nuxt/C4nn2V66.js"
   },
-  "/_nuxt/CL0O8nZJ.js": {
+  "/_nuxt/C6ariGr5.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"e70-HJWgsENHsD+LIcOzkuhPDXc8N78\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 3696,
-    "path": "../public/_nuxt/CL0O8nZJ.js"
+    "etag": "\"1412-F//HK2WhpK+xS+9lnWU5v1eXgsU\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5138,
+    "path": "../public/_nuxt/C6ariGr5.js"
   },
-  "/_nuxt/CrROaLNF.js": {
+  "/_nuxt/CDRkeY5d.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"3c4af-ZVo+RXScIW3otxV3SoL3JNVHFgE\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 246959,
-    "path": "../public/_nuxt/CrROaLNF.js"
+    "etag": "\"dcb-J8egE0fCWzk3UATPrS3ScRyh9k8\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 3531,
+    "path": "../public/_nuxt/CDRkeY5d.js"
   },
-  "/_nuxt/CtURVegh.js": {
+  "/_nuxt/Ces2lQgR.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"44a3-xLKXpdLQVxq34j4XsiUyKezhX5o\"",
-    "mtime": "2025-09-27T20:37:26.319Z",
-    "size": 17571,
-    "path": "../public/_nuxt/CtURVegh.js"
+    "etag": "\"d2e-0n56jC2ywPV0rBrS0kCNRKQVKW8\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 3374,
+    "path": "../public/_nuxt/Ces2lQgR.js"
+  },
+  "/_nuxt/CNYjWOQa.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"48ea-qo7o7gmwvdDuucC18U9vT/lGWNA\"",
+    "mtime": "2025-09-28T19:30:26.737Z",
+    "size": 18666,
+    "path": "../public/_nuxt/CNYjWOQa.js"
+  },
+  "/_nuxt/CQSkDu6H.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3261-/91w7IaSOAvELFkkmUWBHlBJ6d0\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 12897,
+    "path": "../public/_nuxt/CQSkDu6H.js"
+  },
+  "/_nuxt/D--tcrqx.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2316-60mZMAnpHaZOmR9H4C+nBL0wkH8\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 8982,
+    "path": "../public/_nuxt/D--tcrqx.js"
   },
   "/_nuxt/D7sFhZXG.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"7eb-CUS2qidLBnS/Snl5IiyX9jWv5f0\"",
-    "mtime": "2025-09-27T20:37:26.320Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 2027,
     "path": "../public/_nuxt/D7sFhZXG.js"
+  },
+  "/_nuxt/D8EQoOsD.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3e0-ZsjUc8ZxsC+iLtkaKj89mCTkp1k\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 992,
+    "path": "../public/_nuxt/D8EQoOsD.js"
+  },
+  "/_nuxt/DbVCS9iz.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"13ca-hU2H4585cPVY3TxHF06atjFuVzI\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5066,
+    "path": "../public/_nuxt/DbVCS9iz.js"
   },
   "/_nuxt/Deh6--pq.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"13d-h9CN6syVcPRwqlHuwtjedTy3mAo\"",
-    "mtime": "2025-09-27T20:37:26.319Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 317,
     "path": "../public/_nuxt/Deh6--pq.js"
   },
   "/_nuxt/DFJDXlNt.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"f7-0Z98yX3JTau7SK8N5gvIOY2MunA\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 247,
     "path": "../public/_nuxt/DFJDXlNt.js"
   },
   "/_nuxt/DIxgIYD-.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"103-ryDypHrA1yREOBzVpdK5YSG6Ya8\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 259,
     "path": "../public/_nuxt/DIxgIYD-.js"
   },
-  "/_nuxt/Dq-r-j8P.js": {
+  "/_nuxt/DmDiQTGC.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"13e6-sGTv9DdTYb05LgOjRmNaoBVol7w\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5094,
-    "path": "../public/_nuxt/Dq-r-j8P.js"
+    "etag": "\"166c-FDr6cUfzXL44sc+w8A7vUu8kXto\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5740,
+    "path": "../public/_nuxt/DmDiQTGC.js"
   },
-  "/_nuxt/DqwS9o7S.js": {
+  "/_nuxt/DnMnLoFm.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"677b-uUqqtlRai2HqLxAFcqFQCXFRvs0\"",
-    "mtime": "2025-09-27T20:37:26.320Z",
-    "size": 26491,
-    "path": "../public/_nuxt/DqwS9o7S.js"
-  },
-  "/_nuxt/DS-hnaCh.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"13ca-2xaIyPxnsbhWdbghzgumIm7U8CQ\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5066,
-    "path": "../public/_nuxt/DS-hnaCh.js"
+    "etag": "\"16b5-OQV+6M/XogyX/bRsz4Ko91KEcjM\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 5813,
+    "path": "../public/_nuxt/DnMnLoFm.js"
   },
   "/_nuxt/DsgzOVKm.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"e9f-JyogksSD7cGqW9B4WSrnbKcM6N8\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 3743,
     "path": "../public/_nuxt/DsgzOVKm.js"
-  },
-  "/_nuxt/DT6lYPZM.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2316-l90CHBlrnthhzxMX4PFWgr6x74g\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 8982,
-    "path": "../public/_nuxt/DT6lYPZM.js"
-  },
-  "/_nuxt/DwxY6abr.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"ee8-C7MxdCXfOmPva5kwFwdUsEyL54Q\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 3816,
-    "path": "../public/_nuxt/DwxY6abr.js"
-  },
-  "/_nuxt/DXFi96WS.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"391-i+ODpcSNWIWwmVSBVyG063zcVjg\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 913,
-    "path": "../public/_nuxt/DXFi96WS.js"
   },
   "/_nuxt/DYwJ-ck_.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"13e6-ny5EwimT8V4FizgwFG4rk/z0Lbg\"",
-    "mtime": "2025-09-27T20:37:26.319Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 5094,
     "path": "../public/_nuxt/DYwJ-ck_.js"
-  },
-  "/_nuxt/DyyuT88F.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"166c-bzMbuvKWBf+rhuJox8WardxKmk4\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5740,
-    "path": "../public/_nuxt/DyyuT88F.js"
   },
   "/_nuxt/error-404.DqZyKpgk.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"dce-saxwjItO1YVdOSJb93rly2zR334\"",
-    "mtime": "2025-09-27T20:37:26.313Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 3534,
     "path": "../public/_nuxt/error-404.DqZyKpgk.css"
   },
   "/_nuxt/error-500.CZqNkBuR.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"75c-Ri+jM1T7rkunCBcNyJ0rTLFEHks\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 1884,
     "path": "../public/_nuxt/error-500.CZqNkBuR.css"
   },
   "/_nuxt/error.C7ZbH1rl.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"40-vpcX0CnB3zVhYZuvE3Cc6e556yk\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
+    "mtime": "2025-09-28T19:30:26.733Z",
     "size": 64,
     "path": "../public/_nuxt/error.C7ZbH1rl.css"
   },
-  "/_nuxt/VzUnq6rv.js": {
+  "/_nuxt/GM_MsICi.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"3267-52Zqv3f4mZ576QvQZ/Y9OzcLJho\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 12903,
-    "path": "../public/_nuxt/VzUnq6rv.js"
+    "etag": "\"459d-j4v0zfWzr1muzTXlKOv9akSuhEY\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 17821,
+    "path": "../public/_nuxt/GM_MsICi.js"
   },
-  "/_nuxt/XFv4ybvQ.js": {
+  "/_nuxt/IxWs0Rf8.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1412-NvwQ1WSvNMgj1gzfH9Kya6ZxOEk\"",
-    "mtime": "2025-09-27T20:37:26.317Z",
-    "size": 5138,
-    "path": "../public/_nuxt/XFv4ybvQ.js"
+    "etag": "\"ee8-NnoltToWzyiWGM6G/fTqLs+GM2Y\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 3816,
+    "path": "../public/_nuxt/IxWs0Rf8.js"
   },
-  "/css/components/_cursor.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"174b-1RQGpa6btJGK/fO9iLTpZDdlFyo\"",
-    "mtime": "2025-08-21T10:20:41.925Z",
-    "size": 5963,
-    "path": "../public/css/components/_cursor.css"
-  },
-  "/css/components/_helper.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"4f4a-jNDNb6soGKhdfsWyE9lwSVuJ2zU\"",
-    "mtime": "2025-08-21T10:20:41.925Z",
-    "size": 20298,
-    "path": "../public/css/components/_helper.css"
-  },
-  "/css/components/_overlay.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"86d-LyOkIH8AKm43UFNBwKvDMaJyUWU\"",
-    "mtime": "2025-08-21T10:20:41.925Z",
-    "size": 2157,
-    "path": "../public/css/components/_overlay.css"
-  },
-  "/css/layout/_awards.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"3cc-mxXgnVQJ4u3dEVHVstDOnBCpvfQ\"",
-    "mtime": "2025-08-21T10:20:41.941Z",
-    "size": 972,
-    "path": "../public/css/layout/_awards.css"
-  },
-  "/css/layout/_brand.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"b97-qtaFw6J+/c7mJO/JUm9YyYY7tsQ\"",
-    "mtime": "2025-08-21T10:20:41.941Z",
-    "size": 2967,
-    "path": "../public/css/layout/_brand.css"
-  },
-  "/css/layout/_footer.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"3c6-cULNPFYyo62ddNWJq95nkbtetmY\"",
-    "mtime": "2025-08-21T10:20:41.941Z",
-    "size": 966,
-    "path": "../public/css/layout/_footer.css"
-  },
-  "/css/layout/_header.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"8a4-18MoeaqHW8WSDGoObH1xcqhYbGs\"",
-    "mtime": "2025-08-21T10:20:41.956Z",
-    "size": 2212,
-    "path": "../public/css/layout/_header.css"
-  },
-  "/css/layout/_price.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"b2-EF7wnu7O81VPAplmY09qUxFYYrM\"",
-    "mtime": "2025-08-21T10:20:41.956Z",
-    "size": 178,
-    "path": "../public/css/layout/_price.css"
-  },
-  "/css/layout/_slider.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"51-+6ewflQivvlOpCjbo7dkyXypAFY\"",
-    "mtime": "2025-08-21T10:20:41.956Z",
-    "size": 81,
-    "path": "../public/css/layout/_slider.css"
-  },
-  "/css/layout/_video.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"219-CyrX6elSQtRom6CYoeZhCAUq8SE\"",
-    "mtime": "2025-08-21T10:20:41.956Z",
-    "size": 537,
-    "path": "../public/css/layout/_video.css"
-  },
-  "/css/plugins/animate.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"683d-B21tBUo1cSS4PiQ5kvA4vuRz8yM\"",
-    "mtime": "2025-09-06T12:10:50.353Z",
-    "size": 26685,
-    "path": "../public/css/plugins/animate.min.css"
-  },
-  "/css/plugins/animsition.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"6b5c-up9cMS6StzeFN5L0Y+jyulNVGYM\"",
-    "mtime": "2025-08-21T10:20:41.988Z",
-    "size": 27484,
-    "path": "../public/css/plugins/animsition.min.css"
-  },
-  "/css/plugins/bootstrap.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"27bd2-3dyXWyoggVItkIvVtwwl4Q+Heh0\"",
-    "mtime": "2025-08-21T10:20:42.004Z",
-    "size": 162770,
-    "path": "../public/css/plugins/bootstrap.min.css"
-  },
-  "/css/plugins/flaticon.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"5f8-xNnzacuLi7sUX41+zSVsMyq9VR0\"",
-    "mtime": "2025-08-21T10:20:42.011Z",
-    "size": 1528,
-    "path": "../public/css/plugins/flaticon.css"
-  },
-  "/css/plugins/fontawesome-all.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"e7ae-hZOVyxc4Ub1sFKrs24XS1Gy87Lk\"",
-    "mtime": "2025-08-21T10:20:42.011Z",
-    "size": 59310,
-    "path": "../public/css/plugins/fontawesome-all.min.css"
-  },
-  "/css/plugins/ionicons.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"c86e-w6F91Xd6+fxgajjH41LYQqX4qGs\"",
-    "mtime": "2025-08-21T10:20:42.020Z",
-    "size": 51310,
-    "path": "../public/css/plugins/ionicons.min.css"
-  },
-  "/css/plugins/justifiedGallery.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"b7e-H2yzLinC9cyvQmyglKyuNpUBrDE\"",
-    "mtime": "2025-08-21T10:20:42.020Z",
-    "size": 2942,
-    "path": "../public/css/plugins/justifiedGallery.min.css"
-  },
-  "/css/plugins/magnific-popup.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"1c86-dKQTctgzGVt33Z4Wf4LKOVzEcC0\"",
-    "mtime": "2025-08-21T10:20:42.035Z",
-    "size": 7302,
-    "path": "../public/css/plugins/magnific-popup.css"
-  },
-  "/css/plugins/pe-icon-7-stroke.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"2895-iY0GgUhQm7uMvONSMor9aVkHD3Q\"",
-    "mtime": "2025-08-21T10:20:42.038Z",
-    "size": 10389,
-    "path": "../public/css/plugins/pe-icon-7-stroke.css"
-  },
-  "/css/plugins/slick-theme.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"b3e-1LISeFpU609H1nFA9rnCAOiOxfk\"",
-    "mtime": "2025-08-21T10:20:42.051Z",
-    "size": 2878,
-    "path": "../public/css/plugins/slick-theme.css"
-  },
-  "/css/plugins/slick.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"767-ZObF/5nxTGV1LgMiI0Fg+Og/xsI\"",
-    "mtime": "2025-08-21T10:20:42.038Z",
-    "size": 1895,
-    "path": "../public/css/plugins/slick.css"
-  },
-  "/css/plugins/swiper.min.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"356e-XA17g5scW6uVedYW7kI3cSJq43M\"",
-    "mtime": "2025-08-21T10:20:42.051Z",
-    "size": 13678,
-    "path": "../public/css/plugins/swiper.min.css"
-  },
-  "/css/plugins/YouTubePopUp.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"c66-s0kjbNRPb62IfQL3QYPbDb78zbM\"",
-    "mtime": "2025-08-21T10:20:42.051Z",
-    "size": 3174,
-    "path": "../public/css/plugins/YouTubePopUp.css"
-  },
-  "/css/utility/_variables.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"53-Oi+mr+U7pLYYSTOyW5RloUprT8c\"",
-    "mtime": "2025-08-21T10:20:42.067Z",
-    "size": 83,
-    "path": "../public/css/utility/_variables.css"
+  "/_nuxt/P0ygnNMB.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3c4af-64MG6CIhzwVEU9VYZS5PECr3bqk\"",
+    "mtime": "2025-09-28T19:30:26.733Z",
+    "size": 246959,
+    "path": "../public/_nuxt/P0ygnNMB.js"
   },
   "/assets/scss/style.scss": {
     "type": "text/x-scss; charset=utf-8",
@@ -6173,725 +6005,1908 @@ const assets = {
     "size": 24598069,
     "path": "../public/assets/vid/vid-startup.mp4"
   },
+  "/css/components/_cursor.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"174b-1RQGpa6btJGK/fO9iLTpZDdlFyo\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 5963,
+    "path": "../public/css/components/_cursor.css"
+  },
+  "/css/components/_helper.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"4f4a-jNDNb6soGKhdfsWyE9lwSVuJ2zU\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 20298,
+    "path": "../public/css/components/_helper.css"
+  },
+  "/css/components/_overlay.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"86d-LyOkIH8AKm43UFNBwKvDMaJyUWU\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 2157,
+    "path": "../public/css/components/_overlay.css"
+  },
+  "/css/layout/_awards.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"3cc-mxXgnVQJ4u3dEVHVstDOnBCpvfQ\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 972,
+    "path": "../public/css/layout/_awards.css"
+  },
+  "/css/layout/_brand.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"b97-qtaFw6J+/c7mJO/JUm9YyYY7tsQ\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 2967,
+    "path": "../public/css/layout/_brand.css"
+  },
+  "/css/layout/_footer.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"3c6-cULNPFYyo62ddNWJq95nkbtetmY\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 966,
+    "path": "../public/css/layout/_footer.css"
+  },
+  "/css/layout/_header.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"8a4-18MoeaqHW8WSDGoObH1xcqhYbGs\"",
+    "mtime": "2025-09-27T20:41:38.046Z",
+    "size": 2212,
+    "path": "../public/css/layout/_header.css"
+  },
+  "/css/layout/_price.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"b2-EF7wnu7O81VPAplmY09qUxFYYrM\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 178,
+    "path": "../public/css/layout/_price.css"
+  },
+  "/css/layout/_slider.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"51-+6ewflQivvlOpCjbo7dkyXypAFY\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 81,
+    "path": "../public/css/layout/_slider.css"
+  },
+  "/css/layout/_video.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"219-CyrX6elSQtRom6CYoeZhCAUq8SE\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 537,
+    "path": "../public/css/layout/_video.css"
+  },
+  "/css/plugins/animate.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"683d-B21tBUo1cSS4PiQ5kvA4vuRz8yM\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 26685,
+    "path": "../public/css/plugins/animate.min.css"
+  },
+  "/css/plugins/animsition.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"6b5c-up9cMS6StzeFN5L0Y+jyulNVGYM\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 27484,
+    "path": "../public/css/plugins/animsition.min.css"
+  },
+  "/css/plugins/bootstrap.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"27bd2-3dyXWyoggVItkIvVtwwl4Q+Heh0\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 162770,
+    "path": "../public/css/plugins/bootstrap.min.css"
+  },
+  "/css/plugins/flaticon.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"5f8-xNnzacuLi7sUX41+zSVsMyq9VR0\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 1528,
+    "path": "../public/css/plugins/flaticon.css"
+  },
+  "/css/plugins/fontawesome-all.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"e7ae-hZOVyxc4Ub1sFKrs24XS1Gy87Lk\"",
+    "mtime": "2025-09-27T20:41:38.068Z",
+    "size": 59310,
+    "path": "../public/css/plugins/fontawesome-all.min.css"
+  },
+  "/css/plugins/ionicons.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"c86e-w6F91Xd6+fxgajjH41LYQqX4qGs\"",
+    "mtime": "2025-09-27T20:41:38.068Z",
+    "size": 51310,
+    "path": "../public/css/plugins/ionicons.min.css"
+  },
+  "/css/plugins/justifiedGallery.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"b7e-H2yzLinC9cyvQmyglKyuNpUBrDE\"",
+    "mtime": "2025-09-27T20:41:38.068Z",
+    "size": 2942,
+    "path": "../public/css/plugins/justifiedGallery.min.css"
+  },
+  "/css/plugins/magnific-popup.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"1c86-dKQTctgzGVt33Z4Wf4LKOVzEcC0\"",
+    "mtime": "2025-09-27T20:41:38.068Z",
+    "size": 7302,
+    "path": "../public/css/plugins/magnific-popup.css"
+  },
+  "/css/plugins/pe-icon-7-stroke.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"2895-iY0GgUhQm7uMvONSMor9aVkHD3Q\"",
+    "mtime": "2025-09-27T20:41:38.070Z",
+    "size": 10389,
+    "path": "../public/css/plugins/pe-icon-7-stroke.css"
+  },
+  "/css/plugins/slick-theme.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"b3e-1LISeFpU609H1nFA9rnCAOiOxfk\"",
+    "mtime": "2025-09-27T20:41:38.070Z",
+    "size": 2878,
+    "path": "../public/css/plugins/slick-theme.css"
+  },
+  "/css/plugins/slick.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"767-ZObF/5nxTGV1LgMiI0Fg+Og/xsI\"",
+    "mtime": "2025-09-27T20:41:38.070Z",
+    "size": 1895,
+    "path": "../public/css/plugins/slick.css"
+  },
+  "/css/plugins/swiper.min.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"356e-XA17g5scW6uVedYW7kI3cSJq43M\"",
+    "mtime": "2025-09-27T20:41:38.070Z",
+    "size": 13678,
+    "path": "../public/css/plugins/swiper.min.css"
+  },
+  "/css/plugins/YouTubePopUp.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"c66-s0kjbNRPb62IfQL3QYPbDb78zbM\"",
+    "mtime": "2025-09-27T20:41:38.062Z",
+    "size": 3174,
+    "path": "../public/css/plugins/YouTubePopUp.css"
+  },
+  "/css/utility/_variables.css": {
+    "type": "text/css; charset=utf-8",
+    "etag": "\"53-Oi+mr+U7pLYYSTOyW5RloUprT8c\"",
+    "mtime": "2025-09-27T20:41:38.072Z",
+    "size": 83,
+    "path": "../public/css/utility/_variables.css"
+  },
   "/imgs/serv-icons/0.png": {
     "type": "image/png",
     "etag": "\"4992-rjG7zC7HYcO32SHilCobi1UCiPc\"",
-    "mtime": "2025-08-21T10:20:42.653Z",
+    "mtime": "2025-09-27T20:41:38.226Z",
     "size": 18834,
     "path": "../public/imgs/serv-icons/0.png"
   },
   "/imgs/serv-icons/01-dark.svg": {
     "type": "image/svg+xml",
     "etag": "\"718-OvDlr31sCLGPDROk7tOUGKu5PT8\"",
-    "mtime": "2025-08-21T10:20:42.653Z",
+    "mtime": "2025-09-27T20:41:38.227Z",
     "size": 1816,
     "path": "../public/imgs/serv-icons/01-dark.svg"
   },
   "/imgs/serv-icons/02-dark.svg": {
     "type": "image/svg+xml",
     "etag": "\"509-zv4j32NoOIn8FKjayfZkmo/eUkY\"",
-    "mtime": "2025-08-21T10:20:42.653Z",
+    "mtime": "2025-09-27T20:41:38.227Z",
     "size": 1289,
     "path": "../public/imgs/serv-icons/02-dark.svg"
   },
   "/imgs/serv-icons/03-dark.svg": {
     "type": "image/svg+xml",
     "etag": "\"a08-BpCXdgo6wX61vBp/DRfk87nfxzE\"",
-    "mtime": "2025-08-21T10:20:42.669Z",
+    "mtime": "2025-09-27T20:41:38.228Z",
     "size": 2568,
     "path": "../public/imgs/serv-icons/03-dark.svg"
   },
   "/imgs/serv-icons/04-dark.svg": {
     "type": "image/svg+xml",
     "etag": "\"4af-s50pL/+gnFJaGqIcjv1i0u2C82A\"",
-    "mtime": "2025-08-21T10:20:42.669Z",
+    "mtime": "2025-09-27T20:41:38.228Z",
     "size": 1199,
     "path": "../public/imgs/serv-icons/04-dark.svg"
   },
   "/imgs/serv-icons/05-dark.svg": {
     "type": "image/svg+xml",
     "etag": "\"a5f-nRBJ+zYCL+T76vCfVew7mP7rDxw\"",
-    "mtime": "2025-08-21T10:20:42.669Z",
+    "mtime": "2025-09-27T20:41:38.228Z",
     "size": 2655,
     "path": "../public/imgs/serv-icons/05-dark.svg"
   },
   "/imgs/serv-icons/1.png": {
     "type": "image/png",
     "etag": "\"527d-hM0YDIG4q9Is+9j/J/uMetti4Lw\"",
-    "mtime": "2025-08-21T10:20:42.686Z",
+    "mtime": "2025-09-27T20:41:38.229Z",
     "size": 21117,
     "path": "../public/imgs/serv-icons/1.png"
   },
   "/imgs/serv-icons/2.png": {
     "type": "image/png",
     "etag": "\"4085-f7p5Mp3Zexl48+CBLyR86W9DhUg\"",
-    "mtime": "2025-08-21T10:20:42.689Z",
+    "mtime": "2025-09-27T20:41:38.229Z",
     "size": 16517,
     "path": "../public/imgs/serv-icons/2.png"
   },
   "/imgs/serv-icons/S1.png": {
     "type": "image/png",
     "etag": "\"1510-HQDlek2JfP9BRKxFOse3bd08de8\"",
-    "mtime": "2025-09-06T13:23:38.590Z",
+    "mtime": "2025-09-27T20:41:38.230Z",
     "size": 5392,
     "path": "../public/imgs/serv-icons/S1.png"
   },
   "/imgs/serv-icons/S2.png": {
     "type": "image/png",
     "etag": "\"200e-m5zibVuGAY2TUs7Zta4HLwYpQ90\"",
-    "mtime": "2025-09-06T13:23:40.195Z",
+    "mtime": "2025-09-27T20:41:38.230Z",
     "size": 8206,
     "path": "../public/imgs/serv-icons/S2.png"
   },
   "/imgs/serv-icons/S3.png": {
     "type": "image/png",
     "etag": "\"11be-zo6L+OvYTd5SB/0+Fg7lOBNdRk8\"",
-    "mtime": "2025-09-06T13:23:41.861Z",
+    "mtime": "2025-09-27T20:41:38.230Z",
     "size": 4542,
     "path": "../public/imgs/serv-icons/S3.png"
   },
   "/imgs/serv-icons/S4.png": {
     "type": "image/png",
     "etag": "\"1a85-yPeza/zlRKy1KSczPGxE3lmRKrg\"",
-    "mtime": "2025-09-06T13:23:43.668Z",
+    "mtime": "2025-09-27T20:41:38.232Z",
     "size": 6789,
     "path": "../public/imgs/serv-icons/S4.png"
   },
   "/imgs/services/Services_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"a5e2-cLYHKBzHBxW9eCuvHOlLPC/Nz3g\"",
-    "mtime": "2025-09-06T19:54:27.972Z",
+    "mtime": "2025-09-27T20:41:38.232Z",
     "size": 42466,
     "path": "../public/imgs/services/Services_1.jpg"
   },
   "/imgs/services/Services_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"13457-9NlVrMmP3w5Cind1nVuc/xtd3gw\"",
-    "mtime": "2025-09-06T19:54:34.935Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 78935,
     "path": "../public/imgs/services/Services_2.jpg"
   },
   "/imgs/services/Services_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"8df8-kRmv6dSOTU+gQ6sSEFa0CxxAM04\"",
-    "mtime": "2025-09-08T19:23:04.049Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 36344,
     "path": "../public/imgs/services/Services_3.jpg"
   },
   "/imgs/services/Services_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"12a68-NppXUbphsPbWJDlcOFW2C7PVv0s\"",
-    "mtime": "2025-09-06T19:54:31.863Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 76392,
     "path": "../public/imgs/services/Services_4.jpg"
   },
   "/imgs/svg-assets/arrow-right-top.svg": {
     "type": "image/svg+xml",
     "etag": "\"10f-oNY5V80gUP89ZLlbwyQfbPQhUVo\"",
-    "mtime": "2025-08-21T10:20:42.689Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 271,
     "path": "../public/imgs/svg-assets/arrow-right-top.svg"
   },
   "/imgs/svg-assets/arrow-top-right.svg": {
     "type": "image/svg+xml",
     "etag": "\"319-ht1xSLjA+rAX8Tfj1D7lqQVo7UE\"",
-    "mtime": "2025-08-21T10:20:42.705Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 793,
     "path": "../public/imgs/svg-assets/arrow-top-right.svg"
   },
   "/imgs/svg-assets/circle-star.svg": {
     "type": "image/svg+xml",
     "etag": "\"991-n4ITN738mTl1qrgStTk+lC2NCzk\"",
-    "mtime": "2025-08-21T10:20:42.711Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 2449,
     "path": "../public/imgs/svg-assets/circle-star.svg"
   },
   "/imgs/svg-assets/claw.svg": {
     "type": "image/svg+xml",
     "etag": "\"7f6-O84zZ4hPRvNmA+EHkvv12JZIFuA\"",
-    "mtime": "2025-08-21T10:20:42.713Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 2038,
     "path": "../public/imgs/svg-assets/claw.svg"
   },
   "/imgs/svg-assets/hi.png": {
     "type": "image/png",
     "etag": "\"5160-uWpFQIo+LyTgy0fEJIns2v4K5+0\"",
-    "mtime": "2025-08-21T10:20:42.717Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 20832,
     "path": "../public/imgs/svg-assets/hi.png"
   },
   "/imgs/svg-assets/quote.png": {
     "type": "image/png",
     "etag": "\"12e4-he8tLzEo2Bojz75lszsBsz4Wcxo\"",
-    "mtime": "2025-08-21T10:20:42.717Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 4836,
     "path": "../public/imgs/svg-assets/quote.png"
+  },
+  "/_nuxt/builds/latest.json": {
+    "type": "application/json",
+    "etag": "\"47-TQoONksE/AKELXSH+dyXjUn53gI\"",
+    "mtime": "2025-09-28T19:30:28.903Z",
+    "size": 71,
+    "path": "../public/_nuxt/builds/latest.json"
   },
   "/fonts/mona-sans/MonaSans-Black.ttf": {
     "type": "font/ttf",
     "etag": "\"18b40-dffh4eBp9TlUekWEGImd9mUrHSo\"",
-    "mtime": "2025-09-09T14:30:35.761Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 101184,
     "path": "../public/fonts/mona-sans/MonaSans-Black.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Black.woff": {
+    "type": "font/woff",
+    "etag": "\"d6ac-LpnzTdvoLB/10UGeBzShzulIErk\"",
+    "mtime": "2025-09-28T18:27:31.117Z",
+    "size": 54956,
+    "path": "../public/fonts/mona-sans/MonaSans-Black.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Black.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a2fc-5P+BrUhfPhFLRFw4Xn+lkdiJOhU\"",
+    "mtime": "2025-09-28T18:27:31.121Z",
+    "size": 41724,
+    "path": "../public/fonts/mona-sans/MonaSans-Black.woff2"
   },
   "/fonts/mona-sans/MonaSans-BlackItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19178-CjaEtfJpKZ68v5Bw6ZZTci6IV8M\"",
-    "mtime": "2025-09-09T14:30:35.679Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 102776,
     "path": "../public/fonts/mona-sans/MonaSans-BlackItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-BlackItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"df54-IsNOUzQtiRUdmAkzEuxoyjE/qyY\"",
+    "mtime": "2025-09-28T18:27:31.137Z",
+    "size": 57172,
+    "path": "../public/fonts/mona-sans/MonaSans-BlackItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-BlackItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a970-2r105XqgA/P/WYvAiKN489U6eYs\"",
+    "mtime": "2025-09-28T18:27:31.140Z",
+    "size": 43376,
+    "path": "../public/fonts/mona-sans/MonaSans-BlackItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-Bold.ttf": {
     "type": "font/ttf",
     "etag": "\"18bf4-w7mALc9IrJq4ziu/AYeX+QpqBMA\"",
-    "mtime": "2025-09-09T14:30:35.735Z",
+    "mtime": "2025-09-27T20:41:38.092Z",
     "size": 101364,
     "path": "../public/fonts/mona-sans/MonaSans-Bold.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Bold.woff": {
+    "type": "font/woff",
+    "etag": "\"dcb4-a9GkB9rz4HA6K+JSRnXuKHvTo7s\"",
+    "mtime": "2025-09-28T18:27:31.147Z",
+    "size": 56500,
+    "path": "../public/fonts/mona-sans/MonaSans-Bold.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Bold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a734-CqZXeoD38mDTh1RijvsgU1JHdBM\"",
+    "mtime": "2025-09-28T18:27:31.153Z",
+    "size": 42804,
+    "path": "../public/fonts/mona-sans/MonaSans-Bold.woff2"
   },
   "/fonts/mona-sans/MonaSans-BoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19198-mZi9Ke510kRM6DPwEiQf5xkqSMM\"",
-    "mtime": "2025-09-09T14:30:35.875Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102808,
     "path": "../public/fonts/mona-sans/MonaSans-BoldItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-BoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e4f0-CclJFmxyRhSPYO93IIkYdJi9PFg\"",
+    "mtime": "2025-09-28T18:27:31.159Z",
+    "size": 58608,
+    "path": "../public/fonts/mona-sans/MonaSans-BoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-BoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ad60-JZAxr2aF8hXaSZqqayn6K3iLimI\"",
+    "mtime": "2025-09-28T18:27:31.159Z",
+    "size": 44384,
+    "path": "../public/fonts/mona-sans/MonaSans-BoldItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-ExtraBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18bd0-mImUXeVDEgR5dRjitH8/mUPgXrs\"",
-    "mtime": "2025-09-09T14:30:35.831Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 101328,
     "path": "../public/fonts/mona-sans/MonaSans-ExtraBold.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraBold.woff": {
+    "type": "font/woff",
+    "etag": "\"dc3c-jrfLYzfTKKT3EFa2D+SE7ISALpc\"",
+    "mtime": "2025-09-28T18:27:31.168Z",
+    "size": 56380,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraBold.woff"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a70c-bLRzut7Vwx6uDXHdqLvDjE+SZBQ\"",
+    "mtime": "2025-09-28T18:27:31.168Z",
+    "size": 42764,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraBold.woff2"
   },
   "/fonts/mona-sans/MonaSans-ExtraBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"191e8-qGOkLwprjUAnoiW6pUWGdy75S7I\"",
-    "mtime": "2025-09-09T14:30:36.023Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102888,
     "path": "../public/fonts/mona-sans/MonaSans-ExtraBoldItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e434-mXSCsCHe2KJlT3VXYFJ1dT4/mXs\"",
+    "mtime": "2025-09-28T18:27:31.168Z",
+    "size": 58420,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ad58-F7a2zzasLWMt2CFyEwOVW8sM+sM\"",
+    "mtime": "2025-09-28T18:27:31.190Z",
+    "size": 44376,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraBoldItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-ExtraLight.ttf": {
     "type": "font/ttf",
     "etag": "\"18c24-mZVKrRI40qMMkB0DfXN0AJfDIJY\"",
-    "mtime": "2025-09-09T14:30:35.603Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 101412,
     "path": "../public/fonts/mona-sans/MonaSans-ExtraLight.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraLight.woff": {
+    "type": "font/woff",
+    "etag": "\"d784-wHvi9JQNnxNfeJcynhID00rk4i8\"",
+    "mtime": "2025-09-28T18:27:31.195Z",
+    "size": 55172,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraLight.woff"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraLight.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a2a0-NwEFX6n5tuzp47zJLsynwJ3r41A\"",
+    "mtime": "2025-09-28T18:27:31.199Z",
+    "size": 41632,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraLight.woff2"
   },
   "/fonts/mona-sans/MonaSans-ExtraLightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"191d8-4e/2S+L0Z08j9YqcfYm5FTLZlb0\"",
-    "mtime": "2025-09-09T14:30:35.896Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102872,
     "path": "../public/fonts/mona-sans/MonaSans-ExtraLightItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraLightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"de3c-OaodXFb6mpL9aDNt/6Q4WgyNJfs\"",
+    "mtime": "2025-09-28T18:27:31.205Z",
+    "size": 56892,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraLightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-ExtraLightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a8a8-gW8g/780inF0dJfH+eZ7yqDUN6U\"",
+    "mtime": "2025-09-28T18:27:31.205Z",
+    "size": 43176,
+    "path": "../public/fonts/mona-sans/MonaSans-ExtraLightItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-Italic.ttf": {
     "type": "font/ttf",
     "etag": "\"191c4-XUAgE1SLH0P+5WNJHDaeKXKl5zQ\"",
-    "mtime": "2025-09-09T14:30:35.900Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102852,
     "path": "../public/fonts/mona-sans/MonaSans-Italic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Italic.woff": {
+    "type": "font/woff",
+    "etag": "\"e500-seNKz/GEMdVUHI9mTmxJkV7HOSw\"",
+    "mtime": "2025-09-28T18:27:31.215Z",
+    "size": 58624,
+    "path": "../public/fonts/mona-sans/MonaSans-Italic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Italic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ae08-94orsIkJLFGdXlMI+34VQVCdeEY\"",
+    "mtime": "2025-09-28T18:27:31.224Z",
+    "size": 44552,
+    "path": "../public/fonts/mona-sans/MonaSans-Italic.woff2"
   },
   "/fonts/mona-sans/MonaSans-Light.ttf": {
     "type": "font/ttf",
     "etag": "\"18c4c-O+5bqPlTQk5voROWC5BIc7MfTeM\"",
-    "mtime": "2025-09-09T14:30:35.593Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 101452,
     "path": "../public/fonts/mona-sans/MonaSans-Light.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Light.woff": {
+    "type": "font/woff",
+    "etag": "\"dc90-Grm8b6DvHgM1p6Lp8EbUZ93i2oY\"",
+    "mtime": "2025-09-28T18:27:31.231Z",
+    "size": 56464,
+    "path": "../public/fonts/mona-sans/MonaSans-Light.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Light.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a7c4-9nboF53lrlzF/dGc9C+5/s2LkI0\"",
+    "mtime": "2025-09-28T18:27:31.231Z",
+    "size": 42948,
+    "path": "../public/fonts/mona-sans/MonaSans-Light.woff2"
   },
   "/fonts/mona-sans/MonaSans-LightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"191e4-mytyEpanZEHKwp+qQZp9Ux3rBlc\"",
-    "mtime": "2025-09-09T14:30:35.887Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102884,
     "path": "../public/fonts/mona-sans/MonaSans-LightItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-LightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e424-i/mfDDvsa/KEcfvNndjjiIZNNY0\"",
+    "mtime": "2025-09-28T18:27:31.242Z",
+    "size": 58404,
+    "path": "../public/fonts/mona-sans/MonaSans-LightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-LightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"acd4-/MUow7KtQ9SSK7woO5uLvhSh3LM\"",
+    "mtime": "2025-09-28T18:27:31.247Z",
+    "size": 44244,
+    "path": "../public/fonts/mona-sans/MonaSans-LightItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-Medium.ttf": {
     "type": "font/ttf",
     "etag": "\"18c60-zNIJyh5CN5JfPkprDPNzkZWK3VQ\"",
-    "mtime": "2025-09-09T14:30:35.768Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 101472,
     "path": "../public/fonts/mona-sans/MonaSans-Medium.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Medium.woff": {
+    "type": "font/woff",
+    "etag": "\"dde4-AOT5pnET2yEoLQhfi4CQ69vbZhY\"",
+    "mtime": "2025-09-28T18:27:31.247Z",
+    "size": 56804,
+    "path": "../public/fonts/mona-sans/MonaSans-Medium.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Medium.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a804-kC+maqLnBwHTpzeKsuUFD4hDOSo\"",
+    "mtime": "2025-09-28T18:27:31.247Z",
+    "size": 43012,
+    "path": "../public/fonts/mona-sans/MonaSans-Medium.woff2"
   },
   "/fonts/mona-sans/MonaSans-MediumItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19210-80LGcecOEYpOejEC5XR1HoBhupI\"",
-    "mtime": "2025-09-09T14:30:35.891Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 102928,
     "path": "../public/fonts/mona-sans/MonaSans-MediumItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-MediumItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e538-w4kAKAYjgLxkzYnmnHUsRXjO1kY\"",
+    "mtime": "2025-09-28T18:27:31.263Z",
+    "size": 58680,
+    "path": "../public/fonts/mona-sans/MonaSans-MediumItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-MediumItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"adb4-uZQBdcmjDDhxR4XIpOvOzvY0KsM\"",
+    "mtime": "2025-09-28T18:27:31.263Z",
+    "size": 44468,
+    "path": "../public/fonts/mona-sans/MonaSans-MediumItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans-Regular.ttf": {
     "type": "font/ttf",
     "etag": "\"18c18-X0+vCi+afetG9GvzOB+P8T90O2w\"",
-    "mtime": "2025-09-09T14:30:35.586Z",
+    "mtime": "2025-09-27T20:41:38.108Z",
     "size": 101400,
     "path": "../public/fonts/mona-sans/MonaSans-Regular.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-Regular.woff": {
+    "type": "font/woff",
+    "etag": "\"dd4c-+MfEoqLETfr0e7vvWaWA/TJ7Zk8\"",
+    "mtime": "2025-09-28T18:27:31.263Z",
+    "size": 56652,
+    "path": "../public/fonts/mona-sans/MonaSans-Regular.woff"
+  },
+  "/fonts/mona-sans/MonaSans-Regular.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a6b0-4bgklAts+OPJWeTv2/QLGRsCcOU\"",
+    "mtime": "2025-09-28T18:27:31.279Z",
+    "size": 42672,
+    "path": "../public/fonts/mona-sans/MonaSans-Regular.woff2"
   },
   "/fonts/mona-sans/MonaSans-SemiBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c20-laW+YdIDFUgeqPpEKaMKi7xIses\"",
-    "mtime": "2025-09-09T14:30:35.825Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101408,
     "path": "../public/fonts/mona-sans/MonaSans-SemiBold.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-SemiBold.woff": {
+    "type": "font/woff",
+    "etag": "\"dd68-oN7/2Ev94lYUFFgCic0k+rVfyRY\"",
+    "mtime": "2025-09-28T18:27:31.279Z",
+    "size": 56680,
+    "path": "../public/fonts/mona-sans/MonaSans-SemiBold.woff"
+  },
+  "/fonts/mona-sans/MonaSans-SemiBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a764-6KotgTDr/eN0GXxR/YKi3oQSxUQ\"",
+    "mtime": "2025-09-28T18:27:31.295Z",
+    "size": 42852,
+    "path": "../public/fonts/mona-sans/MonaSans-SemiBold.woff2"
   },
   "/fonts/mona-sans/MonaSans-SemiBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19228-+IvDHrH7FwZUrqk3XQXrmWy38IU\"",
-    "mtime": "2025-09-09T14:30:36.028Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 102952,
     "path": "../public/fonts/mona-sans/MonaSans-SemiBoldItalic.ttf"
+  },
+  "/fonts/mona-sans/MonaSans-SemiBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e548-stTNInPQHjWj16a8jHDHyrbx0x0\"",
+    "mtime": "2025-09-28T18:27:31.300Z",
+    "size": 58696,
+    "path": "../public/fonts/mona-sans/MonaSans-SemiBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSans-SemiBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"adcc-+FF9zekV7jkDiAJ7BwUhmv8NwKo\"",
+    "mtime": "2025-09-28T18:27:31.306Z",
+    "size": 44492,
+    "path": "../public/fonts/mona-sans/MonaSans-SemiBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Black.woff": {
+    "type": "font/woff",
+    "etag": "\"d3f4-cWECD4ldRLa2cuKoUl50XD1cIYU\"",
+    "mtime": "2025-09-28T18:32:05.525Z",
+    "size": 54260,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Black.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Black.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a0a0-3BlV6vsGND6mMSrzOHj4uXencC4\"",
+    "mtime": "2025-09-28T18:32:05.537Z",
+    "size": 41120,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Black.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-BlackItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"ddf0-lI//DRKrIhe+ywpX5AdcYVFRDJ0\"",
+    "mtime": "2025-09-28T18:32:05.543Z",
+    "size": 56816,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-BlackItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-BlackItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a728-3wwmjyRsvNVprTnL3UsCcnxhkK4\"",
+    "mtime": "2025-09-28T18:32:05.550Z",
+    "size": 42792,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-BlackItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Bold.woff": {
+    "type": "font/woff",
+    "etag": "\"d9fc-tZuyqAkpcSQ3Z8I7UFeRuQykgLE\"",
+    "mtime": "2025-09-28T18:32:05.559Z",
+    "size": 55804,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Bold.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Bold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a510-erB9Ud3k35/nYvv2TnB5vW54Gls\"",
+    "mtime": "2025-09-28T18:32:05.565Z",
+    "size": 42256,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Bold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-BoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e404-+VuQtuUJ5kYNg+IcSKFvy7IDGvY\"",
+    "mtime": "2025-09-28T18:32:05.571Z",
+    "size": 58372,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-BoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-BoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"abe0-iE/bhr2ReQSUkQSyRdaIRLuaGKk\"",
+    "mtime": "2025-09-28T18:32:05.577Z",
+    "size": 44000,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-BoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraBold.woff": {
+    "type": "font/woff",
+    "etag": "\"d9e8-WYTZgCARWSoxvzftlSkusQFqzdg\"",
+    "mtime": "2025-09-28T18:32:05.583Z",
+    "size": 55784,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a470-IRpIVN84tURqkXsGQrkJKrQxUrE\"",
+    "mtime": "2025-09-28T18:32:05.588Z",
+    "size": 42096,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e3e0-Fulm6P9sR6Pp+kStiV6tONPK9a4\"",
+    "mtime": "2025-09-28T18:32:05.596Z",
+    "size": 58336,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"abf8-iLXU133qR3w6t1hKSwFt4remFmg\"",
+    "mtime": "2025-09-28T18:32:05.602Z",
+    "size": 44024,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraLight.woff": {
+    "type": "font/woff",
+    "etag": "\"d13c-OJuIp37c+pn+I0D1cyEvTwYTuzk\"",
+    "mtime": "2025-09-28T18:32:05.608Z",
+    "size": 53564,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraLight.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraLight.woff2": {
+    "type": "font/woff2",
+    "etag": "\"9e64-utqM3ZJYtl8H0iMdm9Eg0XjJqPw\"",
+    "mtime": "2025-09-28T18:32:05.613Z",
+    "size": 40548,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraLight.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraLightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"db74-/sBCw5zOtgPpLv6YqseSILAEpB0\"",
+    "mtime": "2025-09-28T18:32:05.618Z",
+    "size": 56180,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraLightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-ExtraLightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a4dc-YPKDCk08K58Y+NKH8a2T/uOMH3o\"",
+    "mtime": "2025-09-28T18:32:05.625Z",
+    "size": 42204,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-ExtraLightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Italic.woff": {
+    "type": "font/woff",
+    "etag": "\"e370-mSeRx7G7qtkAbmpVHKyqAes0HF0\"",
+    "mtime": "2025-09-28T18:32:05.631Z",
+    "size": 58224,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Italic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Italic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ab70-3wbHF2gpTLxlZik6dtZDuxMipPQ\"",
+    "mtime": "2025-09-28T18:32:05.638Z",
+    "size": 43888,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Italic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Light.woff": {
+    "type": "font/woff",
+    "etag": "\"d868-VgAQMLdXn4+Kv7LWjMaudrqzRNY\"",
+    "mtime": "2025-09-28T18:32:05.644Z",
+    "size": 55400,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Light.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Light.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a380-NWRlriaTKAozteoNbOOnuQOOl/0\"",
+    "mtime": "2025-09-28T18:32:05.649Z",
+    "size": 41856,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Light.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-LightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e25c-obTALIkyYMsuQGX4Q/iI77tBOj0\"",
+    "mtime": "2025-09-28T18:32:05.655Z",
+    "size": 57948,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-LightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-LightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa98-+1jxh70B2uXr8PIK18K3wppt7t8\"",
+    "mtime": "2025-09-28T18:32:05.661Z",
+    "size": 43672,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-LightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Medium.woff": {
+    "type": "font/woff",
+    "etag": "\"da50-UvoAp1GnxrGITTC8/VskqYHW7OU\"",
+    "mtime": "2025-09-28T18:32:05.667Z",
+    "size": 55888,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Medium.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Medium.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a598-shy3A9s6OrJJTk4pBLAK7hV1STk\"",
+    "mtime": "2025-09-28T18:32:05.672Z",
+    "size": 42392,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Medium.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-MediumItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e4bc-zykjDYO5XW9F0XgZ/8ta8VPyNVs\"",
+    "mtime": "2025-09-28T18:32:05.678Z",
+    "size": 58556,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-MediumItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-MediumItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ac90-2kegZIMgap6XsCtjrkiU/zcAquI\"",
+    "mtime": "2025-09-28T18:32:05.684Z",
+    "size": 44176,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-MediumItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Regular.woff": {
+    "type": "font/woff",
+    "etag": "\"d978-xvZKFfUvEdYwDEDrk7vntR0oeh8\"",
+    "mtime": "2025-09-28T18:32:05.690Z",
+    "size": 55672,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Regular.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-Regular.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a404-yT8PYf1N5zianiVqidRHh/1Tbjk\"",
+    "mtime": "2025-09-28T18:32:05.695Z",
+    "size": 41988,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-Regular.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-SemiBold.woff": {
+    "type": "font/woff",
+    "etag": "\"da68-0pIy5iXZt4rawdGk7C8ew4wKfjo\"",
+    "mtime": "2025-09-28T18:32:05.701Z",
+    "size": 55912,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-SemiBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-SemiBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a560-tglvQrQE4Gi4ibSuAAoxGcayRZ8\"",
+    "mtime": "2025-09-28T18:32:05.707Z",
+    "size": 42336,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-SemiBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-SemiBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e558-1aAE4HgJYLUm0xgUIE1OcIWpDrU\"",
+    "mtime": "2025-09-28T18:32:05.712Z",
+    "size": 58712,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-SemiBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansCondensed-SemiBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ad98-c4+PB6RfdJhs7tfD4ND+RMQ+AMU\"",
+    "mtime": "2025-09-28T18:32:05.718Z",
+    "size": 44440,
+    "path": "../public/fonts/mona-sans/MonaSansCondensed-SemiBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Black.woff": {
+    "type": "font/woff",
+    "etag": "\"dab0-0K/MGSKpMHqvEoNpBIWQC+nlX5c\"",
+    "mtime": "2025-09-28T18:31:23.198Z",
+    "size": 55984,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Black.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Black.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a618-KWjzExUjDv8cv87/Vqs95QBCyuU\"",
+    "mtime": "2025-09-28T18:31:23.205Z",
+    "size": 42520,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Black.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-BlackItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e258-sn2nNn9ZDJbg/+yXPNBFR+InAEQ\"",
+    "mtime": "2025-09-28T18:31:23.210Z",
+    "size": 57944,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-BlackItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-BlackItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aaf4-2+/Wf1vgbT46G/aeUWgsps5RUq0\"",
+    "mtime": "2025-09-28T18:31:23.214Z",
+    "size": 43764,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-BlackItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Bold.woff": {
+    "type": "font/woff",
+    "etag": "\"debc-sFdx4Yi6VYUQbz4sgtKCHPltnO4\"",
+    "mtime": "2025-09-28T18:31:23.218Z",
+    "size": 57020,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Bold.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Bold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa10-6OdvCdbwn1Y51+n6hYRj6LnPp7o\"",
+    "mtime": "2025-09-28T18:31:23.218Z",
+    "size": 43536,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Bold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-BoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e704-7kxcXFjyqaS6us97sDIS2I5tZAI\"",
+    "mtime": "2025-09-28T18:31:23.233Z",
+    "size": 59140,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-BoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-BoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"afc0-81BeobfOiiHR51O0r0KiiTKQCuU\"",
+    "mtime": "2025-09-28T18:31:23.239Z",
+    "size": 44992,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-BoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraBold.woff": {
+    "type": "font/woff",
+    "etag": "\"de9c-DQuMEREzl0UjOdUN3GFpIRCBn2w\"",
+    "mtime": "2025-09-28T18:31:23.245Z",
+    "size": 56988,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a8e4-AQbke9Hl5WyMIsEJPEquj4XzGVo\"",
+    "mtime": "2025-09-28T18:31:23.250Z",
+    "size": 43236,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e6f0-jQnLY8zLSQJNUgdJtr7eXa4j5Ec\"",
+    "mtime": "2025-09-28T18:31:23.061Z",
+    "size": 59120,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"af3c-bS5G8mIRYYXUyD9t2geKQ+OTHew\"",
+    "mtime": "2025-09-28T18:31:23.073Z",
+    "size": 44860,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraLight.woff": {
+    "type": "font/woff",
+    "etag": "\"d8bc-dMUuTjneFx61/2WaH0joQqzKKa8\"",
+    "mtime": "2025-09-28T18:31:23.079Z",
+    "size": 55484,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraLight.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraLight.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a5a8-dHmnYEY0vOpWeTOs/apVU41Sacs\"",
+    "mtime": "2025-09-28T18:31:23.085Z",
+    "size": 42408,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraLight.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraLightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e050-m0Wu3+CmNnqwg1GOz+3Awe3EsAc\"",
+    "mtime": "2025-09-28T18:31:23.090Z",
+    "size": 57424,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraLightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-ExtraLightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa8c-ZCzscQbNljqUyVt80ik+B5irczk\"",
+    "mtime": "2025-09-28T18:31:23.096Z",
+    "size": 43660,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-ExtraLightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Italic.woff": {
+    "type": "font/woff",
+    "etag": "\"e750-i8gatA1AUrhABZHwJRyDXVZKq/M\"",
+    "mtime": "2025-09-28T18:31:23.102Z",
+    "size": 59216,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Italic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Italic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"b0c4-/BxfCP7ltj2eGqv08BM7OPn1axc\"",
+    "mtime": "2025-09-28T18:31:23.108Z",
+    "size": 45252,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Italic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Light.woff": {
+    "type": "font/woff",
+    "etag": "\"de54-YRZQuDLTs+hSqdM1SJB7qFS7ZhE\"",
+    "mtime": "2025-09-28T18:31:23.114Z",
+    "size": 56916,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Light.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Light.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a97c-nbiPa++gPhvu4S03+I7sGmRHSAM\"",
+    "mtime": "2025-09-28T18:31:23.119Z",
+    "size": 43388,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Light.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-LightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e65c-0wSYRIk1JedCGROAnjHd2n5Ub2E\"",
+    "mtime": "2025-09-28T18:31:23.127Z",
+    "size": 58972,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-LightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-LightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ae40-Co+Y2CQoGI1CVNZj5xg8indOmeU\"",
+    "mtime": "2025-09-28T18:31:23.132Z",
+    "size": 44608,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-LightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Medium.woff": {
+    "type": "font/woff",
+    "etag": "\"df9c-QfK/0hGNXQxtAvy/N1Td3p83lOA\"",
+    "mtime": "2025-09-28T18:31:23.138Z",
+    "size": 57244,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Medium.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Medium.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa84-dOJ5hcSIGAVtBKs27114Fq9Apxg\"",
+    "mtime": "2025-09-28T18:31:23.145Z",
+    "size": 43652,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Medium.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-MediumItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e79c-c+p9ho6dfFA+VL7wb3riU+ERSws\"",
+    "mtime": "2025-09-28T18:31:23.152Z",
+    "size": 59292,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-MediumItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-MediumItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"afa8-urhr+s5+aqJwAF8AyZ6aWfnVYlg\"",
+    "mtime": "2025-09-28T18:31:23.158Z",
+    "size": 44968,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-MediumItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Regular.woff": {
+    "type": "font/woff",
+    "etag": "\"df90-70ZBz8cuBTypZu1jKSLxLEHBmZA\"",
+    "mtime": "2025-09-28T18:31:23.164Z",
+    "size": 57232,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Regular.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-Regular.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa18-/coecAEyYXxUEplWp2ax8FTSCHA\"",
+    "mtime": "2025-09-28T18:31:23.170Z",
+    "size": 43544,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-Regular.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-SemiBold.woff": {
+    "type": "font/woff",
+    "etag": "\"dfa0-ysvvybQ16JTJpKCmSzU9C3EFrJs\"",
+    "mtime": "2025-09-28T18:31:23.175Z",
+    "size": 57248,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-SemiBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-SemiBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a8e8-H2CU9gYqT/iZxFPiLjLQyvr7WuA\"",
+    "mtime": "2025-09-28T18:31:23.181Z",
+    "size": 43240,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-SemiBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-SemiBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e7ac-3Sqeou2KynXg7X+ggiEKFgfi0Qo\"",
+    "mtime": "2025-09-28T18:31:23.187Z",
+    "size": 59308,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-SemiBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansExpanded-SemiBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"af38-gUqA4dXCSc/dZclj1weoW+7n3Us\"",
+    "mtime": "2025-09-28T18:31:23.193Z",
+    "size": 44856,
+    "path": "../public/fonts/mona-sans/MonaSansExpanded-SemiBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Italic.woff": {
+    "type": "font/woff",
+    "etag": "\"e67c-ZFhjeAYMAc3wCdv8gsMHnkjIAJw\"",
+    "mtime": "2025-09-28T18:30:15.594Z",
+    "size": 59004,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Italic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Italic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ae28-z3h2qvFFNh5APw16YjAqi0iGEUQ\"",
+    "mtime": "2025-09-28T18:30:15.607Z",
+    "size": 44584,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Italic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Light.woff": {
+    "type": "font/woff",
+    "etag": "\"dc7c-TxNvp0EDg9mTMGj86WNks0dFXHM\"",
+    "mtime": "2025-09-28T18:30:15.614Z",
+    "size": 56444,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Light.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Light.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a700-qcIOa++9FcO+mVDfY/lwz//l0gU\"",
+    "mtime": "2025-09-28T18:30:15.618Z",
+    "size": 42752,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Light.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-LightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e640-W1zPHX7gWD1pk6bvC5LaiB5uejQ\"",
+    "mtime": "2025-09-28T18:30:15.628Z",
+    "size": 58944,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-LightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-LightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"addc-9QRjKs5VAzKXVfD3nNEu6NHv+Us\"",
+    "mtime": "2025-09-28T18:30:15.635Z",
+    "size": 44508,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-LightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Medium.woff": {
+    "type": "font/woff",
+    "etag": "\"de38-uKuW+3g+EAifRnjs7iFM0d15sKI\"",
+    "mtime": "2025-09-28T18:30:15.642Z",
+    "size": 56888,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Medium.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Medium.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a874-/8IWprKV5JuBqjjX3aENXZtoxRs\"",
+    "mtime": "2025-09-28T18:30:15.649Z",
+    "size": 43124,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Medium.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-MediumItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e6d8-5ovXe/byQctaEkz6piVjuP0S1vY\"",
+    "mtime": "2025-09-28T18:30:15.657Z",
+    "size": 59096,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-MediumItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-MediumItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ade0-JdIIo0T0g1EyGEZd8gZR99ymshQ\"",
+    "mtime": "2025-09-28T18:30:15.664Z",
+    "size": 44512,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-MediumItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Regular.woff": {
+    "type": "font/woff",
+    "etag": "\"dd70-+WnAjOSvIE6oiIX/VK45s5/iTcQ\"",
+    "mtime": "2025-09-28T18:30:15.670Z",
+    "size": 56688,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Regular.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-Regular.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a79c-m6BRJzT/m8e0hZRprYAyX6UB258\"",
+    "mtime": "2025-09-28T18:30:15.677Z",
+    "size": 42908,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-Regular.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-SemiBold.woff": {
+    "type": "font/woff",
+    "etag": "\"ddfc-/w6EbZmqzVnJ+w8g1oFn26RsfRE\"",
+    "mtime": "2025-09-28T18:30:15.684Z",
+    "size": 56828,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-SemiBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-SemiBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a6e4-r9SIwAT6vo5jv6HWTehmIluNYEY\"",
+    "mtime": "2025-09-28T18:30:15.690Z",
+    "size": 42724,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-SemiBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-SemiBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e6f8-qyFnN5nj0JOgS/LFnC6UXrYx/wU\"",
+    "mtime": "2025-09-28T18:30:15.698Z",
+    "size": 59128,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-SemiBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiCondensed-SemiBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ae2c-JxMkFi1AphxhJVIcT4zWegGVWVU\"",
+    "mtime": "2025-09-28T18:30:15.705Z",
+    "size": 44588,
+    "path": "../public/fonts/mona-sans/MonaSansSemiCondensed-SemiBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Black.woff": {
+    "type": "font/woff",
+    "etag": "\"ddb8-+4Gv2etdgqCI1xDqeE4nDTm9jcc\"",
+    "mtime": "2025-09-28T18:30:15.711Z",
+    "size": 56760,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Black.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Black.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a7c8-JrshmpVm1xiGd8eUp8fFlDRnST0\"",
+    "mtime": "2025-09-28T18:30:15.718Z",
+    "size": 42952,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Black.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-BlackItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e59c-lsD4JjRWRWkecvth7V1mXR+HehY\"",
+    "mtime": "2025-09-28T18:30:15.725Z",
+    "size": 58780,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-BlackItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-BlackItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aea4-kfWFxGfvZuh32zuf7lX9H0AHSCc\"",
+    "mtime": "2025-09-28T18:30:15.731Z",
+    "size": 44708,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-BlackItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Bold.woff": {
+    "type": "font/woff",
+    "etag": "\"dfe8-5YcUTbg/VIKJgJrakhyfSGB1GLY\"",
+    "mtime": "2025-09-28T18:30:15.735Z",
+    "size": 57320,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Bold.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Bold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa24-y3IsngxA/IrbmAFsiaVa4c7kMEs\"",
+    "mtime": "2025-09-28T18:30:15.738Z",
+    "size": 43556,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Bold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-BoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e7bc-yaip6glImaNd6MjhHhHZsyAP+Rk\"",
+    "mtime": "2025-09-28T18:30:15.751Z",
+    "size": 59324,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-BoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-BoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"ae38-zV/YR7nP9p9L/aScXZ8C5PrKk7c\"",
+    "mtime": "2025-09-28T18:30:15.757Z",
+    "size": 44600,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-BoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraBold.woff": {
+    "type": "font/woff",
+    "etag": "\"df28-MgSRDsHLwbB9brAkAea5IqaN89w\"",
+    "mtime": "2025-09-28T18:30:15.763Z",
+    "size": 57128,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a8b0-+gVJDObMGvslyAltqEW8STThw6c\"",
+    "mtime": "2025-09-28T18:30:15.768Z",
+    "size": 43184,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e780-NKfDnF+Y2igSdDhdhaHM5aDkdck\"",
+    "mtime": "2025-09-28T18:30:15.774Z",
+    "size": 59264,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"af40-baUi4yLK7er6AQI8yqpockfw2Jc\"",
+    "mtime": "2025-09-28T18:30:15.781Z",
+    "size": 44864,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraBoldItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraLight.woff": {
+    "type": "font/woff",
+    "etag": "\"dcdc-fcn3Iq5Aink47gM5PVxp9o+IZJk\"",
+    "mtime": "2025-09-28T18:30:15.788Z",
+    "size": 56540,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraLight.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraLight.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a7cc-EF8984b3LxhlbxRKjGrvl4WOcMo\"",
+    "mtime": "2025-09-28T18:30:15.789Z",
+    "size": 42956,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraLight.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraLightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e394-FzJSpSmoc1lUZe28/XJ0Ipn5dWM\"",
+    "mtime": "2025-09-28T18:30:15.798Z",
+    "size": 58260,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraLightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-ExtraLightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"acb8-V2+m1OH3K+OAH/M/sDL7BO6r7ew\"",
+    "mtime": "2025-09-28T18:30:15.808Z",
+    "size": 44216,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-ExtraLightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Italic.woff": {
+    "type": "font/woff",
+    "etag": "\"e80c-nzgFo0yHGZCq4JMlPcztgtIXeM4\"",
+    "mtime": "2025-09-28T18:30:15.813Z",
+    "size": 59404,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Italic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Italic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"af90-O6pEbT5RFqVD/lTNQA9sFO0kVn0\"",
+    "mtime": "2025-09-28T18:30:15.819Z",
+    "size": 44944,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Italic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Light.woff": {
+    "type": "font/woff",
+    "etag": "\"dfcc-zFY9KacQ+VRgQ+HbSylyiEQJC4Y\"",
+    "mtime": "2025-09-28T18:30:15.826Z",
+    "size": 57292,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Light.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Light.woff2": {
+    "type": "font/woff2",
+    "etag": "\"a940-fWLHAZbsrDSJqPf/P8X++uM1g+k\"",
+    "mtime": "2025-09-28T18:30:15.831Z",
+    "size": 43328,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Light.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-LightItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e748-PILbPDHZLPnmJYxgPPVUONqZ3xI\"",
+    "mtime": "2025-09-28T18:30:15.837Z",
+    "size": 59208,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-LightItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-LightItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"afbc-P3zdp3dpaRQvvbJ0GAY/QNaDQnc\"",
+    "mtime": "2025-09-28T18:30:15.842Z",
+    "size": 44988,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-LightItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Medium.woff": {
+    "type": "font/woff",
+    "etag": "\"e0cc-7bWxuwDF2LYt22uSEMEg3GhotZQ\"",
+    "mtime": "2025-09-28T18:30:15.849Z",
+    "size": 57548,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Medium.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Medium.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aaa8-dsGA+qtTvyhdE+BdodIn1pd344c\"",
+    "mtime": "2025-09-28T18:30:15.855Z",
+    "size": 43688,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Medium.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-MediumItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e7bc-hgGjn00L0hpv96Qcxr/UdrVJwf4\"",
+    "mtime": "2025-09-28T18:30:15.861Z",
+    "size": 59324,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-MediumItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-MediumItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"af44-0TzfB3w4X6g7Xyl5aHilfI0D05Y\"",
+    "mtime": "2025-09-28T18:30:15.866Z",
+    "size": 44868,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-MediumItalic.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Regular.woff": {
+    "type": "font/woff",
+    "etag": "\"e008-BWWJyX4LRgegMIyfX2RhRzZLUpc\"",
+    "mtime": "2025-09-28T18:30:15.872Z",
+    "size": 57352,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Regular.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-Regular.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aabc-AsrcgrtOwnaDqxG45aG4tKmYwCY\"",
+    "mtime": "2025-09-28T18:30:15.877Z",
+    "size": 43708,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-Regular.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-SemiBold.woff": {
+    "type": "font/woff",
+    "etag": "\"e088-2ZSNLpmsI4Y/PU7FMHq0ala3vm4\"",
+    "mtime": "2025-09-28T18:30:15.884Z",
+    "size": 57480,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-SemiBold.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-SemiBold.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aa54-Y0/AzmruzFdjbP/rvOwyxEG3HPE\"",
+    "mtime": "2025-09-28T18:30:15.890Z",
+    "size": 43604,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-SemiBold.woff2"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-SemiBoldItalic.woff": {
+    "type": "font/woff",
+    "etag": "\"e800-ktA2DB+KVyv3fCs/Wt7PjawP1/g\"",
+    "mtime": "2025-09-28T18:30:15.895Z",
+    "size": 59392,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-SemiBoldItalic.woff"
+  },
+  "/fonts/mona-sans/MonaSansSemiExpanded-SemiBoldItalic.woff2": {
+    "type": "font/woff2",
+    "etag": "\"aff0-ke89FckIWiE079rwFS3NsFUZnCk\"",
+    "mtime": "2025-09-28T18:30:15.902Z",
+    "size": 45040,
+    "path": "../public/fonts/mona-sans/MonaSansSemiExpanded-SemiBoldItalic.woff2"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Black.ttf": {
     "type": "font/ttf",
     "etag": "\"18b10-TSKQxm3DnqDQd+0RNy9CMctmZVU\"",
-    "mtime": "2025-09-09T14:30:35.637Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101136,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Black.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-BlackItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192c0-8tX3hb4bWDkDhcAcqNI5XsLBYHE\"",
-    "mtime": "2025-09-09T14:30:35.919Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 103104,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-BlackItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Bold.ttf": {
     "type": "font/ttf",
     "etag": "\"18b6c-odnLsCXu13hGfPsQebGG0MsWTAg\"",
-    "mtime": "2025-09-09T14:30:35.644Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101228,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Bold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-BoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192ec-5bPYIZk09eWO3k7gRRtzUg/2auk\"",
-    "mtime": "2025-09-09T14:30:35.810Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 103148,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-BoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-ExtraBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18bbc-zVQ3MbjLhdNvx/IpnGeyHaNtVHM\"",
-    "mtime": "2025-09-09T14:30:35.660Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101308,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-ExtraBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-ExtraBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192d8-DQHpXnFWu1VgoaB1J3XeDjTR3H8\"",
-    "mtime": "2025-09-09T14:30:35.685Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 103128,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-ExtraBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-ExtraLight.ttf": {
     "type": "font/ttf",
     "etag": "\"18b0c-RFbXFZ6qzfF/XrIbCnhkslDfzhM\"",
-    "mtime": "2025-09-09T14:30:35.667Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101132,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-ExtraLight.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-ExtraLightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192c8-RfatjzbJyYRUmTLVQbowQrUDUIg\"",
-    "mtime": "2025-09-09T14:30:35.692Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 103112,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-ExtraLightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Italic.ttf": {
     "type": "font/ttf",
     "etag": "\"192a4-R7iCCBfx97hStLLtxgh+ukRh2IU\"",
-    "mtime": "2025-09-09T14:30:35.948Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 103076,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Italic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Light.ttf": {
     "type": "font/ttf",
     "etag": "\"18b78-hv+4uGMd68orIzt3Zw0ERv20jv0\"",
-    "mtime": "2025-09-09T14:30:35.793Z",
+    "mtime": "2025-09-27T20:41:38.124Z",
     "size": 101240,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Light.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-LightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19310-R75y1/XT91+UlDHorm03OtfxLNA\"",
-    "mtime": "2025-09-09T14:30:35.805Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 103184,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-LightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Medium.ttf": {
     "type": "font/ttf",
     "etag": "\"18b50-I6QWzL+caFfgeI/35SQKC8SaK5Q\"",
-    "mtime": "2025-09-09T14:30:35.654Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101200,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Medium.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-MediumItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19360-wNno7cyl13DYxgFtlMNqsRy42WQ\"",
-    "mtime": "2025-09-09T14:30:35.939Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 103264,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-MediumItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-Regular.ttf": {
     "type": "font/ttf",
     "etag": "\"18b2c-e334JatlIGloFpwCw2MvM0h8MZM\"",
-    "mtime": "2025-09-09T14:30:35.786Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101164,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-Regular.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-SemiBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18b84-Tzr+z4m1p/Ao+D1BDWKJMONg5OU\"",
-    "mtime": "2025-09-09T14:30:35.780Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101252,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-SemiBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Condensed-SemiBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"1934c-ANQtgQmYvpivJtnIc/khR6NJ/7M\"",
-    "mtime": "2025-09-09T14:30:35.850Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 103244,
     "path": "../public/fonts/mona-sans/MonaSans_Condensed-SemiBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Black.ttf": {
     "type": "font/ttf",
     "etag": "\"18b7c-7xa5HFP2bsDqTzyHF4ZMMsuyJCk\"",
-    "mtime": "2025-09-09T14:30:35.934Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101244,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Black.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-BlackItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19198-zn81RlMibCmjzrbwT6nsGebqAec\"",
-    "mtime": "2025-09-09T14:30:35.993Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 102808,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-BlackItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Bold.ttf": {
     "type": "font/ttf",
     "etag": "\"18be4-2bnobEfiDsp+YfCwga1Wdi6RK8A\"",
-    "mtime": "2025-09-09T14:30:35.706Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101348,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Bold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-BoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"1924c-iAfshKhggRJtQDPujnHG0itku5Q\"",
-    "mtime": "2025-09-09T14:30:35.972Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 102988,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-BoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-ExtraBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18be0-srt6MT9LrGq8ATELZ34VV7E956U\"",
-    "mtime": "2025-09-09T14:30:35.838Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 101344,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-ExtraBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-ExtraBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19270-5CLo8tRVR1I0Dt1dNs2k6HC93io\"",
-    "mtime": "2025-09-09T14:30:35.998Z",
+    "mtime": "2025-09-27T20:41:38.139Z",
     "size": 103024,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-ExtraBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-ExtraLight.ttf": {
     "type": "font/ttf",
     "etag": "\"18c14-dIIJcFY8O7vkzcEOMDjL/I91hsc\"",
-    "mtime": "2025-09-09T14:30:35.821Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101396,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-ExtraLight.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-ExtraLightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192bc-JMJ+JYRt+oRuU52bwDvJr0a2A7w\"",
-    "mtime": "2025-09-09T14:30:36.008Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103100,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-ExtraLightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Italic.ttf": {
     "type": "font/ttf",
     "etag": "\"192c0-MeF/n244KtsJKNhjneTqrNGR6J8\"",
-    "mtime": "2025-09-09T14:30:35.925Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103104,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Italic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Light.ttf": {
     "type": "font/ttf",
     "etag": "\"18c50-JyUrxlugeoiOVKUSncMGLJ7fqRI\"",
-    "mtime": "2025-09-09T14:30:35.698Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101456,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Light.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-LightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192b4-Wct5ZW5aTWj04BGzuRp7KCQs//g\"",
-    "mtime": "2025-09-09T14:30:35.862Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103092,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-LightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Medium.ttf": {
     "type": "font/ttf",
     "etag": "\"18c3c-Q19gPBLeDfVIgyKOqk3Jst8WQeg\"",
-    "mtime": "2025-09-09T14:30:35.799Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101436,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Medium.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-MediumItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19308-xVIILrWertE0k72THtH24bHEJ/Y\"",
-    "mtime": "2025-09-09T14:30:35.856Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103176,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-MediumItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-Regular.ttf": {
     "type": "font/ttf",
     "etag": "\"18c3c-nGTodr7e1dGqQQwJEGKfi8VRWtQ\"",
-    "mtime": "2025-09-09T14:30:35.729Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101436,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-Regular.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-SemiBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c50-vvurVBGCT4CXlykvYUGU1OqrSOw\"",
-    "mtime": "2025-09-09T14:30:35.815Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101456,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-SemiBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_Expanded-SemiBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"192a4-6nyWE7iphsjbqAe37vw657qKbNY\"",
-    "mtime": "2025-09-09T14:30:35.967Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103076,
     "path": "../public/fonts/mona-sans/MonaSans_Expanded-SemiBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Black.ttf": {
     "type": "font/ttf",
     "etag": "\"18bb0-ecDbaW1mMo64RNjRm7BqBaCegh8\"",
-    "mtime": "2025-09-09T14:30:35.631Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 101296,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Black.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-BlackItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19310-/m96/oBuKSzpCuCxPxXBPvSMVrU\"",
-    "mtime": "2025-09-09T14:30:35.673Z",
+    "mtime": "2025-09-27T20:41:38.155Z",
     "size": 103184,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-BlackItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Bold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c50-qhE3ZlASCS7OTcjH3FAmXsElzbg\"",
-    "mtime": "2025-09-09T14:30:35.620Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 101456,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Bold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-BoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19338-8uV/eUAi91hdFi4NZ8vk5auQ1Ds\"",
-    "mtime": "2025-09-09T14:30:35.712Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103224,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-BoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-ExtraBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c24-2rxooKNzrP1QTYJlp3SzT+84H1U\"",
-    "mtime": "2025-09-09T14:30:35.610Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 101412,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-ExtraBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-ExtraBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19368-+QPPDJiS4cDmrdX29EnaNiVtIis\"",
-    "mtime": "2025-09-09T14:30:35.978Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103272,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-ExtraBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-ExtraLight.ttf": {
     "type": "font/ttf",
     "etag": "\"18c18-PTC7so5ieM1AsEsKS7d93ZQ0JYA\"",
-    "mtime": "2025-09-09T14:30:35.616Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 101400,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-ExtraLight.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-ExtraLightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19340-a9rAZ4EQBDa9PZYWnBVQwFNHl4U\"",
-    "mtime": "2025-09-09T14:30:35.914Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103232,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-ExtraLightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Italic.ttf": {
     "type": "font/ttf",
     "etag": "\"19324-4rmsrj5mlmr+KIwxrK9u7v7+7L0\"",
-    "mtime": "2025-09-09T14:30:35.910Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103204,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Italic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Light.ttf": {
     "type": "font/ttf",
     "etag": "\"18c44-6e9oia2MQ8v1zy+75NDgMgc84QQ\"",
-    "mtime": "2025-09-09T14:30:35.648Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 101444,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Light.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-LightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19378-Oqby+ibJyiJw5m8D/fQWzVnxIhw\"",
-    "mtime": "2025-09-09T14:30:35.930Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103288,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-LightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Medium.ttf": {
     "type": "font/ttf",
     "etag": "\"18c6c-xxN5LqZDaxFk54ew8q2YXBhE5Yo\"",
-    "mtime": "2025-09-09T14:30:35.773Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 101484,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Medium.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-MediumItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"193ac-RY7PKkxpDakAuN0Ir12a/6YWvHQ\"",
-    "mtime": "2025-09-09T14:30:35.905Z",
+    "mtime": "2025-09-27T20:41:38.171Z",
     "size": 103340,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-MediumItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-Regular.ttf": {
     "type": "font/ttf",
     "etag": "\"18bd8-IwC5uTjpYLVm7d7fa1BT2PSq7yM\"",
-    "mtime": "2025-09-09T14:30:35.625Z",
+    "mtime": "2025-09-27T20:41:38.187Z",
     "size": 101336,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-Regular.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-SemiBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c58-eMKfD/Dnh2HJzPBgbPZ49fGm6Sw\"",
-    "mtime": "2025-09-09T14:30:35.597Z",
+    "mtime": "2025-09-27T20:41:38.188Z",
     "size": 101464,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-SemiBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiCondensed-SemiBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"193b0-/09nGnIiWA/+mxpw/8XV9SHZX0A\"",
-    "mtime": "2025-09-09T14:30:35.958Z",
+    "mtime": "2025-09-27T20:41:38.189Z",
     "size": 103344,
     "path": "../public/fonts/mona-sans/MonaSans_SemiCondensed-SemiBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Black.ttf": {
     "type": "font/ttf",
     "etag": "\"18bcc-cOLrIr+/EQXRYCaIrlr/YXmcEHM\"",
-    "mtime": "2025-09-09T14:30:35.943Z",
+    "mtime": "2025-09-27T20:41:38.191Z",
     "size": 101324,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Black.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-BlackItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19248-8V2UYSjtmFPyytAZ5FizZO6v9OQ\"",
-    "mtime": "2025-09-09T14:30:35.983Z",
+    "mtime": "2025-09-27T20:41:38.192Z",
     "size": 102984,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-BlackItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Bold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c94-Co9FOgfMTreT1z7BMkCGhLWrPpk\"",
-    "mtime": "2025-09-09T14:30:35.742Z",
+    "mtime": "2025-09-27T20:41:38.193Z",
     "size": 101524,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Bold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-BoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19298-5BJGFGJeUY6S5RE0cSO+svX607Q\"",
-    "mtime": "2025-09-09T14:30:35.869Z",
+    "mtime": "2025-09-27T20:41:38.195Z",
     "size": 103064,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-BoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-ExtraBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c38-jrerWt67GknHl8S2Y1KvKv7jSLs\"",
-    "mtime": "2025-09-09T14:30:35.718Z",
+    "mtime": "2025-09-27T20:41:38.196Z",
     "size": 101432,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-ExtraBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-ExtraBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19260-DDnZB9hL+M9FWNAWQS2ImZZ9Kg4\"",
-    "mtime": "2025-09-09T14:30:36.003Z",
+    "mtime": "2025-09-27T20:41:38.197Z",
     "size": 103008,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-ExtraBoldItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-ExtraLight.ttf": {
     "type": "font/ttf",
     "etag": "\"18ca4-zszDTZYund52TP60DXyefYLMhNI\"",
-    "mtime": "2025-09-09T14:30:35.962Z",
+    "mtime": "2025-09-27T20:41:38.198Z",
     "size": 101540,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-ExtraLight.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-ExtraLightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19330-TZFS9cQbHpcqwPmzkY/W56h1vY8\"",
-    "mtime": "2025-09-09T14:30:35.881Z",
+    "mtime": "2025-09-27T20:41:38.201Z",
     "size": 103216,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-ExtraLightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Italic.ttf": {
     "type": "font/ttf",
     "etag": "\"192f4-jN03+nrCSe48FWgt10d4PzOTpzg\"",
-    "mtime": "2025-09-09T14:30:35.843Z",
+    "mtime": "2025-09-27T20:41:38.202Z",
     "size": 103156,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Italic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Light.ttf": {
     "type": "font/ttf",
     "etag": "\"18cb4-YmxibpaDBt0GdKD/2s19a6+O6sg\"",
-    "mtime": "2025-09-09T14:30:35.755Z",
+    "mtime": "2025-09-27T20:41:38.203Z",
     "size": 101556,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Light.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-LightItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19368-8X78pZ0QedfH+4sOdY1PmQOFQOU\"",
-    "mtime": "2025-09-09T14:30:36.018Z",
+    "mtime": "2025-09-27T20:41:38.204Z",
     "size": 103272,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-LightItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Medium.ttf": {
     "type": "font/ttf",
     "etag": "\"18cd4-4pVfbXslStZ0LqDTE7c7tx6dQv8\"",
-    "mtime": "2025-09-09T14:30:35.724Z",
+    "mtime": "2025-09-27T20:41:38.206Z",
     "size": 101588,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Medium.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-MediumItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19338-+Wad5MVugIV+NpuIDoU94rTA17g\"",
-    "mtime": "2025-09-09T14:30:35.987Z",
+    "mtime": "2025-09-27T20:41:38.207Z",
     "size": 103224,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-MediumItalic.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-Regular.ttf": {
     "type": "font/ttf",
     "etag": "\"18cb4-Y7aLMkQiyZKe5nsaHT+Bl8XKby4\"",
-    "mtime": "2025-09-09T14:30:35.748Z",
+    "mtime": "2025-09-27T20:41:38.208Z",
     "size": 101556,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-Regular.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-SemiBold.ttf": {
     "type": "font/ttf",
     "etag": "\"18c9c-Yt6i8ussoAxVVNYDC8jNnyQsFNo\"",
-    "mtime": "2025-09-09T14:30:35.953Z",
+    "mtime": "2025-09-27T20:41:38.209Z",
     "size": 101532,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-SemiBold.ttf"
   },
   "/fonts/mona-sans/MonaSans_SemiExpanded-SemiBoldItalic.ttf": {
     "type": "font/ttf",
     "etag": "\"19320-XRTxocBr7KCetluIJMEmkGxV/hs\"",
-    "mtime": "2025-09-09T14:30:36.014Z",
+    "mtime": "2025-09-27T20:41:38.211Z",
     "size": 103200,
     "path": "../public/fonts/mona-sans/MonaSans_SemiExpanded-SemiBoldItalic.ttf"
   },
   "/fonts/mona-sans/style.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"2c01-4Px09l0hLA+zpHSwyFBCJLVwFOs\"",
-    "mtime": "2025-09-09T14:42:18.891Z",
-    "size": 11265,
+    "etag": "\"4442-RxK21yBS/Vgrp+xuTp9Pgp4qrAM\"",
+    "mtime": "2025-09-28T18:39:54.226Z",
+    "size": 17474,
     "path": "../public/fonts/mona-sans/style.css"
   },
   "/landing-preview/css/preview-style.css": {
@@ -6935,13 +7950,6 @@ const assets = {
     "mtime": "2025-08-21T10:20:44.654Z",
     "size": 5365,
     "path": "../public/landing-preview/scss/preview-style.scss"
-  },
-  "/_nuxt/builds/latest.json": {
-    "type": "application/json",
-    "etag": "\"47-ZypeUgfzZ4BsIR6HiQnTUBkXxtI\"",
-    "mtime": "2025-09-27T20:37:28.534Z",
-    "size": 71,
-    "path": "../public/_nuxt/builds/latest.json"
   },
   "/assets/scss/components/_buttons.scss": {
     "type": "text/x-scss; charset=utf-8",
@@ -7198,359 +8206,254 @@ const assets = {
   "/imgs/works/full/Project3_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"573c5-Tcw6vFDi8mOl51McELNWoSdCzRU\"",
-    "mtime": "2025-09-13T17:11:54.511Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 357317,
     "path": "../public/imgs/works/full/Project3_2.jpg"
   },
   "/imgs/works/full/Project3_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"289aa-HwtASGeOPJoh5SDkwTs3iTuup90\"",
-    "mtime": "2025-09-12T17:15:01.061Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 166314,
     "path": "../public/imgs/works/full/Project3_4.jpg"
   },
   "/imgs/works/full/Project3_5.jpg": {
     "type": "image/jpeg",
     "etag": "\"2cde8-fkctu/fuDDu2rXBWXwgVOx5Un2o\"",
-    "mtime": "2025-09-13T17:13:51.698Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 183784,
     "path": "../public/imgs/works/full/Project3_5.jpg"
   },
   "/imgs/works/full/Project3_6.jpg": {
     "type": "image/jpeg",
     "etag": "\"282f8-ig6aSi5Nh0Q+oYUY1+Hfqixj+Sw\"",
-    "mtime": "2025-09-13T17:08:10.691Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 164600,
     "path": "../public/imgs/works/full/Project3_6.jpg"
   },
   "/imgs/works/full/Project3_7.jpg": {
     "type": "image/jpeg",
     "etag": "\"571a8-JRjlFZU5cVJSCiOd1shRZ/BOwKA\"",
-    "mtime": "2025-09-12T17:14:54.316Z",
+    "mtime": "2025-09-27T20:41:38.233Z",
     "size": 356776,
     "path": "../public/imgs/works/full/Project3_7.jpg"
   },
   "/imgs/works/full/Project_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"4040f-3EI+k6EO4rARoKUgqtOZsqiqEAw\"",
-    "mtime": "2025-09-06T21:23:11.694Z",
+    "mtime": "2025-09-27T20:41:38.249Z",
     "size": 263183,
     "path": "../public/imgs/works/full/Project_1.jpg"
   },
   "/imgs/works/full/Project_1_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"2fa58-Ly8erkiOLRiXzbEq0daQrjzag7E\"",
-    "mtime": "2025-09-13T18:32:19.598Z",
+    "mtime": "2025-09-27T20:41:38.249Z",
     "size": 195160,
     "path": "../public/imgs/works/full/Project_1_2.jpg"
   },
   "/imgs/works/full/Project_1_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"ddde-GTpUYkH9k7yyHXmlycih1y954ig\"",
-    "mtime": "2025-09-13T18:32:16.737Z",
+    "mtime": "2025-09-27T20:41:38.252Z",
     "size": 56798,
     "path": "../public/imgs/works/full/Project_1_3.jpg"
   },
   "/imgs/works/full/Project_1_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"1f575-pRei04DBGSLk0tfgM/fVdFddgeA\"",
-    "mtime": "2025-09-13T19:34:23.009Z",
+    "mtime": "2025-09-27T20:41:38.252Z",
     "size": 128373,
     "path": "../public/imgs/works/full/Project_1_4.jpg"
   },
   "/imgs/works/full/Project_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"c4af6-cdwEgz5cS14LQ3c76V/JeLGhfCQ\"",
-    "mtime": "2025-09-07T11:40:51.386Z",
+    "mtime": "2025-09-27T20:41:38.254Z",
     "size": 805622,
     "path": "../public/imgs/works/full/Project_2.jpg"
   },
   "/imgs/works/full/Project_2_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"2569c-ViWZaNXZwoyfkhNPGJRdeHxuXyE\"",
-    "mtime": "2025-09-13T17:53:44.856Z",
+    "mtime": "2025-09-27T20:41:38.254Z",
     "size": 153244,
     "path": "../public/imgs/works/full/Project_2_1.jpg"
   },
   "/imgs/works/full/Project_2_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"48403-4b3xvTGoSN/0HtluYOMqvAe5PDY\"",
-    "mtime": "2025-09-14T17:35:30.325Z",
+    "mtime": "2025-09-27T20:41:38.264Z",
     "size": 295939,
     "path": "../public/imgs/works/full/Project_2_2.jpg"
   },
   "/imgs/works/full/Project_2_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"173f1-XhQSH9r0Nx+xCHLOMapJyNUayjM\"",
-    "mtime": "2025-09-14T17:35:34.301Z",
+    "mtime": "2025-09-27T20:41:38.266Z",
     "size": 95217,
     "path": "../public/imgs/works/full/Project_2_3.jpg"
   },
   "/imgs/works/full/Project_2_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"1eef6-7lZyvXKKz8lRt1yc8LOgmBqKIYo\"",
-    "mtime": "2025-09-14T17:35:37.876Z",
+    "mtime": "2025-09-27T20:41:38.268Z",
     "size": 126710,
     "path": "../public/imgs/works/full/Project_2_4.jpg"
   },
   "/imgs/works/full/Project_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"573c5-Tcw6vFDi8mOl51McELNWoSdCzRU\"",
-    "mtime": "2025-09-13T17:11:54.511Z",
+    "mtime": "2025-09-27T20:41:38.268Z",
     "size": 357317,
     "path": "../public/imgs/works/full/Project_3.jpg"
   },
   "/imgs/works/full/Project_3_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"36e2a-OhNtvJOXysQ748vt2YPEGgHNDy4\"",
-    "mtime": "2025-09-13T16:57:51.536Z",
+    "mtime": "2025-09-27T20:41:38.273Z",
     "size": 224810,
     "path": "../public/imgs/works/full/Project_3_1.jpg"
   },
   "/imgs/works/full/Project_3_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"1cd56-+7tZiijvUH8y2Mf8to5kekwd4cQ\"",
-    "mtime": "2025-09-13T16:58:15.500Z",
+    "mtime": "2025-09-27T20:41:38.273Z",
     "size": 118102,
     "path": "../public/imgs/works/full/Project_3_2.jpg"
   },
   "/imgs/works/full/Project_3_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"1dc55-AGHSZyerCnE4vR+wkgYUAWFF6r0\"",
-    "mtime": "2025-09-13T16:58:07.724Z",
+    "mtime": "2025-09-27T20:41:38.275Z",
     "size": 121941,
     "path": "../public/imgs/works/full/Project_3_3.jpg"
   },
   "/imgs/works/full/Project_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"12468-+JtXnQV7DXl7Tmjhjonuha6XARg\"",
-    "mtime": "2025-09-06T21:23:17.243Z",
+    "mtime": "2025-09-27T20:41:38.275Z",
     "size": 74856,
     "path": "../public/imgs/works/full/Project_4.jpg"
   },
   "/imgs/works/full/Project_4_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"22fa8-JfgwtMq/y+RypSO0LWTYxDs7Lvk\"",
-    "mtime": "2025-09-13T16:58:10.787Z",
+    "mtime": "2025-09-27T20:41:38.278Z",
     "size": 143272,
     "path": "../public/imgs/works/full/Project_4_1.jpg"
   },
   "/imgs/works/full/Project_4_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"46d9f-EXYzAq7KRXFb285U9pSfDUsSfTg\"",
-    "mtime": "2025-09-14T20:53:33.390Z",
+    "mtime": "2025-09-27T20:41:38.281Z",
     "size": 290207,
     "path": "../public/imgs/works/full/Project_4_2.jpg"
   },
   "/imgs/works/full/Project_4_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"19119-kA6bFO/KcwT1geNbCZcu2M/b0ic\"",
-    "mtime": "2025-09-14T20:53:40.051Z",
+    "mtime": "2025-09-27T20:41:38.283Z",
     "size": 102681,
     "path": "../public/imgs/works/full/Project_4_3.jpg"
   },
   "/imgs/works/full/Project_4_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"23eab-rO8XJl1KbxU46eUP3BCg11igxos\"",
-    "mtime": "2025-09-14T20:53:36.543Z",
+    "mtime": "2025-09-27T20:41:38.284Z",
     "size": 147115,
     "path": "../public/imgs/works/full/Project_4_4.jpg"
   },
   "/imgs/works/full/Project_5.jpg": {
     "type": "image/jpeg",
     "etag": "\"8d128-3UDSVN74vqzbY6pSqM+43UxLvKQ\"",
-    "mtime": "2025-09-08T15:26:47.700Z",
+    "mtime": "2025-09-27T20:41:38.288Z",
     "size": 577832,
     "path": "../public/imgs/works/full/Project_5.jpg"
   },
   "/imgs/works/full/Project_5_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"388b3-wcOfXDM90ycpImTVYg01aj5GSbs\"",
-    "mtime": "2025-09-13T16:58:13.134Z",
+    "mtime": "2025-09-27T20:41:38.290Z",
     "size": 231603,
     "path": "../public/imgs/works/full/Project_5_1.jpg"
   },
   "/imgs/works/full/Project_5_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"41510-uwSchByiwlQBUTtdbhRQsz3jYAk\"",
-    "mtime": "2025-09-13T16:57:55.484Z",
+    "mtime": "2025-09-27T20:41:38.291Z",
     "size": 267536,
     "path": "../public/imgs/works/full/Project_5_2.jpg"
   },
   "/imgs/works/full/Project_5_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"31b3f-i6ns+tAsbpQjBv0e7m9US3+Bes4\"",
-    "mtime": "2025-09-13T16:58:05.024Z",
+    "mtime": "2025-09-27T20:41:38.293Z",
     "size": 203583,
     "path": "../public/imgs/works/full/Project_5_3.jpg"
   },
   "/imgs/works/full/Project_5_4.jpg": {
     "type": "image/jpeg",
     "etag": "\"5e5b4-Bpx2OfIrR4BcrrhCTJ4IxWg/uKE\"",
-    "mtime": "2025-09-12T16:48:00.738Z",
+    "mtime": "2025-09-27T20:41:38.302Z",
     "size": 386484,
     "path": "../public/imgs/works/full/Project_5_4.jpg"
   },
   "/imgs/works/full/Project_5_5.jpg": {
     "type": "image/jpeg",
     "etag": "\"6f77f-oK8MMfo632c8HC+Rpn6JRuxU9Wg\"",
-    "mtime": "2025-09-12T16:31:18.707Z",
+    "mtime": "2025-09-27T20:41:38.305Z",
     "size": 456575,
     "path": "../public/imgs/works/full/Project_5_5.jpg"
   },
   "/imgs/works/full/Project_6.jpg": {
     "type": "image/jpeg",
     "etag": "\"1964e-hJX6sJpGIc/JpIt3k++qQI6PlxM\"",
-    "mtime": "2025-09-14T10:43:01.045Z",
+    "mtime": "2025-09-27T20:41:38.307Z",
     "size": 104014,
     "path": "../public/imgs/works/full/Project_6.jpg"
   },
   "/imgs/works/full/Project_6_1.jpg": {
     "type": "image/jpeg",
     "etag": "\"fce33-b67gSWpCGk5c5OSKowu9sD0kiPc\"",
-    "mtime": "2025-09-14T10:44:31.358Z",
+    "mtime": "2025-09-27T20:41:38.311Z",
     "size": 1035827,
     "path": "../public/imgs/works/full/Project_6_1.jpg"
   },
   "/imgs/works/full/Project_6_2.jpg": {
     "type": "image/jpeg",
     "etag": "\"4b0f8-x1+bPt8K0M4TwNibdgCJMPNsGhc\"",
-    "mtime": "2025-09-14T10:44:35.323Z",
+    "mtime": "2025-09-27T20:41:38.311Z",
     "size": 307448,
     "path": "../public/imgs/works/full/Project_6_2.jpg"
   },
   "/imgs/works/full/Project_6_3.jpg": {
     "type": "image/jpeg",
     "etag": "\"1ad5b-RosjqvYUPGrIsWH16aVVG+b39gU\"",
-    "mtime": "2025-09-14T10:44:38.633Z",
+    "mtime": "2025-09-27T20:41:38.311Z",
     "size": 109915,
     "path": "../public/imgs/works/full/Project_6_3.jpg"
   },
   "/imgs/works/full/vid.mp4": {
     "type": "video/mp4",
     "etag": "\"43c7130-MIVebWPAcgYxWU9kirEleZd/RAI\"",
-    "mtime": "2025-08-21T10:20:43.542Z",
+    "mtime": "2025-09-27T20:41:38.594Z",
     "size": 71070000,
     "path": "../public/imgs/works/full/vid.mp4"
   },
   "/imgs/works/full/vid.png": {
     "type": "image/png",
     "etag": "\"92ee0-FEKIcd3hvxDq+Dpfk9dFBPayE64\"",
-    "mtime": "2025-08-21T10:20:43.563Z",
+    "mtime": "2025-09-27T20:41:38.594Z",
     "size": 601824,
     "path": "../public/imgs/works/full/vid.png"
   },
-  "/landing-preview/img/demos/1.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"b3cc-+wyFurka0XVOpRPebiD5lUW4YaM\"",
-    "mtime": "2025-08-21T10:20:44.460Z",
-    "size": 46028,
-    "path": "../public/landing-preview/img/demos/1.jpg"
-  },
-  "/landing-preview/img/demos/10.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"cf54-T5Tmn3e6ssLaIQX+sK2KCzYjYfM\"",
-    "mtime": "2025-08-21T10:20:44.460Z",
-    "size": 53076,
-    "path": "../public/landing-preview/img/demos/10.jpg"
-  },
-  "/landing-preview/img/demos/11.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"5769-ixsRfysiE9xfL6lxqXoelAkDCkc\"",
-    "mtime": "2025-08-21T10:20:44.460Z",
-    "size": 22377,
-    "path": "../public/landing-preview/img/demos/11.jpg"
-  },
-  "/landing-preview/img/demos/12.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"c3cc-RmAw+BugRY5L5s6lBCbcE/OFn28\"",
-    "mtime": "2025-08-21T10:20:44.460Z",
-    "size": 50124,
-    "path": "../public/landing-preview/img/demos/12.jpg"
-  },
-  "/landing-preview/img/demos/13.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"8ee0-JjjQgysysUIfzO7rxZdpSaTIddA\"",
-    "mtime": "2025-08-21T10:20:44.476Z",
-    "size": 36576,
-    "path": "../public/landing-preview/img/demos/13.jpg"
-  },
-  "/landing-preview/img/demos/2.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"120f4-30HrMVcOQaChspDeBt88GUWy+/0\"",
-    "mtime": "2025-08-21T10:20:44.476Z",
-    "size": 73972,
-    "path": "../public/landing-preview/img/demos/2.jpg"
-  },
-  "/landing-preview/img/demos/3.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"c8fe-sRn/puiKaOBM/XXuQtqMSlawodQ\"",
-    "mtime": "2025-08-21T10:20:44.476Z",
-    "size": 51454,
-    "path": "../public/landing-preview/img/demos/3.jpg"
-  },
-  "/landing-preview/img/demos/4.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"e772-g3qsGy/8VPsfVSJ1c2r/cuJDhpk\"",
-    "mtime": "2025-08-21T10:20:44.491Z",
-    "size": 59250,
-    "path": "../public/landing-preview/img/demos/4.jpg"
-  },
-  "/landing-preview/img/demos/5.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"18416-0IcQxjR3oxQnwgTY1KWDRvmIe0A\"",
-    "mtime": "2025-08-21T10:20:44.499Z",
-    "size": 99350,
-    "path": "../public/landing-preview/img/demos/5.jpg"
-  },
-  "/landing-preview/img/demos/6.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"10d5c-Q+yzweGkHGvaoFg9NtjoD/D3OFs\"",
-    "mtime": "2025-08-21T10:20:44.499Z",
-    "size": 68956,
-    "path": "../public/landing-preview/img/demos/6.jpg"
-  },
-  "/landing-preview/img/demos/7.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"1132c-O33d1uSdbt3RT+rP/LlQspYrUmA\"",
-    "mtime": "2025-08-21T10:20:44.509Z",
-    "size": 70444,
-    "path": "../public/landing-preview/img/demos/7.jpg"
-  },
-  "/landing-preview/img/demos/8.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"166df-6mHRmdOuG5WEVTqE5WJbpVF/dos\"",
-    "mtime": "2025-08-21T10:20:44.516Z",
-    "size": 91871,
-    "path": "../public/landing-preview/img/demos/8.jpg"
-  },
-  "/landing-preview/img/demos/9.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"7646-YEoCuKZA3ujMYbpgcqgG41tMQN4\"",
-    "mtime": "2025-08-21T10:20:44.520Z",
-    "size": 30278,
-    "path": "../public/landing-preview/img/demos/9.jpg"
-  },
-  "/landing-preview/img/demos/h1.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"13d1c-/3rHMN7jj9832Sys8kyVrU0/Dg0\"",
-    "mtime": "2025-08-21T10:20:44.522Z",
-    "size": 81180,
-    "path": "../public/landing-preview/img/demos/h1.jpg"
-  },
-  "/landing-preview/img/demos/h2.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"eac1-LeC9OWfHh8+kvoja1k2koSWipio\"",
-    "mtime": "2025-08-21T10:20:44.522Z",
-    "size": 60097,
-    "path": "../public/landing-preview/img/demos/h2.jpg"
-  },
-  "/landing-preview/img/demos/h3.jpg": {
-    "type": "image/jpeg",
-    "etag": "\"ad54-racGGgiluFCDy+CGR/cx97Zpk8M\"",
-    "mtime": "2025-08-21T10:20:44.522Z",
-    "size": 44372,
-    "path": "../public/landing-preview/img/demos/h3.jpg"
+  "/_nuxt/builds/meta/fd4cda3b-4973-41b5-b98f-c9e6d8e6d376.json": {
+    "type": "application/json",
+    "etag": "\"8b-lVBnxNUHzTgkGgUBknlyXX5rsJo\"",
+    "mtime": "2025-09-28T19:30:28.903Z",
+    "size": 139,
+    "path": "../public/_nuxt/builds/meta/fd4cda3b-4973-41b5-b98f-c9e6d8e6d376.json"
   },
   "/landing-preview/img/header/1.jpg": {
     "type": "image/jpeg",
@@ -7678,12 +8581,117 @@ const assets = {
     "size": 14928,
     "path": "../public/landing-preview/img/header/overlay.webp"
   },
-  "/_nuxt/builds/meta/e16ab747-ceb7-45d9-8fdb-168de48b4f1f.json": {
-    "type": "application/json",
-    "etag": "\"8b-nG5mi+zS/BroI8QGRcj+BwwAY4Q\"",
-    "mtime": "2025-09-27T20:37:28.535Z",
-    "size": 139,
-    "path": "../public/_nuxt/builds/meta/e16ab747-ceb7-45d9-8fdb-168de48b4f1f.json"
+  "/landing-preview/img/demos/1.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"b3cc-+wyFurka0XVOpRPebiD5lUW4YaM\"",
+    "mtime": "2025-08-21T10:20:44.460Z",
+    "size": 46028,
+    "path": "../public/landing-preview/img/demos/1.jpg"
+  },
+  "/landing-preview/img/demos/10.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"cf54-T5Tmn3e6ssLaIQX+sK2KCzYjYfM\"",
+    "mtime": "2025-08-21T10:20:44.460Z",
+    "size": 53076,
+    "path": "../public/landing-preview/img/demos/10.jpg"
+  },
+  "/landing-preview/img/demos/11.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"5769-ixsRfysiE9xfL6lxqXoelAkDCkc\"",
+    "mtime": "2025-08-21T10:20:44.460Z",
+    "size": 22377,
+    "path": "../public/landing-preview/img/demos/11.jpg"
+  },
+  "/landing-preview/img/demos/12.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"c3cc-RmAw+BugRY5L5s6lBCbcE/OFn28\"",
+    "mtime": "2025-08-21T10:20:44.460Z",
+    "size": 50124,
+    "path": "../public/landing-preview/img/demos/12.jpg"
+  },
+  "/landing-preview/img/demos/13.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"8ee0-JjjQgysysUIfzO7rxZdpSaTIddA\"",
+    "mtime": "2025-08-21T10:20:44.476Z",
+    "size": 36576,
+    "path": "../public/landing-preview/img/demos/13.jpg"
+  },
+  "/landing-preview/img/demos/2.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"120f4-30HrMVcOQaChspDeBt88GUWy+/0\"",
+    "mtime": "2025-08-21T10:20:44.476Z",
+    "size": 73972,
+    "path": "../public/landing-preview/img/demos/2.jpg"
+  },
+  "/landing-preview/img/demos/3.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"c8fe-sRn/puiKaOBM/XXuQtqMSlawodQ\"",
+    "mtime": "2025-08-21T10:20:44.476Z",
+    "size": 51454,
+    "path": "../public/landing-preview/img/demos/3.jpg"
+  },
+  "/landing-preview/img/demos/4.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"e772-g3qsGy/8VPsfVSJ1c2r/cuJDhpk\"",
+    "mtime": "2025-08-21T10:20:44.491Z",
+    "size": 59250,
+    "path": "../public/landing-preview/img/demos/4.jpg"
+  },
+  "/landing-preview/img/demos/5.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"18416-0IcQxjR3oxQnwgTY1KWDRvmIe0A\"",
+    "mtime": "2025-08-21T10:20:44.499Z",
+    "size": 99350,
+    "path": "../public/landing-preview/img/demos/5.jpg"
+  },
+  "/landing-preview/img/demos/6.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"10d5c-Q+yzweGkHGvaoFg9NtjoD/D3OFs\"",
+    "mtime": "2025-08-21T10:20:44.499Z",
+    "size": 68956,
+    "path": "../public/landing-preview/img/demos/6.jpg"
+  },
+  "/landing-preview/img/demos/7.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"1132c-O33d1uSdbt3RT+rP/LlQspYrUmA\"",
+    "mtime": "2025-08-21T10:20:44.509Z",
+    "size": 70444,
+    "path": "../public/landing-preview/img/demos/7.jpg"
+  },
+  "/landing-preview/img/demos/8.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"166df-6mHRmdOuG5WEVTqE5WJbpVF/dos\"",
+    "mtime": "2025-08-21T10:20:44.516Z",
+    "size": 91871,
+    "path": "../public/landing-preview/img/demos/8.jpg"
+  },
+  "/landing-preview/img/demos/9.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"7646-YEoCuKZA3ujMYbpgcqgG41tMQN4\"",
+    "mtime": "2025-08-21T10:20:44.520Z",
+    "size": 30278,
+    "path": "../public/landing-preview/img/demos/9.jpg"
+  },
+  "/landing-preview/img/demos/h1.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"13d1c-/3rHMN7jj9832Sys8kyVrU0/Dg0\"",
+    "mtime": "2025-08-21T10:20:44.522Z",
+    "size": 81180,
+    "path": "../public/landing-preview/img/demos/h1.jpg"
+  },
+  "/landing-preview/img/demos/h2.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"eac1-LeC9OWfHh8+kvoja1k2koSWipio\"",
+    "mtime": "2025-08-21T10:20:44.522Z",
+    "size": 60097,
+    "path": "../public/landing-preview/img/demos/h2.jpg"
+  },
+  "/landing-preview/img/demos/h3.jpg": {
+    "type": "image/jpeg",
+    "etag": "\"ad54-racGGgiluFCDy+CGR/cx97Zpk8M\"",
+    "mtime": "2025-08-21T10:20:44.522Z",
+    "size": 44372,
+    "path": "../public/landing-preview/img/demos/h3.jpg"
   }
 };
 

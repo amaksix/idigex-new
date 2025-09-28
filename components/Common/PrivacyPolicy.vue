@@ -6,7 +6,7 @@
           <div style="height:80vh; padding-top:5vh; padding-bottom:5vh;" class="menu-links privacy-container">
             <h2 class="main-title mb-50">{{ t('privacy_policy.title') }}</h2> 
             <ul class="main-menu rest">
-              <li v-for="index in 10" :key="index">
+              <li v-for="index in 11" :key="index">
                 <div class="o-hidden">
                   <h6 class="text-u fw-600 mb-10">{{ t(`privacy_policy.items.${index - 1}.heading`) }}</h6>
                   

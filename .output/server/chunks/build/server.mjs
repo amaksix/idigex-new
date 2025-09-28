@@ -619,47 +619,47 @@ const _routes = [
   {
     name: "about___en",
     path: "/about",
-    component: () => import('./about-iGtdKlHM.mjs')
+    component: () => import('./about-D8ZId-z4.mjs')
   },
   {
     name: "about___lv",
     path: "/lv/about",
-    component: () => import('./about-iGtdKlHM.mjs')
+    component: () => import('./about-D8ZId-z4.mjs')
   },
   {
     name: "about___ru",
     path: "/ru/about",
-    component: () => import('./about-iGtdKlHM.mjs')
+    component: () => import('./about-D8ZId-z4.mjs')
   },
   {
     name: "index___en",
     path: "/",
-    component: () => import('./index-CULG8QT8.mjs')
+    component: () => import('./index-DBN0hzNO.mjs')
   },
   {
     name: "index___lv",
     path: "/lv",
-    component: () => import('./index-CULG8QT8.mjs')
+    component: () => import('./index-DBN0hzNO.mjs')
   },
   {
     name: "index___ru",
     path: "/ru",
-    component: () => import('./index-CULG8QT8.mjs')
+    component: () => import('./index-DBN0hzNO.mjs')
   },
   {
     name: "contact___en",
     path: "/contact",
-    component: () => import('./contact-DhNYaUtj.mjs')
+    component: () => import('./contact-eUt12M_E.mjs')
   },
   {
     name: "contact___lv",
     path: "/lv/contact",
-    component: () => import('./contact-DhNYaUtj.mjs')
+    component: () => import('./contact-eUt12M_E.mjs')
   },
   {
     name: "contact___ru",
     path: "/ru/contact",
-    component: () => import('./contact-DhNYaUtj.mjs')
+    component: () => import('./contact-eUt12M_E.mjs')
   },
   {
     name: "all___en",
@@ -679,137 +679,137 @@ const _routes = [
   {
     name: "portfolio___en",
     path: "/portfolio",
-    component: () => import('./portfolio-D55JLMNM.mjs')
+    component: () => import('./portfolio-QwmMr4wd.mjs')
   },
   {
     name: "portfolio___lv",
     path: "/lv/portfolio",
-    component: () => import('./portfolio-D55JLMNM.mjs')
+    component: () => import('./portfolio-QwmMr4wd.mjs')
   },
   {
     name: "portfolio___ru",
     path: "/ru/portfolio",
-    component: () => import('./portfolio-D55JLMNM.mjs')
+    component: () => import('./portfolio-QwmMr4wd.mjs')
   },
   {
     name: "projects-5w___en",
     path: "/projects/5w",
-    component: () => import('./5w-Dij7cW7u.mjs')
+    component: () => import('./5w-Biz3qhUP.mjs')
   },
   {
     name: "projects-5w___lv",
     path: "/lv/projects/5w",
-    component: () => import('./5w-Dij7cW7u.mjs')
+    component: () => import('./5w-Biz3qhUP.mjs')
   },
   {
     name: "projects-5w___ru",
     path: "/ru/projects/5w",
-    component: () => import('./5w-Dij7cW7u.mjs')
+    component: () => import('./5w-Biz3qhUP.mjs')
   },
   {
     name: "creative-agency___en",
     path: "/creative-agency",
-    component: () => import('./creative-agency-CEiBpQ6k.mjs')
+    component: () => import('./creative-agency-DwOmuI8o.mjs')
   },
   {
     name: "creative-agency___lv",
     path: "/lv/creative-agency",
-    component: () => import('./creative-agency-CEiBpQ6k.mjs')
+    component: () => import('./creative-agency-DwOmuI8o.mjs')
   },
   {
     name: "creative-agency___ru",
     path: "/ru/creative-agency",
-    component: () => import('./creative-agency-CEiBpQ6k.mjs')
+    component: () => import('./creative-agency-DwOmuI8o.mjs')
   },
   {
     name: "projects-Palami___en",
     path: "/projects/Palami",
-    component: () => import('./Palami-DigMF9Ny.mjs')
+    component: () => import('./Palami-CNp4g8IS.mjs')
   },
   {
     name: "projects-Palami___lv",
     path: "/lv/projects/Palami",
-    component: () => import('./Palami-DigMF9Ny.mjs')
+    component: () => import('./Palami-CNp4g8IS.mjs')
   },
   {
     name: "projects-Palami___ru",
     path: "/ru/projects/Palami",
-    component: () => import('./Palami-DigMF9Ny.mjs')
+    component: () => import('./Palami-CNp4g8IS.mjs')
   },
   {
     name: "projects-ViaBon___en",
     path: "/projects/ViaBon",
-    component: () => import('./ViaBon-DB5QFR__.mjs')
+    component: () => import('./ViaBon-CS3llLu2.mjs')
   },
   {
     name: "projects-ViaBon___lv",
     path: "/lv/projects/ViaBon",
-    component: () => import('./ViaBon-DB5QFR__.mjs')
+    component: () => import('./ViaBon-CS3llLu2.mjs')
   },
   {
     name: "projects-ViaBon___ru",
     path: "/ru/projects/ViaBon",
-    component: () => import('./ViaBon-DB5QFR__.mjs')
+    component: () => import('./ViaBon-CS3llLu2.mjs')
   },
   {
     name: "services-slug___en",
     path: "/services/:slug()",
-    component: () => import('./_slug_-DLxopC3m.mjs')
+    component: () => import('./_slug_-BAzvXpTG.mjs')
   },
   {
     name: "services-slug___lv",
     path: "/lv/services/:slug()",
-    component: () => import('./_slug_-DLxopC3m.mjs')
+    component: () => import('./_slug_-BAzvXpTG.mjs')
   },
   {
     name: "services-slug___ru",
     path: "/ru/services/:slug()",
-    component: () => import('./_slug_-DLxopC3m.mjs')
+    component: () => import('./_slug_-BAzvXpTG.mjs')
   },
   {
     name: "projects-Mullers___en",
     path: "/projects/Mullers",
-    component: () => import('./Mullers-BQGSpRbo.mjs')
+    component: () => import('./Mullers-CBrSh_FY.mjs')
   },
   {
     name: "projects-Mullers___lv",
     path: "/lv/projects/Mullers",
-    component: () => import('./Mullers-BQGSpRbo.mjs')
+    component: () => import('./Mullers-CBrSh_FY.mjs')
   },
   {
     name: "projects-Mullers___ru",
     path: "/ru/projects/Mullers",
-    component: () => import('./Mullers-BQGSpRbo.mjs')
+    component: () => import('./Mullers-CBrSh_FY.mjs')
   },
   {
     name: "projects-PenaLab___en",
     path: "/projects/PenaLab",
-    component: () => import('./PenaLab-YSpliivo.mjs')
+    component: () => import('./PenaLab-8VSd7skf.mjs')
   },
   {
     name: "projects-PenaLab___lv",
     path: "/lv/projects/PenaLab",
-    component: () => import('./PenaLab-YSpliivo.mjs')
+    component: () => import('./PenaLab-8VSd7skf.mjs')
   },
   {
     name: "projects-PenaLab___ru",
     path: "/ru/projects/PenaLab",
-    component: () => import('./PenaLab-YSpliivo.mjs')
+    component: () => import('./PenaLab-8VSd7skf.mjs')
   },
   {
     name: "projects-FinanceLabs___en",
     path: "/projects/FinanceLabs",
-    component: () => import('./FinanceLabs-Cpk4UBtP.mjs')
+    component: () => import('./FinanceLabs-clpGBeLo.mjs')
   },
   {
     name: "projects-FinanceLabs___lv",
     path: "/lv/projects/FinanceLabs",
-    component: () => import('./FinanceLabs-Cpk4UBtP.mjs')
+    component: () => import('./FinanceLabs-clpGBeLo.mjs')
   },
   {
     name: "projects-FinanceLabs___ru",
     path: "/ru/projects/FinanceLabs",
-    component: () => import('./FinanceLabs-Cpk4UBtP.mjs')
+    component: () => import('./FinanceLabs-clpGBeLo.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -1511,7 +1511,7 @@ const localeLoaders = {
     {
       key: "locale_en_46json_3af704b5",
       load: () => import(
-        './en-Dzo-Oxkb.mjs'
+        './en-ExGFDAQ3.mjs'
         /* webpackChunkName: "locale_en_46json_3af704b5" */
       ),
       cache: true
@@ -1521,7 +1521,7 @@ const localeLoaders = {
     {
       key: "locale_lv_46json_1fa2d980",
       load: () => import(
-        './lv-BjmcRj5H.mjs'
+        './lv-BghosEkS.mjs'
         /* webpackChunkName: "locale_lv_46json_1fa2d980" */
       ),
       cache: true
@@ -1531,7 +1531,7 @@ const localeLoaders = {
     {
       key: "locale_ru_46json_87970932",
       load: () => import(
-        './ru-kJgoIQuK.mjs'
+        './ru-Chv4NzpD.mjs'
         /* webpackChunkName: "locale_ru_46json_87970932" */
       ),
       cache: true
@@ -1832,7 +1832,7 @@ function createNuxtI18nContext(nuxt, vueI18n, defaultLocale) {
   const loadMessagesFromServer = async (locale) => {
     if (locale in localeLoaders === false) return;
     const headers = getLocaleConfig(locale)?.cacheable ? {} : { "Cache-Control": "no-cache" };
-    const messages = await $fetch(`/_i18n/${"-Uiznp7L"}/${locale}/messages.json`, { headers });
+    const messages = await $fetch(`/_i18n/${"5ToK0afj"}/${locale}/messages.json`, { headers });
     for (const k of Object.keys(messages)) {
       i18n.mergeLocaleMessage(k, messages[k]);
     }
@@ -6084,7 +6084,7 @@ const i18n_EI7LsD1KYQADczz5hrChviGQCdVM8yUkvFEZLJpmnvM = /* @__PURE__ */ defineN
     {
       localeConfigs.value = useRequestEvent().context.nuxtI18n?.localeConfigs || {};
     }
-    prerenderRoutes(localeCodes.map((locale) => `/_i18n/${"-Uiznp7L"}/${locale}/messages.json`));
+    prerenderRoutes(localeCodes.map((locale) => `/_i18n/${"5ToK0afj"}/${locale}/messages.json`));
     const i18n = createI18n(optionsI18n);
     const detectors = useDetectors(useRequestEvent(nuxt), useI18nDetection(nuxt), nuxt);
     const ctx = createNuxtI18nContext(nuxt, i18n, optionsI18n.defaultLocale);

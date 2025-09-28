@@ -23,19 +23,19 @@
             <div class="col-md-4 sm-mb30">
               <ul class="list rest">
                 <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature1') }}</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature2') }}</li>                 
+                <li class="fz-18 mb-15">{{ t('about.intro.feature2') }}</li>                 
               </ul>
             </div>
             <div class="col-md-4 sm-mb30">
               <ul class="list rest">
                 <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature3') }}</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature4') }}</li>
+                <li class="fz-18 mb-15"> {{ t('about.intro.feature4') }}</li>
               </ul>
             </div>
             <div class="col-md-4">
               <ul class="list rest">
                 <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature5') }}</li>
-                <li class="fz-18 mb-15"><span class="mr-10">+</span> {{ t('about.intro.feature6') }}</li>
+                <li class="fz-18 mb-15"> {{ t('about.intro.feature6') }}</li>
               </ul>
             </div>
           </div>

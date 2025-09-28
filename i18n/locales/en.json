@@ -23,13 +23,14 @@
       "heading_part1": "IDigex combines design and",
       "heading_part2": "technology.",
       "paragraph1": "We create websites, branding, logos, and advertising materials that help businesses stand out and speak the same language as their audience. In our work, we focus on clarity and functionality, avoiding the unnecessary. Each project is developed with business goals and market specifics in mind. Our goal is to create solutions that not only look modern but also deliver results.",
-      "paragraph2": "Unique features of our web projects:",
-      "feature1": "SEO-friendly",
-      "feature2": "Mobile adaptation",
-      "feature3": "User-friendly and intuitive navigation",
-      "feature4": "Sales tools",
-      "feature5": "Memorable design",
-      "feature6": "Operational support"
+      "paragraph2": "Our values:",
+      "feature1": "Post-launch support",
+      "feature2": "Consultations, assistance with website launch, basic training.",
+      "feature3": "Speed and Transparency",
+      "feature4": "We ensure strict adherence to deadlines and transparent project management so that the client always understands the current status of the project precisely.",
+      "feature5": "Affordable prices",
+      "feature6": "We select service packages for any budget and stage of business development."
+
     }
   },
    "home": {
@@ -43,7 +44,7 @@
       "paragraph": "At IDigex, we believe that a modern brand must be both stylish and functional. We develop websites, create brands and logos that help businesses stand out and speak the same language as their audience."
     },
     "contact": {
-      "sub_title": "Work With Us",
+      "sub_title": "Contact Us",
       "heading_part1": "We would love to",
       "heading_part2": "learn more",
       "heading_part3": "about your project.",
@@ -140,7 +141,7 @@
     ]
   },
    "footer": {
-    "contact_text": "we would love to hear from you.",
+    "contact_text": "Let's discuss your project.",
     "social_title": "Social media",
     "nav_title": "Navigation",
     "privacy": "Privacy policy",
@@ -160,9 +161,9 @@
     "task_title": "Task",
     "task_description": "To create a visual style and digital solution that reflects the company's reliability and prestige. The client's main requirement was to emphasize the brand's representativeness and 'expensive' image.",
     "solution_title": "Solution",
-    "solution_description": "We developed a complete visual style: logo, color palette, and typography, and also created a brand book with identity usage guidelines. In addition, an adaptive website was created that fully corresponds to the corporate style, with a convenient structure and modern design.",
+    "solution_description": "For the financial company ViaBON, a holistic visual style was developed: corporate colors and fonts were selected, and a brand book with guidelines for using the identity was created. Work is currently underway on the corporate website, including adaptation for various devices.",
     "result_title": "Result",
-    "result_description": "The company gained a unified visual language that emphasizes status and trust. The new style improves the perception of reliability in the market and creates a sense of high-class service among clients."
+    "result_description": "The company has acquired a unified visual image that emphasizes its status and trustworthiness. The new style improves the perception of reliability in the market and creates a sense of premium quality among customers."
   },
   "penalab": {
     "category": "Branding, Website",
@@ -190,7 +191,7 @@
     "result_title": "Result",
   "result_description": "The company received a modern website with interactive tools and visual materials that improved product presentation and made the selection process convenient and clear.",
   "models_title": "3D Models",
-  "models_description": "We created photorealistic 3D models of pylons and bus stops. The project included two design variants for the stops in four sizes with a wide range of options: number of screens, city map, transport schedule, and custom city prints on the glass. The pylon is recreated as an accurate digital copy of the existing product. All constructions are recreated as precise digital copies of the real objects.",
+  "models_description": "We created photorealistic 3D models of pylons and bus stops. The project included two design variants for the stops in four sizes with a wide range of options: number of screens, city map, transport schedule, and custom city prints on the glass. All constructions are recreated as precise digital copies of the real objects.",
   "configurator_title": "Configurator",
   "configurator_description": "For the convenience of customers, we developed an interactive bus stop configurator. It allows for assembling the necessary configuration in real-time: choosing the number of screens, adding a city map, a transport schedule, and also printing on the glass. The configurator clearly demonstrates all available options and simplifies the selection process, turning a complex product into a clear and convenient solution."
   },
@@ -317,6 +318,10 @@
       {
         "heading": "Contact Information",
         "body": "If you have any questions, please contact us at"
+      },
+      {
+        "heading": "",
+        "body": "Last updated - 28.09.2025"
       }
     ]
   }
