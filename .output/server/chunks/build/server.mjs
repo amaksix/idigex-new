@@ -618,12 +618,12 @@ async function getRouteRules(arg) {
 const _routes = [
   {
     name: "about___en",
-    path: "/about",
+    path: "/en/about",
     component: () => import('./about-D8ZId-z4.mjs')
   },
   {
     name: "about___lv",
-    path: "/lv/about",
+    path: "/about",
     component: () => import('./about-D8ZId-z4.mjs')
   },
   {
@@ -633,12 +633,12 @@ const _routes = [
   },
   {
     name: "index___en",
-    path: "/",
+    path: "/en",
     component: () => import('./index-DBN0hzNO.mjs')
   },
   {
     name: "index___lv",
-    path: "/lv",
+    path: "/",
     component: () => import('./index-DBN0hzNO.mjs')
   },
   {
@@ -648,12 +648,12 @@ const _routes = [
   },
   {
     name: "contact___en",
-    path: "/contact",
+    path: "/en/contact",
     component: () => import('./contact-eUt12M_E.mjs')
   },
   {
     name: "contact___lv",
-    path: "/lv/contact",
+    path: "/contact",
     component: () => import('./contact-eUt12M_E.mjs')
   },
   {
@@ -663,12 +663,12 @@ const _routes = [
   },
   {
     name: "all___en",
-    path: "/:all(.*)*",
+    path: "/en/:all(.*)*",
     component: () => import('./_...all_-DNY1k0cM.mjs')
   },
   {
     name: "all___lv",
-    path: "/lv/:all(.*)*",
+    path: "/:all(.*)*",
     component: () => import('./_...all_-DNY1k0cM.mjs')
   },
   {
@@ -678,12 +678,12 @@ const _routes = [
   },
   {
     name: "portfolio___en",
-    path: "/portfolio",
+    path: "/en/portfolio",
     component: () => import('./portfolio-QwmMr4wd.mjs')
   },
   {
     name: "portfolio___lv",
-    path: "/lv/portfolio",
+    path: "/portfolio",
     component: () => import('./portfolio-QwmMr4wd.mjs')
   },
   {
@@ -693,12 +693,12 @@ const _routes = [
   },
   {
     name: "projects-5w___en",
-    path: "/projects/5w",
+    path: "/en/projects/5w",
     component: () => import('./5w-Biz3qhUP.mjs')
   },
   {
     name: "projects-5w___lv",
-    path: "/lv/projects/5w",
+    path: "/projects/5w",
     component: () => import('./5w-Biz3qhUP.mjs')
   },
   {
@@ -708,12 +708,12 @@ const _routes = [
   },
   {
     name: "creative-agency___en",
-    path: "/creative-agency",
+    path: "/en/creative-agency",
     component: () => import('./creative-agency-DwOmuI8o.mjs')
   },
   {
     name: "creative-agency___lv",
-    path: "/lv/creative-agency",
+    path: "/creative-agency",
     component: () => import('./creative-agency-DwOmuI8o.mjs')
   },
   {
@@ -723,12 +723,12 @@ const _routes = [
   },
   {
     name: "projects-Palami___en",
-    path: "/projects/Palami",
+    path: "/en/projects/Palami",
     component: () => import('./Palami-CNp4g8IS.mjs')
   },
   {
     name: "projects-Palami___lv",
-    path: "/lv/projects/Palami",
+    path: "/projects/Palami",
     component: () => import('./Palami-CNp4g8IS.mjs')
   },
   {
@@ -738,12 +738,12 @@ const _routes = [
   },
   {
     name: "projects-ViaBon___en",
-    path: "/projects/ViaBon",
+    path: "/en/projects/ViaBon",
     component: () => import('./ViaBon-CS3llLu2.mjs')
   },
   {
     name: "projects-ViaBon___lv",
-    path: "/lv/projects/ViaBon",
+    path: "/projects/ViaBon",
     component: () => import('./ViaBon-CS3llLu2.mjs')
   },
   {
@@ -753,12 +753,12 @@ const _routes = [
   },
   {
     name: "services-slug___en",
-    path: "/services/:slug()",
+    path: "/en/services/:slug()",
     component: () => import('./_slug_-BAzvXpTG.mjs')
   },
   {
     name: "services-slug___lv",
-    path: "/lv/services/:slug()",
+    path: "/services/:slug()",
     component: () => import('./_slug_-BAzvXpTG.mjs')
   },
   {
@@ -768,12 +768,12 @@ const _routes = [
   },
   {
     name: "projects-Mullers___en",
-    path: "/projects/Mullers",
+    path: "/en/projects/Mullers",
     component: () => import('./Mullers-CBrSh_FY.mjs')
   },
   {
     name: "projects-Mullers___lv",
-    path: "/lv/projects/Mullers",
+    path: "/projects/Mullers",
     component: () => import('./Mullers-CBrSh_FY.mjs')
   },
   {
@@ -783,12 +783,12 @@ const _routes = [
   },
   {
     name: "projects-PenaLab___en",
-    path: "/projects/PenaLab",
+    path: "/en/projects/PenaLab",
     component: () => import('./PenaLab-8VSd7skf.mjs')
   },
   {
     name: "projects-PenaLab___lv",
-    path: "/lv/projects/PenaLab",
+    path: "/projects/PenaLab",
     component: () => import('./PenaLab-8VSd7skf.mjs')
   },
   {
@@ -798,12 +798,12 @@ const _routes = [
   },
   {
     name: "projects-FinanceLabs___en",
-    path: "/projects/FinanceLabs",
+    path: "/en/projects/FinanceLabs",
     component: () => import('./FinanceLabs-clpGBeLo.mjs')
   },
   {
     name: "projects-FinanceLabs___lv",
-    path: "/lv/projects/FinanceLabs",
+    path: "/projects/FinanceLabs",
     component: () => import('./FinanceLabs-clpGBeLo.mjs')
   },
   {
@@ -1832,7 +1832,7 @@ function createNuxtI18nContext(nuxt, vueI18n, defaultLocale) {
   const loadMessagesFromServer = async (locale) => {
     if (locale in localeLoaders === false) return;
     const headers = getLocaleConfig(locale)?.cacheable ? {} : { "Cache-Control": "no-cache" };
-    const messages = await $fetch(`/_i18n/${"5ToK0afj"}/${locale}/messages.json`, { headers });
+    const messages = await $fetch(`/_i18n/${"9id0e6My"}/${locale}/messages.json`, { headers });
     for (const k of Object.keys(messages)) {
       i18n.mergeLocaleMessage(k, messages[k]);
     }
@@ -6084,7 +6084,7 @@ const i18n_EI7LsD1KYQADczz5hrChviGQCdVM8yUkvFEZLJpmnvM = /* @__PURE__ */ defineN
     {
       localeConfigs.value = useRequestEvent().context.nuxtI18n?.localeConfigs || {};
     }
-    prerenderRoutes(localeCodes.map((locale) => `/_i18n/${"5ToK0afj"}/${locale}/messages.json`));
+    prerenderRoutes(localeCodes.map((locale) => `/_i18n/${"9id0e6My"}/${locale}/messages.json`));
     const i18n = createI18n(optionsI18n);
     const detectors = useDetectors(useRequestEvent(nuxt), useI18nDetection(nuxt), nuxt);
     const ctx = createNuxtI18nContext(nuxt, i18n, optionsI18n.defaultLocale);

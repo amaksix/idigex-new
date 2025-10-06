@@ -103,44 +103,64 @@ const success = ref(false);
 const error = ref(false);
 const notSending = ref(true);
 
-onMounted(() => {
-  if (window.emailjs) {
-    emailjs.init("16i6i3kCCpv42rYJv");
-  }
-});
-
+ const appScriptUrl = 'https://script.google.com/macros/s/AKfycbwQ1YKkGwKDL15chyWxO2x7UvlkNveVOAw7kBWVsWTXrFdWhlLyYebanJNJIynaigkDWA/exec'; 
 const sendEmail = async () => {
-  success.value = false;
-  error.value = false;
-  notSending.value = false;
+    
+    success.value = false;
+    error.value = false;
+    notSending.value = false;
 
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  if (!form.value.name || !form.value.email || !form.value.message) {
-    alert("Name, email, and message must not be empty."); // <-- this can also be localized if you want
-    return;
-  }
+    // 2. Client-Side Validation (Remains the same)
+    if (!form.value.name || !form.value.email || !form.value.message) {
+        alert("Name, email, and message must not be empty.");
+        notSending.value = true;
+        return;
+    }
 
-  if (!emailRegex.test(form.value.email)) {
-    alert("Please enter a valid email address."); // <-- localizable too
-    return;
-  }
+    if (!emailRegex.test(form.value.email)) {
+        alert("Please enter a valid email address.");
+        notSending.value = true;
+        return;
+    }
 
-  try {
-    await emailjs.send("service_71sjyhe", "template_a9w2hln", {
-      name: form.value.name,
-      email: form.value.email,
-      message: form.value.message,
-    });
+    // 3. Prepare the data for the Google Apps Script
+    // The Apps Script 'doPost' function expects form data, so we use URLSearchParams or FormData.
+    const formData = new URLSearchParams();
+    formData.append('name', form.value.name);
+    formData.append('email', form.value.email);
+    formData.append('message', form.value.message);
 
-    success.value = true;
-    form.value.name = "";
-    form.value.email = "";
-    form.value.message = "";
-  } catch (err) {
-    console.error(err);
-    error.value = true;
-  }
-  notSending.value = true;
+    try {
+        // 4. Send the data to the Google Apps Script endpoint
+        const response = await fetch(appScriptUrl, {
+            method: 'POST',
+            // Use 'body: formData' for POSTing to Apps Script. 
+            // This is the equivalent of a standard form submission.
+            body: formData 
+        });
+
+        const data = await response.json();
+
+        if (data.result === 'success') {
+            // 5. Success Handling
+            success.value = true;
+            form.value.name = "";
+            form.value.email = "";
+            form.value.message = "";
+        } else {
+            // Apps Script returned an error (e.g., could not write to sheet)
+            console.error('Apps Script Error:', data.error);
+            error.value = true;
+        }
+        
+    } catch (err) {
+        // 6. Network/Fetch Error Handling
+        console.error('Fetch Failed:', err);
+        error.value = true;
+    }
+    
+    notSending.value = true;
 };
 </script>
